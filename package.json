@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/inertia-vue3": "^0.6.0",
+    "@inertiajs/progress": "^0.2.7",
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "@vue/compiler-sfc": "^3.2.31",
+    "axios": "^0.25",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^3.0.0",
+    "vue": "^3.2.31",
+    "vue-loader": "^17.0.0"
+  },
+  "dependencies": {
+    "@vuelidate/components": "^1.1.12",
+    "@vuelidate/core": "^2.0.0-alpha.27",
+    "@vuelidate/validators": "^2.0.0-alpha.23",
+    "chart.js": "^3.6.0",
+    "jspdf": "^2.3.1",
+    "jspdf-autotable": "^3.5.14",
+    "pdfvuer": "^2.0.1",
+    "v-viewer": "^3.0.10",
+    "vue-gates": "^2.1.2",
+    "vue-ui-preloader": "^1.2.1",
+    "vue3-chart-v2": "^0.8.3",
+    "vue3-vt-notifications": "^1.0.1",
+    "vuelidate": "^0.7.6"
+  },
+  "name": "ejemplo",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\"></a></p>",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "MIT"
+}
