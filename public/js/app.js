@@ -29152,7 +29152,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "p-3 text-xs uppercase text-gray-400"
-}, "MODULOS", -1
+}, "MODULOS NUEVOS", -1
 /* HOISTED */
 );
 
@@ -29160,7 +29160,7 @@ var _hoisted_5 = {
   "class": "p-3 text-xs uppercase text-gray-400"
 };
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AJUSTES ");
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AJUSTES nuevos ");
 
 var _hoisted_7 = [_hoisted_6];
 
@@ -29505,7 +29505,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "p-1 text-xs uppercase text-gray-400"
-}, "MODULOS", -1
+}, "MODULOS nuevos", -1
 /* HOISTED */
 );
 

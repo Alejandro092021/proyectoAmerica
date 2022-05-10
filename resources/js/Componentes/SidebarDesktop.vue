@@ -31,7 +31,7 @@
           <span class="ml-4">Inicio</span>
         </div>
       </Link>
-      <p class="p-3 text-xs uppercase text-gray-400">MODULOS</p>
+      <p class="p-3 text-xs uppercase text-gray-400">MODULOS NUEVOS</p>
      <!--
       <Link class="relative"  
   
