@@ -1,6 +1,6 @@
 <template>
   <Head title="Welcome" />
-    <div class="min-h-screen">
+    <div class="min-h-screen" id="app">
         <header class="flex justify-between">
             <div class="ml-20 mt-5 font-mono font-bold text-3xl"><span class="text-red-500">AMERICA</span><span class="text-indigo-500">GREA</span></div>
             
@@ -30,8 +30,9 @@
                 </div>
             </div>
             
-            <div class="w-1/2 pt-16 flex flex-col justify-center items-center">
-                <img class="w-4/5 p-10" src="storage/welcome/background.png">
+            <div class="w-1/2 pt-16 flex flex-col justify-center">
+                
+                <img class="w-4/5 p-10" url="storage\app\public\index\index.png">
             </div>
         </section>
     </div>
@@ -41,6 +42,7 @@
 <script>
 import { defineComponent } from "vue";
 import { Head, Link } from "@inertiajs/inertia-vue3";
+
 
 export default defineComponent({
   components: {
@@ -56,3 +58,20 @@ export default defineComponent({
   },
 });
 </script>
+<style>
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0px;
+  background: url("https://www.wallpaperuse.com/wallp/0-53_m.jpg");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+}
+
+</style>

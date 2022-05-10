@@ -13,6 +13,8 @@ use App\Http\Controllers\PermisosController;
 use App\Http\Controllers\RolesController;
 use App\Http\Controllers\UsuariosController;
 
+use App\Http\Controllers\InfraestructuraController;
+
 
 
 /*
@@ -65,3 +67,5 @@ Route::post('usuarios/password', [UsuariosController::class, 'actualizarPassword
 
 Route::get('/buscarnom/{nusuario}', [UsuariosController::class, 'buscarNombres'])->name('buscarnom');
 
+//ruta Infraestructura
+Route::resource('infraestructura', InfraestructuraController::class)->names('infraestructura');
