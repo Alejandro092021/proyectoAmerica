@@ -31,8 +31,8 @@
             </div>
             
             <div class="w-1/2 pt-16 flex flex-col justify-center">
-                
-                <img class="w-4/5 p-10" url="storage\app\public\index\index.png">
+                <!--
+                <img class="w-4/5 p-10" url="storage\app\public\index\index.png">-->
             </div>
         </section>
     </div>
@@ -67,7 +67,7 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
-  background: url("https://www.wallpaperuse.com/wallp/0-53_m.jpg");
+  background: url("C:\xampp\htdocs\america\storage\app\public\index\index.png");
   width: 100%;
   height: 100%;
   position: fixed;
