@@ -20,21 +20,25 @@
                         
                     
                     </div>
-                    <div class="inline-block ">
+                    
+                </div>
+            </div>
+            <!--
+            <div class="w-1/2 pt-16 flex flex-col justify-center">
+                
+                <img class="w-4/5 p-10" url="storage\app\public\index\index.png"
+            </div>-->
+            
+        </section>
+        <div class="m-80">
+                <div >
                         <button type="button"
-                            class="focus:outline-none text-white text-xl py-2.5 px-10 rounded-md bg-gradient-to-r from-indigo-600 to-blue-600 transform hover:scale-110">
+                            class="focus:outline-none text-white text-xl py-2.5 px-5 rounded-md bg-gradient-to-r from-indigo-600 to-blue-600 transform hover:scale-110">
                             <Link href="/login"> Ingresar</Link>
                         </button>
                         
                     </div>
-                </div>
             </div>
-            
-            <div class="w-1/2 pt-16 flex flex-col justify-center">
-                <!--
-                <img class="w-4/5 p-10" url="storage\app\public\index\index.png">-->
-            </div>
-        </section>
     </div>
 </template>
 

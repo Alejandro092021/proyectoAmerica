@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div >
     <Head title="Iniciar sesión" />
-    <div class="min-h-screen bg-gray-100 dark:bg-gray-800">
+    <div class="min-h-screen bg-gray-100 dark:bg-gray-800" id="app">
       <div class="sm:justify-center items-center">
         <div v-if="status" class="mb-4 font-medium text-sm text-green-600">
           {{ status }}
@@ -112,8 +112,11 @@
               </div>
             </form>
           </div>
+          
         </div>
+        
       </div>
+
     </div>
   </div>
 </template>
@@ -171,3 +174,21 @@ export default defineComponent({
   },
 });
 </script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0px;
+  background: url("C:\xampp\htdocs\america\storage\app\public\index\login.png");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+}
+
+</style>
+
