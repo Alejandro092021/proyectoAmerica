@@ -37058,9 +37058,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": ""
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "font-semibold text-3xl mb-8"
-}, "Hola!____________"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "font-bold text-5xl mb-6"
-}, "Bienvenido a la Pagina de la Gerencia Regional")], -1
+}, "Hola!____________")], -1
 /* HOISTED */
 );
 
@@ -37069,7 +37067,7 @@ var _hoisted_10 = {
 };
 var _hoisted_11 = {
   type: "button",
-  "class": "focus:outline-none text-white text-xl py-2.5 px-5 rounded-md bg-gradient-to-r from-indigo-600 to-blue-600 transform hover:scale-110"
+  "class": "focus:outline-none text-white text-xl py-2.5 px-10 rounded-md bg-gradient-to-r from-indigo-600 to-blue-600 transform hover:scale-110"
 };
 
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Ingresar");

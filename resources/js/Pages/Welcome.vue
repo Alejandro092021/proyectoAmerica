@@ -17,12 +17,12 @@
                 <div class="w-4/5">
                     <div class="">
                         <p class="font-semibold text-3xl mb-8">Hola!____________</p>
-                        <p class="font-bold text-5xl mb-6">Bienvenido a la Pagina de la Gerencia Regional</p>
+                        
                     
                     </div>
-                    <div class="inline-block">
+                    <div class="inline-block ">
                         <button type="button"
-                            class="focus:outline-none text-white text-xl py-2.5 px-5 rounded-md bg-gradient-to-r from-indigo-600 to-blue-600 transform hover:scale-110">
+                            class="focus:outline-none text-white text-xl py-2.5 px-10 rounded-md bg-gradient-to-r from-indigo-600 to-blue-600 transform hover:scale-110">
                             <Link href="/login"> Ingresar</Link>
                         </button>
                         
