@@ -168,7 +168,7 @@
       <Link class="w-full justify-start linkClass" href="#"> </Link>
 
       <p v-role="'super admin'" class="p-3 text-xs uppercase text-gray-400">
-        AJUSTES nuevos
+        AJUSTES MODERNOS
       </p>
       <Link
         v-permission="'ver:usuario'"
