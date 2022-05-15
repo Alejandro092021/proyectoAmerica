@@ -44,8 +44,26 @@ class UserPolicy
   {
     return $user->hasPermissionTo("ver:permiso");
   }
-
   
+  //creamos politicas para saneamiento fisico legal
+  public function VerSaneamientos(User $user)
+  {
+    return $user->hasPermissionTo("ver:saneamiento");
+  }
+  public function CrearSaneamientos(User $user)
+  {
+    return $user->hasPermissionTo("crear:saneamiento");
+  }
+
+  public function EditarSaneamientos(User $user)
+  {
+    return $user->hasPermissionTo("editar:saneamiento");
+  }
+
+  public function EliminarSaneamientos(User $user)
+  {
+    return $user->hasPermissionTo("eliminar:saneamiento");
+  }
 
   
 }

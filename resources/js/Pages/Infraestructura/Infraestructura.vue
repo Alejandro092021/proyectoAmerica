@@ -1,6 +1,6 @@
 <template>
   <MainLayout>
-    <Head title="Infraestructura Crear" />
+    <Head title="Servicio Crear" />
 
     <div class="py-2">
       <div class="max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2">
@@ -15,7 +15,7 @@
                 dark:text-gray-200
               "
             >
-              Crear Infraestructura
+              SERVICIOS
             </h2>
           </div>
           <div>
@@ -53,602 +53,12 @@
                               dark:text-white
                             "
                           >
-                            Informacion de Saneamiento Fisico Legal
+                            Informacion de Servicios
                           </div>
                         </div>
                       </div>
 
-                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
-                        <div>
-                          <JetLabel
-                            for="Saneamiento Fisico Legal"
-                            value="Saneamiento Fisico Legal:"
-                          />
-
-                          <select
-                            class="
-                              border-gray-300
-                              focus:border-indigo-300
-                              focus:ring
-                              focus:ring-indigo-200
-                              focus:ring-opacity-50
-                              rounded-md
-                              shadow-sm
-                              w-full
-                              mt-1
-                              py-2.5
-                              px-4
-                              text-gray-700
-                              leading-tight
-                              focus:border-indigo-300
-                              rounded-lg
-                              dark:border-gray-200
-                              dark:border-none
-                              dark:bg-gray-600
-                              dark:text-white
-                              dark:focus:border-blue-500
-                              dark:focus:shadow-outline-blue
-                            "
-                            v-model="form.TipoDocumento"
-                            @change="MostrarRazonSocial(this.value)"
-                            :class="[
-                              {
-                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
-                                  v$.form.TipoDocumento.$error,
-                              },
-                              {
-                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
-                                  InputForm,
-                              },
-                            ]"
-                            :disabled="InputForm"
-                          >
-                            <option disabled selected value="">
-                              Seleccione Saneamiento
-                            </option>
-
-                            <option
-                              v-for="(tp, index) in TipoDocumento"
-                              :key="index"
-                              :value="tp.valor"
-                            >
-                              {{ tp.campo }}
-                            </option>
-                          </select>
-                          <div
-                            v-if="errors.TipoDocumento"
-                            class="
-                              text-xs
-                              px-2
-                              py-2
-                              text-red-400
-                              dark:text-red-400
-                            "
-                          >
-                            {{ errors.TipoDocumento }}
-                          </div>
-
-                          <div
-                            v-for="(error, index) of v$.form.TipoDocumento
-                              .$errors"
-                            :key="index"
-                          >
-                            <div
-                              class="
-                                text-xs
-                                px-2
-                                py-2
-                                text-red-400
-                                dark:text-red-400
-                              "
-                            >
-                              {{ error.$message }}
-                            </div>
-                          </div>
-                        </div>
-
-                        <div>
-                          <JetLabel for="Sfl Nombre " value="Sfl Nombre:" />
-                          <!-- start tooltip -->
-                          <div
-                            class="
-                              group
-                              w-full
-                              cursor-pointer
-                              relative
-                              inline-block
-                              text-center
-                            "
-                          >
-                            <!-- start icono editar -->
-
-                            <JetInput
-                              type="text"
-                              class="mt-1 block w-full"
-                              autofocus
-                              v-model="form.NumeroDocumento"
-                              placeholder="Ingresar Nombre"
-                              @keypress="SoloNumeros($event)"
-                              @keydown.enter.prevent="BuscarTrabajador"
-                              :class="{
-                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
-                                  v$.form.NumeroDocumento.$error,
-                              }"
-                            />
-
-                            <!--end icono editar -->
-                            <div
-                              class="
-                                opacity-0
-                                w-auto
-                                bg-yellow-300
-                                text-gray-600 text-center text-xs
-                                rounded-lg
-                                py-1
-                                absolute
-                                z-10
-                                group-hover:opacity-100
-                                bottom-full
-                                px-2
-                                pointer-events-none
-                              "
-                            >
-                              <p>
-                                Porfavor ingresar nombre:
-                                Director-Privado-MINEDU
-                              </p>
-                              <svg
-                                class="
-                                  absolute
-                                  text-yellow-300
-                                  h-2
-                                  w-full
-                                  left-0
-                                  top-full
-                                "
-                                x="0px"
-                                y="0px"
-                                viewBox="0 0 255 255"
-                                xml:space="preserve"
-                              >
-                                <polygon
-                                  class="fill-current"
-                                  points="0,0 127.5,127.5 255,0"
-                                />
-                              </svg>
-                            </div>
-                          </div>
-                          <!-- end tooltip -->
-
-                          <div
-                            v-if="errors.NumeroDocumento"
-                            class="
-                              text-xs
-                              px-2
-                              py-2
-                              text-red-400
-                              dark:text-red-400
-                            "
-                          >
-                            {{ errors.NumeroDocumento }}
-                          </div>
-                          <div
-                            v-if="errors.CodigoPersona"
-                            class="
-                              text-xs
-                              px-2
-                              py-2
-                              text-red-400
-                              dark:text-red-400
-                            "
-                          >
-                            {{ errors.CodigoPersona }}
-                          </div>
-                          <div
-                            v-for="(error, index) of v$.form.NumeroDocumento
-                              .$errors"
-                            :key="index"
-                          >
-                            <div
-                              class="
-                                text-xs
-                                px-2
-                                py-2
-                                text-red-400
-                                dark:text-red-400
-                              "
-                            >
-                              {{ error.$message }}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
-                        <div>
-                          <JetLabel
-                            for="Documento Sfl"
-                            value="Documento Sfl:"
-                          />
-
-                          <select
-                            class="
-                              border-gray-300
-                              focus:border-indigo-300
-                              focus:ring
-                              focus:ring-indigo-200
-                              focus:ring-opacity-50
-                              rounded-md
-                              shadow-sm
-                              w-full
-                              mt-1
-                              py-2.5
-                              px-4
-                              text-gray-700
-                              leading-tight
-                              focus:border-indigo-300
-                              rounded-lg
-                              dark:border-gray-200
-                              dark:border-none
-                              dark:bg-gray-600
-                              dark:text-white
-                              dark:focus:border-blue-500
-                              dark:focus:shadow-outline-blue
-                            "
-                            v-model="form.TipoDocumento"
-                            @change="MostrarRazonSocial(this.value)"
-                            :class="[
-                              {
-                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
-                                  v$.form.TipoDocumento.$error,
-                              },
-                              {
-                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
-                                  InputForm,
-                              },
-                            ]"
-                            :disabled="InputForm"
-                          >
-                            <option disabled selected value="">
-                              Seleccione si tiene Documento
-                            </option>
-
-                            <option
-                              v-for="(tp, index) in TipoDocumento"
-                              :key="index"
-                              :value="tp.valor"
-                            >
-                              {{ tp.campo }}
-                            </option>
-                          </select>
-                          <div
-                            v-if="errors.TipoDocumento"
-                            class="
-                              text-xs
-                              px-2
-                              py-2
-                              text-red-400
-                              dark:text-red-400
-                            "
-                          >
-                            {{ errors.TipoDocumento }}
-                          </div>
-
-                          <div
-                            v-for="(error, index) of v$.form.TipoDocumento
-                              .$errors"
-                            :key="index"
-                          >
-                            <div
-                              class="
-                                text-xs
-                                px-2
-                                py-2
-                                text-red-400
-                                dark:text-red-400
-                              "
-                            >
-                              {{ error.$message }}
-                            </div>
-                          </div>
-                        </div>
-
-                        <div>
-                          <JetLabel for="Proceso Sfl" value="Proceso Sfl:" />
-
-                          <select
-                            class="
-                              border-gray-300
-                              focus:border-indigo-300
-                              focus:ring
-                              focus:ring-indigo-200
-                              focus:ring-opacity-50
-                              rounded-md
-                              shadow-sm
-                              w-full
-                              mt-1
-                              py-2.5
-                              px-4
-                              text-gray-700
-                              leading-tight
-                              focus:border-indigo-300
-                              rounded-lg
-                              dark:border-gray-200
-                              dark:border-none
-                              dark:bg-gray-600
-                              dark:text-white
-                              dark:focus:border-blue-500
-                              dark:focus:shadow-outline-blue
-                            "
-                            v-model="form.TipoDocumento"
-                            @change="MostrarRazonSocial(this.value)"
-                            :class="[
-                              {
-                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
-                                  v$.form.TipoDocumento.$error,
-                              },
-                              {
-                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
-                                  InputForm,
-                              },
-                            ]"
-                            :disabled="InputForm"
-                          >
-                            <option disabled selected value="">
-                              Seleccione si esta en Proceso Sfl
-                            </option>
-
-                            <option
-                              v-for="(tp, index) in TipoDocumento"
-                              :key="index"
-                              :value="tp.valor"
-                            >
-                              {{ tp.campo }}
-                            </option>
-                          </select>
-                          <div
-                            v-if="errors.TipoDocumento"
-                            class="
-                              text-xs
-                              px-2
-                              py-2
-                              text-red-400
-                              dark:text-red-400
-                            "
-                          >
-                            {{ errors.TipoDocumento }}
-                          </div>
-
-                          <div
-                            v-for="(error, index) of v$.form.TipoDocumento
-                              .$errors"
-                            :key="index"
-                          >
-                            <div
-                              class="
-                                text-xs
-                                px-2
-                                py-2
-                                text-red-400
-                                dark:text-red-400
-                              "
-                            >
-                              {{ error.$message }}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      
-                    </div>
-                  </div>
-
-                  <div class="flex flex-col flex-wrap sm:flex-row mx-10 p-2">
-                    <div
-                      class="
-                        shadow-lg
-                        rounded-2xl
-                        p-4
-                        bg-white
-                        dark:bg-gray-700
-                        w-full
-                      "
-                    >
-                    
-                    <div class="flex flex-col md:flex-row">
-                        <div class="w-full flex-1 mx-2 mb-2">
-                          <div
-                            class="
-                              py-2
-                              text-2xl
-                              font-medium
-                              text-gray-600
-                              dark:text-white
-                            "
-                          >
-                            Informacion Restante
-                          </div>
-                        </div>
-                      </div>
-                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
-                        <div>
-                          <JetLabel
-                            for="Tipo Cerco Perimetrico"
-                            value="Tipo Cerco Perimetrico:"
-                          />
-
-                          <select
-                            class="
-                              border-gray-300
-                              focus:border-indigo-300
-                              focus:ring
-                              focus:ring-indigo-200
-                              focus:ring-opacity-50
-                              rounded-md
-                              shadow-sm
-                              w-full
-                              mt-1
-                              py-2.5
-                              px-4
-                              text-gray-700
-                              leading-tight
-                              focus:border-indigo-300
-                              rounded-lg
-                              dark:border-gray-200
-                              dark:border-none
-                              dark:bg-gray-600
-                              dark:text-white
-                              dark:focus:border-blue-500
-                              dark:focus:shadow-outline-blue
-                            "
-                            v-model="form.TipoDocumento"
-                            @change="MostrarRazonSocial(this.value)"
-                            :class="[
-                              {
-                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
-                                  v$.form.TipoDocumento.$error,
-                              },
-                              {
-                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
-                                  InputForm,
-                              },
-                            ]"
-                            :disabled="InputForm"
-                          >
-                            <option disabled selected value="">
-                              Seleccione Tipo de Cerco Perimetrico
-                            </option>
-
-                            <option
-                              v-for="(tp, index) in TipoDocumento"
-                              :key="index"
-                              :value="tp.valor"
-                            >
-                              {{ tp.campo }}
-                            </option>
-                          </select>
-                          <div
-                            v-if="errors.TipoDocumento"
-                            class="
-                              text-xs
-                              px-2
-                              py-2
-                              text-red-400
-                              dark:text-red-400
-                            "
-                          >
-                            {{ errors.TipoDocumento }}
-                          </div>
-
-                          <div
-                            v-for="(error, index) of v$.form.TipoDocumento
-                              .$errors"
-                            :key="index"
-                          >
-                            <div
-                              class="
-                                text-xs
-                                px-2
-                                py-2
-                                text-red-400
-                                dark:text-red-400
-                              "
-                            >
-                              {{ error.$message }}
-                            </div>
-                          </div>
-                        </div>
-
-                        <div>
-                          <JetLabel
-                            for="Tanque Reservorio"
-                            value="Tanque/Reservorio:"
-                          />
-
-                          <select
-                            class="
-                              border-gray-300
-                              focus:border-indigo-300
-                              focus:ring
-                              focus:ring-indigo-200
-                              focus:ring-opacity-50
-                              rounded-md
-                              shadow-sm
-                              w-full
-                              mt-1
-                              py-2.5
-                              px-4
-                              text-gray-700
-                              leading-tight
-                              focus:border-indigo-300
-                              rounded-lg
-                              dark:border-gray-200
-                              dark:border-none
-                              dark:bg-gray-600
-                              dark:text-white
-                              dark:focus:border-blue-500
-                              dark:focus:shadow-outline-blue
-                            "
-                            v-model="form.TipoDocumento"
-                            @change="MostrarRazonSocial(this.value)"
-                            :class="[
-                              {
-                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
-                                  v$.form.TipoDocumento.$error,
-                              },
-                              {
-                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
-                                  InputForm,
-                              },
-                            ]"
-                            :disabled="InputForm"
-                          >
-                            <option disabled selected value="">
-                              Seleccione Tanque o Reservorio
-                            </option>
-
-                            <option
-                              v-for="(tp, index) in TipoDocumento"
-                              :key="index"
-                              :value="tp.valor"
-                            >
-                              {{ tp.campo }}
-                            </option>
-                          </select>
-                          <div
-                            v-if="errors.TipoDocumento"
-                            class="
-                              text-xs
-                              px-2
-                              py-2
-                              text-red-400
-                              dark:text-red-400
-                            "
-                          >
-                            {{ errors.TipoDocumento }}
-                          </div>
-
-                          <div
-                            v-for="(error, index) of v$.form.TipoDocumento
-                              .$errors"
-                            :key="index"
-                          >
-                            <div
-                              class="
-                                text-xs
-                                px-2
-                                py-2
-                                text-red-400
-                                dark:text-red-400
-                              "
-                            >
-                              {{ error.$message }}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8">
                         <div class="block mt-4">
                           <JetLabel for="Servicios" value="Servicios:" />
 
@@ -701,10 +111,13 @@
                           </div>
                         </div>
 
-                        <div>
+                        
+                      </div>
+                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                          <div>
                           <JetLabel
-                            for="Espacio Recreacional"
-                            value="Ecpacio Recreacional:"
+                            for="Tanque Reservorio"
+                            value="Tanque/Reservorio:"
                           />
 
                           <select
@@ -746,7 +159,7 @@
                             :disabled="InputForm"
                           >
                             <option disabled selected value="">
-                              Seleccione tipo de espacio Recreacional
+                              Seleccione Tanque o Reservorio
                             </option>
 
                             <option
@@ -1421,16 +834,16 @@ export default defineComponent({
       }
     },
     /*BuscarTrabajador() {
-      this.$inertia.get(
-        route("trabajador.create"),
-        {
-          buscar: this.form.NumeroDocumento,
-        },
-        {
-          preserveState: false,
-        }
-      );
-    },*/
+          this.$inertia.get(
+            route("trabajador.create"),
+            {
+              buscar: this.form.NumeroDocumento,
+            },
+            {
+              preserveState: false,
+            }
+          );
+        },*/
     //validar numeros
     SoloNumeros($event) {
       if (
@@ -1511,37 +924,37 @@ export default defineComponent({
 
     //metodos de guardar datos
     /*
-    GuardarInfraestrutura() {
-      this.form.post(
-        this.route("trabajador.store"),
-
-        {
-          onSuccess: () => {
-            this.form.reset();
-            this.$notify(
-              {
-                group: "mensajes",
-                type: "success",
-                title: "Exíto",
-                text: "Tabajador registrado correctamente",
+        GuardarInfraestrutura() {
+          this.form.post(
+            this.route("trabajador.store"),
+    
+            {
+              onSuccess: () => {
+                this.form.reset();
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "success",
+                    title: "Exíto",
+                    text: "Tabajador registrado correctamente",
+                  },
+                  2000
+                );
               },
-              2000
-            );
-          },
-          onError: (errors) => {
-            this.$notify(
-              {
-                group: "mensajes",
-                type: "error",
-                title: "Error",
-                text: "Trabajador no registrado",
+              onError: (errors) => {
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "error",
+                    title: "Error",
+                    text: "Trabajador no registrado",
+                  },
+                  2000
+                );
               },
-              2000
-            );
-          },
-        }
-      );
-    },*/
+            }
+          );
+        },*/
   },
 });
 </script>

@@ -21,7 +21,7 @@ class UserSeeder extends Seeder
     {
         //creamos los roles
         $adminRole = Role::create(["name" => "super admin"]);
-        $invitado1Role = Role::create(["name" => "invitado"]);
+        $invitado1Role = Role::create(["name" => "SGGP"]);
 
         //creamos los roles
         Permission::create(["name" => "ver:rol"])->assignRole($adminRole);
@@ -38,6 +38,16 @@ class UserSeeder extends Seeder
         Permission::create(["name" => "editar:usuario"])->assignRole($adminRole);
         Permission::create(["name" => "eliminar:usuario"])->assignRole($adminRole);
 
+        //Creamos permisos a Saneamiento Fisico Legal
+
+        Permission::create(["name" => "ver:saneamiento"])->assignRole($adminRole);
+        Permission::create(["name" => "crear:saneamiento"])->assignRole($adminRole);
+        Permission::create(["name" => "editar:saneamiento"])->assignRole($adminRole);
+        Permission::create(["name" => "eliminar:saneamiento"])->assignRole($adminRole);
+
+
+
+
         //creamos el usuario admin y asignamos rol
         $user = new User();
         $user->name = "Admin";
@@ -48,8 +58,8 @@ class UserSeeder extends Seeder
 
         //creamos el usuario invitado y asignamos rol
         $user = new User();
-        $user->name = "Invitado";
-        $user->email = "invitado@mail.com";
+        $user->name = "SGGP";
+        $user->email = "sggp@mail.com";
         $user->password = bcrypt("123456789");
         $user->save();
         $user->assignRole($invitado1Role);

@@ -30,7 +30,7 @@
         </div>
       </Link>
 
-      <p class="p-1 text-xs uppercase text-gray-400">MODULOS nuevos</p>
+      <p class="p-1 text-xs uppercase text-gray-400">MODULOS</p>
 
       <Link class="relative" href="#">
         <span

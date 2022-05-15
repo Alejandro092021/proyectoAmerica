@@ -8,24 +8,26 @@
         :class="estadoMenu ? 'w-72' : 'w-16'"
       >
         <main
-          class="bg-white overflow-y-auto h-full rounded-2xl dark:bg-gray-700 shadow-lg"
+          class="bg-white overflow-y-auto h-full rounded-2xl dark:bg-gray-700 shadow-lg" 
         >
-          <div class="flex items-center justify-center pt-6">
-            <Link :href="route('inicio')" v-if="estadoMenu">
-              <span class="text-red-500 dark:text-white font-black text-xl"
-                >AMERICA<span class="text-blue-500">SIA</span></span
-              >
+          <div class="flex items-center justify-center pt-6 bg-auto bg-no-repeat bg-center" id="app" >
+            
+              <Link :href="route('inicio')" v-if="estadoMenu" >
+              
             </Link>
             <Link :href="route('inicio')" v-else>
               <span class="text-red-500 dark:text-white font-black text-xl"
                 >S<span class="text-blue-500">I</span><span class="text-red-500">A</span></span
               >
             </Link>
+            
+            
           </div>
           <SidebarDesktop v-if="estadoMenu" />
           <SidebarNormal v-else />
         </main>
       </div>
+
       <div class="flex flex-col w-full p-2 md:p-4 md:space-y-4">
         <Header @menu="abrirMenu" @mobil="abrirMenuMobil" />
         <SidebarDesktop
@@ -79,3 +81,20 @@ export default defineComponent({
   },
 });
 </script>
+
+
+<style>
+
+#app {
+  
+  
+  background: url("C:\xampp\htdocs\america\storage\app\public\index\logo.png");
+  background-size: contain;
+  background-size: 100% 120%;
+  height: 130px;
+  width: auto;
+  
+  
+}
+
+</style>

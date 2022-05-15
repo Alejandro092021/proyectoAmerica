@@ -13,7 +13,11 @@ use App\Http\Controllers\PermisosController;
 use App\Http\Controllers\RolesController;
 use App\Http\Controllers\UsuariosController;
 
+use App\Http\Controllers\SaneamientoController;
 use App\Http\Controllers\InfraestructuraController;
+use App\Http\Controllers\CercoPerimetricoController;
+use App\Http\Controllers\ServicioController;
+
 
 
 
@@ -67,5 +71,16 @@ Route::post('usuarios/password', [UsuariosController::class, 'actualizarPassword
 
 Route::get('/buscarnom/{nusuario}', [UsuariosController::class, 'buscarNombres'])->name('buscarnom');
 
+//----------------------------------------------------------------------------------------------------
+
+//ruta Saneamiento Fisico Legal
+Route::resource('saneamiento', SaneamientoController::class)->names('saneamiento');
+
 //ruta Infraestructura
 Route::resource('infraestructura', InfraestructuraController::class)->names('infraestructura');
+
+//ruta Cerco Perimetrico
+Route::resource('cerco', CercoPerimetricoController::class)->names('cercoperimetrico');
+
+//ruta Servicios
+Route::resource('servicio', ServicioController::class)->names('servicios');
