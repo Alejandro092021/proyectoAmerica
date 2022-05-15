@@ -1,6 +1,6 @@
 <template>
   <Head title="Welcome" />
-    <div class="min-h-screen" id="app">
+    <div class="min-h-screen" id="app1">
         <header class="flex justify-between">
             <div class="ml-20 mt-5 font-mono font-bold text-3xl"><span class="text-red-500">AMERICA</span><span class="text-indigo-500">GREA</span></div>
             
@@ -64,7 +64,7 @@ export default defineComponent({
 </script>
 <style>
 
-#app {
+#app1 {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

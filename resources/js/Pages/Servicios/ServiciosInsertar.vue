@@ -60,7 +60,6 @@
 
                       <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8">
                         <div class="block mt-4">
-                          <JetLabel for="Servicios" value="Servicios:" />
 
                           <label class="flex items-center">
                             <JetCheckbox
@@ -74,27 +73,10 @@
                                 text-sm text-gray-700
                                 dark:text-white
                               "
-                              >Servicio de Agua</span
+                              >Servicio de Luz</span
                             >
                           </label>
 
-                          <label class="flex items-center">
-                            <JetCheckbox
-                              type="checkbox"
-                              v-model:checked="form.luz"
-                            />
-                            <span
-                              class="
-                                ml-2
-                                font-medium
-                                text-sm text-gray-700
-                                dark:text-white
-                              "
-                              >luz</span
-                            >
-                          </label>
-
-                          
                           <div
                             v-for="(error, index) of v$.form.ConfirmarDatos
                               .$errors"
@@ -114,13 +96,10 @@
                           </div>
                         </div>
 
-                        
-                      </div>
-                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
-                          <div>
+                        <div>
                           <JetLabel
-                            for="Tanque Reservorio"
-                            value="Tanque/Reservorio:"
+                            for="TipoServicio"
+                            value="Tipo de Servicio:"
                           />
 
                           <select
@@ -147,7 +126,7 @@
                               dark:focus:border-blue-500
                               dark:focus:shadow-outline-blue
                             "
-                            v-model="form.TipoDocumento"
+                            v-model="form.TipoServicio"
                             @change="MostrarRazonSocial(this.value)"
                             :class="[
                               {
@@ -162,15 +141,110 @@
                             :disabled="InputForm"
                           >
                             <option disabled selected value="">
-                              Seleccione Tanque o Reservorio
+                              Seleccione Tipo de Servicio
                             </option>
 
-                            <option
-                              v-for="(tp, index) in TipoDocumento"
-                              :key="index"
-                              :value="tp.valor"
+                            <option>
+                              Panel Solar
+                            </option>
+                            <option>
+                              Cableado
+                            </option>
+                            <option>
+                              Motor
+                            </option>
+                          </select>
+                          <div
+                            v-if="errors.TipoDocumento"
+                            class="
+                              text-xs
+                              px-2
+                              py-2
+                              text-red-400
+                              dark:text-red-400
+                            "
+                          >
+                            {{ errors.TipoDocumento }}
+                          </div>
+
+                          <div
+                            v-for="(error, index) of v$.form.TipoDocumento
+                              .$errors"
+                            :key="index"
+                          >
+                            <div
+                              class="
+                                text-xs
+                                px-2
+                                py-2
+                                text-red-400
+                                dark:text-red-400
+                              "
                             >
-                              {{ tp.campo }}
+                              {{ error.$message }}
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <JetLabel
+                            for="Cancela Luz"
+                            value="Encargado de Cancelar:"
+                          />
+
+                          <select
+                            class="
+                              border-gray-300
+                              focus:border-indigo-300
+                              focus:ring
+                              focus:ring-indigo-200
+                              focus:ring-opacity-50
+                              rounded-md
+                              shadow-sm
+                              w-full
+                              mt-1
+                              py-2.5
+                              px-4
+                              text-gray-700
+                              leading-tight
+                              focus:border-indigo-300
+                              rounded-lg
+                              dark:border-gray-200
+                              dark:border-none
+                              dark:bg-gray-600
+                              dark:text-white
+                              dark:focus:border-blue-500
+                              dark:focus:shadow-outline-blue
+                            "
+                            v-model="form.CancelaLuz"
+                            @change="MostrarRazonSocial(this.value)"
+                            :class="[
+                              {
+                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                                  v$.form.TipoDocumento.$error,
+                              },
+                              {
+                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
+                                  InputForm,
+                              },
+                            ]"
+                            :disabled="InputForm"
+                          >
+                            <option disabled selected value="">
+                              Seleccionar Encargado de Cancelar
+                            </option>
+
+                            <option>
+                              Ugel
+                            </option>
+                            <option>
+                              Municipalidad
+                            </option>
+                            <option>
+                              Comunidad
+                            </option>
+                            <option>
+                              Empresa Privada
                             </option>
                           </select>
                           <div
@@ -206,6 +280,315 @@
                         </div>
                       </div>
 
+                      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8">
+                          <div class="block mt-4">
+                          
+
+                          <label class="flex items-center">
+                            <JetCheckbox
+                              type="checkbox"
+                              v-model:checked="form.Luz"
+                            />
+                            <span
+                              class="
+                                ml-2
+                                font-medium
+                                text-sm text-gray-700
+                                dark:text-white
+                              "
+                              >Servicio de Agua</span
+                            >
+                          </label>
+
+                          <div
+                            v-for="(error, index) of v$.form.ConfirmarDatos
+                              .$errors"
+                            :key="index"
+                          >
+                            <div
+                              class="
+                                text-xs
+                                py-2
+                                px-2
+                                text-red-400
+                                dark:text-red-400
+                              "
+                            >
+                              {{ error.$message }}
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <JetLabel
+                            for="TipoConsumo"
+                            value="Tipo de Consumo:"
+                          />
+
+                          <select
+                            class="
+                              border-gray-300
+                              focus:border-indigo-300
+                              focus:ring
+                              focus:ring-indigo-200
+                              focus:ring-opacity-50
+                              rounded-md
+                              shadow-sm
+                              w-full
+                              mt-1
+                              py-2.5
+                              px-4
+                              text-gray-700
+                              leading-tight
+                              focus:border-indigo-300
+                              rounded-lg
+                              dark:border-gray-200
+                              dark:border-none
+                              dark:bg-gray-600
+                              dark:text-white
+                              dark:focus:border-blue-500
+                              dark:focus:shadow-outline-blue
+                            "
+                            v-model="form.TipoConsumo"
+                            @change="MostrarRazonSocial(this.value)"
+                            :class="[
+                              {
+                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                                  v$.form.TipoDocumento.$error,
+                              },
+                              {
+                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
+                                  InputForm,
+                              },
+                            ]"
+                            :disabled="InputForm"
+                          >
+                            <option disabled selected value="">
+                              Seleccione Tipo de Consumo
+                            </option>
+
+                            <option>
+                              Cañeria
+                            </option>
+                            <option>
+                              Pozo
+                            </option>
+                          </select>
+                          <div
+                            v-if="errors.TipoDocumento"
+                            class="
+                              text-xs
+                              px-2
+                              py-2
+                              text-red-400
+                              dark:text-red-400
+                            "
+                          >
+                            {{ errors.TipoDocumento }}
+                          </div>
+
+                          <div
+                            v-for="(error, index) of v$.form.TipoDocumento
+                              .$errors"
+                            :key="index"
+                          >
+                            <div
+                              class="
+                                text-xs
+                                px-2
+                                py-2
+                                text-red-400
+                                dark:text-red-400
+                              "
+                            >
+                              {{ error.$message }}
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <JetLabel
+                            for="CancelaAgua"
+                            value="Encargado de Cancelar:"
+                          />
+
+                          <select
+                            class="
+                              border-gray-300
+                              focus:border-indigo-300
+                              focus:ring
+                              focus:ring-indigo-200
+                              focus:ring-opacity-50
+                              rounded-md
+                              shadow-sm
+                              w-full
+                              mt-1
+                              py-2.5
+                              px-4
+                              text-gray-700
+                              leading-tight
+                              focus:border-indigo-300
+                              rounded-lg
+                              dark:border-gray-200
+                              dark:border-none
+                              dark:bg-gray-600
+                              dark:text-white
+                              dark:focus:border-blue-500
+                              dark:focus:shadow-outline-blue
+                            "
+                            v-model="form.CancelaAgua"
+                            @change="MostrarRazonSocial(this.value)"
+                            :class="[
+                              {
+                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                                  v$.form.TipoDocumento.$error,
+                              },
+                              {
+                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
+                                  InputForm,
+                              },
+                            ]"
+                            :disabled="InputForm"
+                          >
+                            <option disabled selected value="">
+                              Seleccionar Encargado de Cancelar
+                            </option>
+
+                            <option>
+                              Ugel
+                            </option>
+                            <option>
+                              Municipalidad
+                            </option>
+                            <option>
+                              Comunidad
+                            </option>
+                            <option>
+                              Empresa Privada
+                            </option>
+                          </select>
+                          <div
+                            v-if="errors.TipoDocumento"
+                            class="
+                              text-xs
+                              px-2
+                              py-2
+                              text-red-400
+                              dark:text-red-400
+                            "
+                          >
+                            {{ errors.TipoDocumento }}
+                          </div>
+
+                          <div
+                            v-for="(error, index) of v$.form.TipoDocumento
+                              .$errors"
+                            :key="index"
+                          >
+                            <div
+                              class="
+                                text-xs
+                                px-2
+                                py-2
+                                text-red-400
+                                dark:text-red-400
+                              "
+                            >
+                              {{ error.$message }}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                        <div>
+                          <JetLabel
+                            for="TanqueCisterna"
+                            value="Tanque o Cisterna:"
+                          />
+
+                          <select
+                            class="
+                              border-gray-300
+                              focus:border-indigo-300
+                              focus:ring
+                              focus:ring-indigo-200
+                              focus:ring-opacity-50
+                              rounded-md
+                              shadow-sm
+                              w-full
+                              mt-1
+                              py-2.5
+                              px-4
+                              text-gray-700
+                              leading-tight
+                              focus:border-indigo-300
+                              rounded-lg
+                              dark:border-gray-200
+                              dark:border-none
+                              dark:bg-gray-600
+                              dark:text-white
+                              dark:focus:border-blue-500
+                              dark:focus:shadow-outline-blue
+                            "
+                            v-model="form.TanqueCisterna"
+                            @change="MostrarRazonSocial(this.value)"
+                            :class="[
+                              {
+                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                                  v$.form.TipoDocumento.$error,
+                              },
+                              {
+                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
+                                  InputForm,
+                              },
+                            ]"
+                            :disabled="InputForm"
+                          >
+                            <option disabled selected value="">
+                              Seleccionar Recipiente del Agua
+                            </option>
+
+                            <option>
+                              Tanque
+                            </option>
+                            <option>
+                              Reservorio
+                            </option>
+                            
+                          </select>
+                          <div
+                            v-if="errors.TipoDocumento"
+                            class="
+                              text-xs
+                              px-2
+                              py-2
+                              text-red-400
+                              dark:text-red-400
+                            "
+                          >
+                            {{ errors.TipoDocumento }}
+                          </div>
+
+                          <div
+                            v-for="(error, index) of v$.form.TipoDocumento
+                              .$errors"
+                            :key="index"
+                          >
+                            <div
+                              class="
+                                text-xs
+                                px-2
+                                py-2
+                                text-red-400
+                                dark:text-red-400
+                              "
+                            >
+                              {{ error.$message }}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
                       <div class="grid grid-cols-1 md:grid-cols-1 md:gap-8">
                         <div class="block mt-4">

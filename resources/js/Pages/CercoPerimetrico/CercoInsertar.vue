@@ -88,7 +88,7 @@
                               dark:focus:border-blue-500
                               dark:focus:shadow-outline-blue
                             "
-                            v-model="form.TipoDocumento"
+                            v-model="form.CercoPerimetrico"
                             
                             :class="[
                               {
@@ -103,7 +103,7 @@
                             :disabled="InputForm"
                           >
                             <option disabled selected value="">
-                              Seleccione Tipo de Cerco Perimetrico
+                              Cuenta con Cerco Perimetrico
                             </option>
 
                             <option>Si</option>
@@ -171,7 +171,7 @@
                               dark:focus:border-blue-500
                               dark:focus:shadow-outline-blue
                             "
-                            v-model="form.TipoDocumento"
+                            v-model="form.TipoCercoPerimetrico"
                             @change="MostrarRazonSocial(this.value)"
                             :class="[
                               {
@@ -263,7 +263,7 @@
                               dark:focus:border-blue-500
                               dark:focus:shadow-outline-blue
                             "
-                            v-model="form.TipoDocumento"
+                            v-model="form.EspacioRecreacional"
                             @change="MostrarRazonSocial(this.value)"
                             :class="[
                               {

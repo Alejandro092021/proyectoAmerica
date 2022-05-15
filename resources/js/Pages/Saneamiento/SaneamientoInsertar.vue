@@ -89,7 +89,7 @@
                               dark:focus:border-blue-500
                               dark:focus:shadow-outline-blue
                             "
-                            v-model="form.TipoDocumento"
+                            v-model="form.SaneamientoFisicoLegal"
                             @change="MostrarRazonSocial(this.value)"
                             :class="[
                               {
@@ -293,7 +293,7 @@
                               dark:focus:border-blue-500
                               dark:focus:shadow-outline-blue
                             "
-                            v-model="form.TipoDocumento"
+                            v-model="form.DocumentoSfl"
                             @change="MostrarRazonSocial(this.value)"
                             :class="[
                               {
@@ -377,7 +377,7 @@
                               dark:focus:border-blue-500
                               dark:focus:shadow-outline-blue
                             "
-                            v-model="form.TipoDocumento"
+                            v-model="form.ProcesoSfl"
                             :class="[
                               {
                                 'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
@@ -462,7 +462,7 @@
                               dark:focus:border-blue-500
                               dark:focus:shadow-outline-blue
                             "
-                            v-model="form.TipoDocumento"
+                            v-model="form.TipoProceso"
                             :class="[
                               {
                                 'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
@@ -473,10 +473,11 @@
                                   InputForm,
                               },
                             ]"
+                            
                             :disabled="InputForm"
                           >
                             <option disabled selected value="">
-                              Seleccione si esta en Proceso Sfl
+                              Seleccione tipo de Proceso sfl
                             </option>
 
                             <option>
