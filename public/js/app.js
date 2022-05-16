@@ -25618,6 +25618,1066 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=script&lang=js":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=script&lang=js ***!
+  \****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _Layouts_MainLayout_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Layouts/MainLayout.vue */ "./resources/js/Layouts/MainLayout.vue");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Componentes_Button_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Componentes/Button.vue */ "./resources/js/Componentes/Button.vue");
+/* harmony import */ var _Componentes_Label_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Componentes/Label.vue */ "./resources/js/Componentes/Label.vue");
+/* harmony import */ var _Componentes_Input_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Componentes/Input.vue */ "./resources/js/Componentes/Input.vue");
+/* harmony import */ var _Componentes_Checkbox_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/Componentes/Checkbox.vue */ "./resources/js/Componentes/Checkbox.vue");
+/* harmony import */ var _vuelidate_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @vuelidate/core */ "./node_modules/@vuelidate/core/dist/index.esm.js");
+/* harmony import */ var _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @vuelidate/validators */ "./node_modules/@vuelidate/validators/dist/index.esm.js");
+
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_1__.defineComponent)({
+  components: {
+    Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__.Head,
+    MainLayout: _Layouts_MainLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__.Link,
+    JetButton: _Componentes_Button_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    JetInput: _Componentes_Input_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    JetLabel: _Componentes_Label_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    JetCheckbox: _Componentes_Checkbox_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
+  },
+  props: {
+    TipoDocumento: Object,
+    errors: Object
+  },
+  setup: function setup() {
+    return {
+      v$: (0,_vuelidate_core__WEBPACK_IMPORTED_MODULE_8__["default"])()
+    };
+  },
+  data: function data() {
+    return {
+      buscar: "",
+      VerInputRazonSocial: false,
+      InputForm: false,
+      InputDireccion: false,
+      InputTelefono: false,
+      InputEmail: false,
+      VerAgregarDireccion: true,
+      VerAgregarTelefono: true,
+      VerAgregarEmail: true,
+      VerEliminarDireccion: true,
+      VerEliminarTelefono: true,
+      VerEliminarEmail: true,
+      form: this.$inertia.form({
+        _method: "POST",
+        CodigoPersona: "",
+        RazonSocial: "",
+        Nombres: "",
+        ApellidoPaterno: "",
+        ApellidoMaterno: "",
+        TipoDocumento: "",
+        NumeroDocumento: "",
+        CodigoTrabajador: "",
+        Direccion: [{
+          DatoPersonal: "1",
+          Valor: ""
+        }],
+        Telefono: [{
+          DatoPersonal: "2",
+          Valor: ""
+        }],
+        Email: [{
+          DatoPersonal: "3",
+          Valor: ""
+        }],
+        UsuarioCreador: this.$page.props.user.name,
+        Estado: "1",
+        ConfirmarDatos: null
+      }),
+      loadingTrabajador: false
+    };
+  },
+  validations: function validations() {
+    var _this = this;
+
+    return {
+      form: {
+        TipoDocumento: {
+          required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+          $autoDirty: true
+        },
+        NumeroDocumento: {
+          required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+          numeric: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo solo debe contener numeros", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.numeric),
+          validarNumerosTipoDocumento: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El número de dígitos es incorrecto", this.ValidarNumerosTipoDocumento),
+          ValidarNumerosDigitosIguales: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Numero incorrecto los digitos no pueden ser iguales", this.ValidarNumerosDigitosIguales),
+          validarNumeroRuc: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El número ingresado es incorrecto", this.ValidarNumeroRuc),
+          $autoDirty: true
+        },
+        RazonSocial: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento == "2";
+          })),
+          $autoDirty: true
+        },
+        Nombres: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        ApellidoPaterno: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        ApellidoMaterno: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        Direccion: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+              validarDupicidadDireccion: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Las direcciones deben ser distintas", this.ValidarDupicidadDireccion)
+            }
+          })
+        },
+        Telefono: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 9", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(9)),
+              min: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud mínima permitida es 8", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.minLength)(8)),
+              numeric: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo solo debe contener numeros", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.numeric),
+              validarDupicidadTelefono: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Las números de telefono deben ser distintos", this.ValidarDupicidadTelefono)
+            }
+          })
+        },
+        Email: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              email: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El valor no es una dirección de correo electrónico válida", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.email),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+              validarDupicidadEmail: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Los correos electrónicos deben ser distintos", this.ValidarDupicidadEmail)
+            }
+          })
+        },
+        ConfirmarDatos: {
+          sameAs: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Confirme si la informacion correcta", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.sameAs)(true)),
+          $autoDirty: true
+        }
+      }
+    };
+  },
+  methods: {
+    BuscarTrabajador: function BuscarTrabajador() {
+      var _this2 = this;
+
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                if (!(_this2.form.NumeroDocumento != "")) {
+                  _context.next = 4;
+                  break;
+                }
+
+                _this2.loadingTrabajador = true;
+                _context.next = 4;
+                return axios.get("/buscartrabajador/" + _this2.form.NumeroDocumento).then(function (response) {
+                  var trabajador = "";
+                  trabajador = response.data; // console.log(Object.keys(response.data).length);
+
+                  // console.log(Object.keys(response.data).length);
+                  if (Object.keys(response.data).length > 0) {
+                    _this2.ContadorDireccionTrabajador = 0;
+                    _this2.ContadorTelefonotTabajador = 0;
+                    _this2.ContadorEmailTrabajador = 0;
+
+                    if (trabajador.razon_social != "") {
+                      _this2.VerInputRazonSocial = true;
+                    }
+
+                    _this2.form.CodigoPersona = trabajador.id;
+                    _this2.form.RazonSocial = trabajador.razon_social;
+                    _this2.form.Nombres = trabajador.nombres;
+                    _this2.form.ApellidoPaterno = trabajador.apellido_paterno;
+                    _this2.form.ApellidoMaterno = trabajador.apellido_materno;
+                    _this2.form.TipoDocumento = trabajador.tipo_documento;
+                    _this2.InputForm = true;
+
+                    if (trabajador.datopersonas != null) {
+                      _this2.form.Direccion = [];
+                      _this2.form.Telefono = [];
+                      _this2.form.Email = [];
+
+                      var _iterator = _createForOfIteratorHelper(trabajador.datopersonas),
+                          _step;
+
+                      try {
+                        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                          var valor = _step.value;
+
+                          if (valor.dato_personal === 1 && valor.valor != "") {
+                            if (_this2.ContadorDireccionTrabajador == 0) {
+                              _this2.form.Direccion.splice(0, 1);
+                            }
+
+                            _this2.form.Direccion.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorDireccionTrabajador = +1;
+                            _this2.InputDireccion = true;
+                            _this2.VerAgregarDireccion = false;
+                            _this2.VerEliminarDireccion = false;
+                          }
+
+                          if (valor.dato_personal === 2 && valor.valor != "") {
+                            if (_this2.ContadorTelefonoTrabajador == 0) {
+                              _this2.form.Telefono.splice(0, 1);
+                            }
+
+                            _this2.form.Telefono.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorTelefonoTrabajador = +1;
+                            _this2.InputTelefono = true;
+                            _this2.VerAgregarTelefono = false;
+                            _this2.VerEliminarTelefono = false;
+                          }
+
+                          if (valor.dato_personal === 3 && valor.valor != "") {
+                            _this2.form.Email.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorEmail = +1;
+                            _this2.InputEmail = true;
+                            _this2.VerAgregarEmail = false;
+                            _this2.VerEliminarEmail = false;
+                          }
+                        }
+                      } catch (err) {
+                        _iterator.e(err);
+                      } finally {
+                        _iterator.f();
+                      }
+                    }
+                  } else {
+                    //limpiar inputs
+                    var NumeroAuxiliar = _this2.form.NumeroDocumento;
+
+                    _this2.form.reset();
+
+                    _this2.form.NumeroDocumento = NumeroAuxiliar; //direccion
+
+                    //direccion
+                    _this2.InputDireccion = false;
+                    _this2.VerAgregarDireccion = true;
+                    _this2.VerEliminarDireccion = true; //telefono
+
+                    //telefono
+                    _this2.InputTelefono = false;
+                    _this2.VerAgregarTelefono = true;
+                    _this2.VerEliminarTelefono = true; //email
+
+                    //email
+                    _this2.InputEmail = false;
+                    _this2.VerAgregarEmail = true;
+                    _this2.VerEliminarEmail = true; // input razon social
+
+                    // input razon social
+                    _this2.VerInputRazonSocial = false;
+                    _this2.InputForm = false;
+                  }
+                })["catch"](function (err) {
+                  console.log(err);
+                })["finally"](function () {
+                  return _this2.loadingTrabajador = false;
+                });
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    },
+    //validaciones personalizadas
+    ValidarNumerosTipoDocumento: function ValidarNumerosTipoDocumento() {
+      if (this.form.TipoDocumento == "1" && this.form.NumeroDocumento.length == 8 || this.form.TipoDocumento == "2" && this.form.NumeroDocumento.length == 11 || this.form.TipoDocumento == "3" && this.form.NumeroDocumento.length == 12 || this.form.TipoDocumento == "4" && this.form.NumeroDocumento.length == 12 || this.form.TipoDocumento == "5" && this.form.NumeroDocumento.length == 15) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarNumerosDigitosIguales: function ValidarNumerosDigitosIguales() {
+      if (this.form.TipoDocumento == "1" && this.form.NumeroDocumento != "11111111" && this.form.NumeroDocumento != "22222222" && this.form.NumeroDocumento != "33333333" && this.form.NumeroDocumento != "44444444" && this.form.NumeroDocumento != "55555555" && this.form.NumeroDocumento != "66666666" && this.form.NumeroDocumento != "77777777" && this.form.NumeroDocumento != "88888888" && this.form.NumeroDocumento != "99999999" || this.form.TipoDocumento == "2" && this.form.NumeroDocumento != "11111111111" && this.form.NumeroDocumento != "22222222222" && this.form.NumeroDocumento != "33333333333" && this.form.NumeroDocumento != "44444444444" && this.form.NumeroDocumento != "55555555555" && this.form.NumeroDocumento != "66666666666" && this.form.NumeroDocumento != "77777777777" && this.form.NumeroDocumento != "88888888888" && this.form.NumeroDocumento != "99999999999" || this.form.TipoDocumento == "3" && this.form.NumeroDocumento != "111111111111" && this.form.NumeroDocumento != "222222222222" && this.form.NumeroDocumento != "333333333333" && this.form.NumeroDocumento != "444444444444" && this.form.NumeroDocumento != "555555555555" && this.form.NumeroDocumento != "666666666666" && this.form.NumeroDocumento != "777777777777" && this.form.NumeroDocumento != "888888888888" && this.form.NumeroDocumento != "999999999999" || this.form.TipoDocumento == "4" && this.form.NumeroDocumento != "111111111111" && this.form.NumeroDocumento != "222222222222" && this.form.NumeroDocumento != "333333333333" && this.form.NumeroDocumento != "444444444444" && this.form.NumeroDocumento != "555555555555" && this.form.NumeroDocumento != "666666666666" && this.form.NumeroDocumento != "777777777777" && this.form.NumeroDocumento != "888888888888" && this.form.NumeroDocumento != "999999999999" || this.form.TipoDocumento == "5" && this.form.NumeroDocumento.length == 15) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarNumeroRuc: function ValidarNumeroRuc() {
+      if (this.form.TipoDocumento == "2" && this.form.NumeroDocumento.charAt(0) == "2" || this.form.TipoDocumento == "2" && this.form.NumeroDocumento.charAt(0) == "1" || this.form.TipoDocumento != "2" && this.form.NumeroDocumento.charAt(0) != "1" || this.form.TipoDocumento != "2" && this.form.NumeroDocumento.charAt(0) != 2) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadDireccion: function ValidarDupicidadDireccion() {
+      var ids = this.form.Direccion.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Direccion.filter(function (_ref, index) {
+        var Valor = _ref.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadTelefono: function ValidarDupicidadTelefono() {
+      var ids = this.form.Telefono.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Telefono.filter(function (_ref2, index) {
+        var Valor = _ref2.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadEmail: function ValidarDupicidadEmail() {
+      var ids = this.form.Email.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Email.filter(function (_ref3, index) {
+        var Valor = _ref3.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+
+    /*BuscarTrabajador() {
+          this.$inertia.get(
+            route("trabajador.create"),
+            {
+              buscar: this.form.NumeroDocumento,
+            },
+            {
+              preserveState: false,
+            }
+          );
+        },*/
+    //validar numeros
+    SoloNumeros: function SoloNumeros($event) {
+      if ($event.charCode === 0 || /\d/.test(String.fromCharCode($event.charCode))) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
+    //validar letras
+    SoloLetras: function SoloLetras($event) {
+      var reg_name_lastname = /^[a-zA-ZñÑ\s]*$/;
+
+      if (reg_name_lastname.test(String.fromCharCode($event.charCode))) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
+    //focus en el input Numero documento
+    FocusInputNumeroDocumento: function FocusInputNumeroDocumento() {
+      this.$refs.NumeroDocumento.focus();
+    },
+    //metodos de input direccion
+    AgregarDireccion: function AgregarDireccion(index) {
+      if (index < 4) {
+        this.form.Direccion.push({
+          DatoPersonal: "1",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarDireccion = false;
+      }
+    },
+    EliminarDireccion: function EliminarDireccion(index) {
+      this.form.Direccion.splice(index, 1);
+      this.VerAgregarDireccion = true;
+    },
+    //metodos de input telefono
+    AgregarTelefono: function AgregarTelefono(index) {
+      if (index < 4) {
+        this.form.Telefono.push({
+          DatoPersonal: "2",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarTelefono = false;
+      }
+    },
+    EliminarTelefono: function EliminarTelefono(index) {
+      this.form.Telefono.splice(index, 1);
+      this.VerAgregarTelefono = true;
+    },
+    //metodos de input email
+    AgregarEmail: function AgregarEmail(index) {
+      if (index < 4) {
+        this.form.Email.push({
+          DatoPersonal: "3",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarEmail = false;
+      }
+    },
+    EliminarEmail: function EliminarEmail(index) {
+      this.form.Email.splice(index, 1);
+      this.VerAgregarEmail = true;
+    },
+    //metodos de input Razon social
+    MostrarRazonSocial: function MostrarRazonSocial(event) {
+      if (this.form.TipoDocumento == "2") {
+        this.VerInputRazonSocial = true;
+        this.form.Nombres = "";
+        this.form.ApellidoPaterno = "";
+        this.form.ApellidoMaterno = "";
+      } else {
+        this.VerInputRazonSocial = false;
+        this.form.RazonSocial = "";
+      }
+    } //metodos de guardar datos
+
+    /*
+        GuardarInfraestrutura() {
+          this.form.post(
+            this.route("trabajador.store"),
+    
+            {
+              onSuccess: () => {
+                this.form.reset();
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "success",
+                    title: "Exíto",
+                    text: "Tabajador registrado correctamente",
+                  },
+                  2000
+                );
+              },
+              onError: (errors) => {
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "error",
+                    title: "Error",
+                    text: "Trabajador no registrado",
+                  },
+                  2000
+                );
+              },
+            }
+          );
+        },*/
+
+  }
+}));
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=script&lang=js":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _Layouts_MainLayout_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Layouts/MainLayout.vue */ "./resources/js/Layouts/MainLayout.vue");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Componentes_Button_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Componentes/Button.vue */ "./resources/js/Componentes/Button.vue");
+/* harmony import */ var _Componentes_Label_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Componentes/Label.vue */ "./resources/js/Componentes/Label.vue");
+/* harmony import */ var _Componentes_Input_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Componentes/Input.vue */ "./resources/js/Componentes/Input.vue");
+/* harmony import */ var _Componentes_Checkbox_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/Componentes/Checkbox.vue */ "./resources/js/Componentes/Checkbox.vue");
+/* harmony import */ var _vuelidate_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @vuelidate/core */ "./node_modules/@vuelidate/core/dist/index.esm.js");
+/* harmony import */ var _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @vuelidate/validators */ "./node_modules/@vuelidate/validators/dist/index.esm.js");
+
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_1__.defineComponent)({
+  components: {
+    Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__.Head,
+    MainLayout: _Layouts_MainLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__.Link,
+    JetButton: _Componentes_Button_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    JetInput: _Componentes_Input_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    JetLabel: _Componentes_Label_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    JetCheckbox: _Componentes_Checkbox_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
+  },
+  props: {
+    TipoDocumento: Object,
+    errors: Object
+  },
+  setup: function setup() {
+    return {
+      v$: (0,_vuelidate_core__WEBPACK_IMPORTED_MODULE_8__["default"])()
+    };
+  },
+  data: function data() {
+    return {
+      buscar: "",
+      VerInputRazonSocial: false,
+      InputForm: false,
+      InputDireccion: false,
+      InputTelefono: false,
+      InputEmail: false,
+      VerAgregarDireccion: true,
+      VerAgregarTelefono: true,
+      VerAgregarEmail: true,
+      VerEliminarDireccion: true,
+      VerEliminarTelefono: true,
+      VerEliminarEmail: true,
+      form: this.$inertia.form({
+        _method: "POST",
+        CodigoPersona: "",
+        RazonSocial: "",
+        Nombres: "",
+        ApellidoPaterno: "",
+        ApellidoMaterno: "",
+        TipoDocumento: "",
+        NumeroDocumento: "",
+        CodigoTrabajador: "",
+        Direccion: [{
+          DatoPersonal: "1",
+          Valor: ""
+        }],
+        Telefono: [{
+          DatoPersonal: "2",
+          Valor: ""
+        }],
+        Email: [{
+          DatoPersonal: "3",
+          Valor: ""
+        }],
+        UsuarioCreador: this.$page.props.user.name,
+        Estado: "1",
+        ConfirmarDatos: null
+      }),
+      loadingTrabajador: false
+    };
+  },
+  validations: function validations() {
+    var _this = this;
+
+    return {
+      form: {
+        TipoDocumento: {
+          required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+          $autoDirty: true
+        },
+        NumeroDocumento: {
+          required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+          numeric: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo solo debe contener numeros", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.numeric),
+          validarNumerosTipoDocumento: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El número de dígitos es incorrecto", this.ValidarNumerosTipoDocumento),
+          ValidarNumerosDigitosIguales: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Numero incorrecto los digitos no pueden ser iguales", this.ValidarNumerosDigitosIguales),
+          validarNumeroRuc: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El número ingresado es incorrecto", this.ValidarNumeroRuc),
+          $autoDirty: true
+        },
+        RazonSocial: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento == "2";
+          })),
+          $autoDirty: true
+        },
+        Nombres: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        ApellidoPaterno: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        ApellidoMaterno: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        Direccion: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+              validarDupicidadDireccion: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Las direcciones deben ser distintas", this.ValidarDupicidadDireccion)
+            }
+          })
+        },
+        Telefono: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 9", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(9)),
+              min: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud mínima permitida es 8", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.minLength)(8)),
+              numeric: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo solo debe contener numeros", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.numeric),
+              validarDupicidadTelefono: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Las números de telefono deben ser distintos", this.ValidarDupicidadTelefono)
+            }
+          })
+        },
+        Email: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              email: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El valor no es una dirección de correo electrónico válida", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.email),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+              validarDupicidadEmail: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Los correos electrónicos deben ser distintos", this.ValidarDupicidadEmail)
+            }
+          })
+        },
+        ConfirmarDatos: {
+          sameAs: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Confirme si la informacion correcta", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.sameAs)(true)),
+          $autoDirty: true
+        }
+      }
+    };
+  },
+  methods: {
+    BuscarTrabajador: function BuscarTrabajador() {
+      var _this2 = this;
+
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                if (!(_this2.form.NumeroDocumento != "")) {
+                  _context.next = 4;
+                  break;
+                }
+
+                _this2.loadingTrabajador = true;
+                _context.next = 4;
+                return axios.get("/buscartrabajador/" + _this2.form.NumeroDocumento).then(function (response) {
+                  var trabajador = "";
+                  trabajador = response.data; // console.log(Object.keys(response.data).length);
+
+                  // console.log(Object.keys(response.data).length);
+                  if (Object.keys(response.data).length > 0) {
+                    _this2.ContadorDireccionTrabajador = 0;
+                    _this2.ContadorTelefonotTabajador = 0;
+                    _this2.ContadorEmailTrabajador = 0;
+
+                    if (trabajador.razon_social != "") {
+                      _this2.VerInputRazonSocial = true;
+                    }
+
+                    _this2.form.CodigoPersona = trabajador.id;
+                    _this2.form.RazonSocial = trabajador.razon_social;
+                    _this2.form.Nombres = trabajador.nombres;
+                    _this2.form.ApellidoPaterno = trabajador.apellido_paterno;
+                    _this2.form.ApellidoMaterno = trabajador.apellido_materno;
+                    _this2.form.TipoDocumento = trabajador.tipo_documento;
+                    _this2.InputForm = true;
+
+                    if (trabajador.datopersonas != null) {
+                      _this2.form.Direccion = [];
+                      _this2.form.Telefono = [];
+                      _this2.form.Email = [];
+
+                      var _iterator = _createForOfIteratorHelper(trabajador.datopersonas),
+                          _step;
+
+                      try {
+                        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                          var valor = _step.value;
+
+                          if (valor.dato_personal === 1 && valor.valor != "") {
+                            if (_this2.ContadorDireccionTrabajador == 0) {
+                              _this2.form.Direccion.splice(0, 1);
+                            }
+
+                            _this2.form.Direccion.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorDireccionTrabajador = +1;
+                            _this2.InputDireccion = true;
+                            _this2.VerAgregarDireccion = false;
+                            _this2.VerEliminarDireccion = false;
+                          }
+
+                          if (valor.dato_personal === 2 && valor.valor != "") {
+                            if (_this2.ContadorTelefonoTrabajador == 0) {
+                              _this2.form.Telefono.splice(0, 1);
+                            }
+
+                            _this2.form.Telefono.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorTelefonoTrabajador = +1;
+                            _this2.InputTelefono = true;
+                            _this2.VerAgregarTelefono = false;
+                            _this2.VerEliminarTelefono = false;
+                          }
+
+                          if (valor.dato_personal === 3 && valor.valor != "") {
+                            _this2.form.Email.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorEmail = +1;
+                            _this2.InputEmail = true;
+                            _this2.VerAgregarEmail = false;
+                            _this2.VerEliminarEmail = false;
+                          }
+                        }
+                      } catch (err) {
+                        _iterator.e(err);
+                      } finally {
+                        _iterator.f();
+                      }
+                    }
+                  } else {
+                    //limpiar inputs
+                    var NumeroAuxiliar = _this2.form.NumeroDocumento;
+
+                    _this2.form.reset();
+
+                    _this2.form.NumeroDocumento = NumeroAuxiliar; //direccion
+
+                    //direccion
+                    _this2.InputDireccion = false;
+                    _this2.VerAgregarDireccion = true;
+                    _this2.VerEliminarDireccion = true; //telefono
+
+                    //telefono
+                    _this2.InputTelefono = false;
+                    _this2.VerAgregarTelefono = true;
+                    _this2.VerEliminarTelefono = true; //email
+
+                    //email
+                    _this2.InputEmail = false;
+                    _this2.VerAgregarEmail = true;
+                    _this2.VerEliminarEmail = true; // input razon social
+
+                    // input razon social
+                    _this2.VerInputRazonSocial = false;
+                    _this2.InputForm = false;
+                  }
+                })["catch"](function (err) {
+                  console.log(err);
+                })["finally"](function () {
+                  return _this2.loadingTrabajador = false;
+                });
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    },
+    //validaciones personalizadas
+    ValidarNumerosTipoDocumento: function ValidarNumerosTipoDocumento() {
+      if (this.form.TipoDocumento == "1" && this.form.NumeroDocumento.length == 8 || this.form.TipoDocumento == "2" && this.form.NumeroDocumento.length == 11 || this.form.TipoDocumento == "3" && this.form.NumeroDocumento.length == 12 || this.form.TipoDocumento == "4" && this.form.NumeroDocumento.length == 12 || this.form.TipoDocumento == "5" && this.form.NumeroDocumento.length == 15) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarNumerosDigitosIguales: function ValidarNumerosDigitosIguales() {
+      if (this.form.TipoDocumento == "1" && this.form.NumeroDocumento != "11111111" && this.form.NumeroDocumento != "22222222" && this.form.NumeroDocumento != "33333333" && this.form.NumeroDocumento != "44444444" && this.form.NumeroDocumento != "55555555" && this.form.NumeroDocumento != "66666666" && this.form.NumeroDocumento != "77777777" && this.form.NumeroDocumento != "88888888" && this.form.NumeroDocumento != "99999999" || this.form.TipoDocumento == "2" && this.form.NumeroDocumento != "11111111111" && this.form.NumeroDocumento != "22222222222" && this.form.NumeroDocumento != "33333333333" && this.form.NumeroDocumento != "44444444444" && this.form.NumeroDocumento != "55555555555" && this.form.NumeroDocumento != "66666666666" && this.form.NumeroDocumento != "77777777777" && this.form.NumeroDocumento != "88888888888" && this.form.NumeroDocumento != "99999999999" || this.form.TipoDocumento == "3" && this.form.NumeroDocumento != "111111111111" && this.form.NumeroDocumento != "222222222222" && this.form.NumeroDocumento != "333333333333" && this.form.NumeroDocumento != "444444444444" && this.form.NumeroDocumento != "555555555555" && this.form.NumeroDocumento != "666666666666" && this.form.NumeroDocumento != "777777777777" && this.form.NumeroDocumento != "888888888888" && this.form.NumeroDocumento != "999999999999" || this.form.TipoDocumento == "4" && this.form.NumeroDocumento != "111111111111" && this.form.NumeroDocumento != "222222222222" && this.form.NumeroDocumento != "333333333333" && this.form.NumeroDocumento != "444444444444" && this.form.NumeroDocumento != "555555555555" && this.form.NumeroDocumento != "666666666666" && this.form.NumeroDocumento != "777777777777" && this.form.NumeroDocumento != "888888888888" && this.form.NumeroDocumento != "999999999999" || this.form.TipoDocumento == "5" && this.form.NumeroDocumento.length == 15) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarNumeroRuc: function ValidarNumeroRuc() {
+      if (this.form.TipoDocumento == "2" && this.form.NumeroDocumento.charAt(0) == "2" || this.form.TipoDocumento == "2" && this.form.NumeroDocumento.charAt(0) == "1" || this.form.TipoDocumento != "2" && this.form.NumeroDocumento.charAt(0) != "1" || this.form.TipoDocumento != "2" && this.form.NumeroDocumento.charAt(0) != 2) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadDireccion: function ValidarDupicidadDireccion() {
+      var ids = this.form.Direccion.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Direccion.filter(function (_ref, index) {
+        var Valor = _ref.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadTelefono: function ValidarDupicidadTelefono() {
+      var ids = this.form.Telefono.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Telefono.filter(function (_ref2, index) {
+        var Valor = _ref2.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadEmail: function ValidarDupicidadEmail() {
+      var ids = this.form.Email.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Email.filter(function (_ref3, index) {
+        var Valor = _ref3.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+
+    /*BuscarTrabajador() {
+          this.$inertia.get(
+            route("trabajador.create"),
+            {
+              buscar: this.form.NumeroDocumento,
+            },
+            {
+              preserveState: false,
+            }
+          );
+        },*/
+    //validar numeros
+    SoloNumeros: function SoloNumeros($event) {
+      if ($event.charCode === 0 || /\d/.test(String.fromCharCode($event.charCode))) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
+    //validar letras
+    SoloLetras: function SoloLetras($event) {
+      var reg_name_lastname = /^[a-zA-ZñÑ\s]*$/;
+
+      if (reg_name_lastname.test(String.fromCharCode($event.charCode))) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
+    //focus en el input Numero documento
+    FocusInputNumeroDocumento: function FocusInputNumeroDocumento() {
+      this.$refs.NumeroDocumento.focus();
+    },
+    //metodos de input direccion
+    AgregarDireccion: function AgregarDireccion(index) {
+      if (index < 4) {
+        this.form.Direccion.push({
+          DatoPersonal: "1",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarDireccion = false;
+      }
+    },
+    EliminarDireccion: function EliminarDireccion(index) {
+      this.form.Direccion.splice(index, 1);
+      this.VerAgregarDireccion = true;
+    },
+    //metodos de input telefono
+    AgregarTelefono: function AgregarTelefono(index) {
+      if (index < 4) {
+        this.form.Telefono.push({
+          DatoPersonal: "2",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarTelefono = false;
+      }
+    },
+    EliminarTelefono: function EliminarTelefono(index) {
+      this.form.Telefono.splice(index, 1);
+      this.VerAgregarTelefono = true;
+    },
+    //metodos de input email
+    AgregarEmail: function AgregarEmail(index) {
+      if (index < 4) {
+        this.form.Email.push({
+          DatoPersonal: "3",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarEmail = false;
+      }
+    },
+    EliminarEmail: function EliminarEmail(index) {
+      this.form.Email.splice(index, 1);
+      this.VerAgregarEmail = true;
+    },
+    //metodos de input Razon social
+    MostrarRazonSocial: function MostrarRazonSocial(event) {
+      if (this.form.TipoDocumento == "2") {
+        this.VerInputRazonSocial = true;
+        this.form.Nombres = "";
+        this.form.ApellidoPaterno = "";
+        this.form.ApellidoMaterno = "";
+      } else {
+        this.VerInputRazonSocial = false;
+        this.form.RazonSocial = "";
+      }
+    } //metodos de guardar datos
+
+    /*
+        GuardarInfraestrutura() {
+          this.form.post(
+            this.route("trabajador.store"),
+    
+            {
+              onSuccess: () => {
+                this.form.reset();
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "success",
+                    title: "Exíto",
+                    text: "Tabajador registrado correctamente",
+                  },
+                  2000
+                );
+              },
+              onError: (errors) => {
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "error",
+                    title: "Error",
+                    text: "Trabajador no registrado",
+                  },
+                  2000
+                );
+              },
+            }
+          );
+        },*/
+
+  }
+}));
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Auth/ConfirmPassword.vue?vue&type=script&setup=true&lang=js":
 /*!********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Auth/ConfirmPassword.vue?vue&type=script&setup=true&lang=js ***!
@@ -27149,10 +28209,1070 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=script&lang=js":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=script&lang=js ***!
+  \************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _Layouts_MainLayout_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Layouts/MainLayout.vue */ "./resources/js/Layouts/MainLayout.vue");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Componentes_Button_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Componentes/Button.vue */ "./resources/js/Componentes/Button.vue");
+/* harmony import */ var _Componentes_Label_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Componentes/Label.vue */ "./resources/js/Componentes/Label.vue");
+/* harmony import */ var _Componentes_Input_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Componentes/Input.vue */ "./resources/js/Componentes/Input.vue");
+/* harmony import */ var _Componentes_Checkbox_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/Componentes/Checkbox.vue */ "./resources/js/Componentes/Checkbox.vue");
+/* harmony import */ var _vuelidate_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @vuelidate/core */ "./node_modules/@vuelidate/core/dist/index.esm.js");
+/* harmony import */ var _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @vuelidate/validators */ "./node_modules/@vuelidate/validators/dist/index.esm.js");
+
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_1__.defineComponent)({
+  components: {
+    Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__.Head,
+    MainLayout: _Layouts_MainLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__.Link,
+    JetButton: _Componentes_Button_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    JetInput: _Componentes_Input_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    JetLabel: _Componentes_Label_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    JetCheckbox: _Componentes_Checkbox_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
+  },
+  props: {
+    TipoDocumento: Object,
+    errors: Object
+  },
+  setup: function setup() {
+    return {
+      v$: (0,_vuelidate_core__WEBPACK_IMPORTED_MODULE_8__["default"])()
+    };
+  },
+  data: function data() {
+    return {
+      buscar: "",
+      VerInputRazonSocial: false,
+      InputForm: false,
+      InputDireccion: false,
+      InputTelefono: false,
+      InputEmail: false,
+      VerAgregarDireccion: true,
+      VerAgregarTelefono: true,
+      VerAgregarEmail: true,
+      VerEliminarDireccion: true,
+      VerEliminarTelefono: true,
+      VerEliminarEmail: true,
+      form: this.$inertia.form({
+        _method: "POST",
+        CodigoPersona: "",
+        RazonSocial: "",
+        Nombres: "",
+        ApellidoPaterno: "",
+        ApellidoMaterno: "",
+        TipoDocumento: "",
+        NumeroDocumento: "",
+        CodigoTrabajador: "",
+        Direccion: [{
+          DatoPersonal: "1",
+          Valor: ""
+        }],
+        Telefono: [{
+          DatoPersonal: "2",
+          Valor: ""
+        }],
+        Email: [{
+          DatoPersonal: "3",
+          Valor: ""
+        }],
+        UsuarioCreador: this.$page.props.user.name,
+        Estado: "1",
+        ConfirmarDatos: null
+      }),
+      loadingTrabajador: false
+    };
+  },
+  validations: function validations() {
+    var _this = this;
+
+    return {
+      form: {
+        TipoDocumento: {
+          required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+          $autoDirty: true
+        },
+        NumeroDocumento: {
+          required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+          numeric: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo solo debe contener numeros", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.numeric),
+          validarNumerosTipoDocumento: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El número de dígitos es incorrecto", this.ValidarNumerosTipoDocumento),
+          ValidarNumerosDigitosIguales: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Numero incorrecto los digitos no pueden ser iguales", this.ValidarNumerosDigitosIguales),
+          validarNumeroRuc: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El número ingresado es incorrecto", this.ValidarNumeroRuc),
+          $autoDirty: true
+        },
+        RazonSocial: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento == "2";
+          })),
+          $autoDirty: true
+        },
+        Nombres: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        ApellidoPaterno: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        ApellidoMaterno: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        Direccion: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+              validarDupicidadDireccion: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Las direcciones deben ser distintas", this.ValidarDupicidadDireccion)
+            }
+          })
+        },
+        Telefono: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 9", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(9)),
+              min: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud mínima permitida es 8", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.minLength)(8)),
+              numeric: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo solo debe contener numeros", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.numeric),
+              validarDupicidadTelefono: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Las números de telefono deben ser distintos", this.ValidarDupicidadTelefono)
+            }
+          })
+        },
+        Email: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              email: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El valor no es una dirección de correo electrónico válida", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.email),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+              validarDupicidadEmail: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Los correos electrónicos deben ser distintos", this.ValidarDupicidadEmail)
+            }
+          })
+        },
+        ConfirmarDatos: {
+          sameAs: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Confirme si la informacion correcta", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.sameAs)(true)),
+          $autoDirty: true
+        }
+      }
+    };
+  },
+  methods: {
+    BuscarTrabajador: function BuscarTrabajador() {
+      var _this2 = this;
+
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                if (!(_this2.form.NumeroDocumento != "")) {
+                  _context.next = 4;
+                  break;
+                }
+
+                _this2.loadingTrabajador = true;
+                _context.next = 4;
+                return axios.get("/buscartrabajador/" + _this2.form.NumeroDocumento).then(function (response) {
+                  var trabajador = "";
+                  trabajador = response.data; // console.log(Object.keys(response.data).length);
+
+                  // console.log(Object.keys(response.data).length);
+                  if (Object.keys(response.data).length > 0) {
+                    _this2.ContadorDireccionTrabajador = 0;
+                    _this2.ContadorTelefonotTabajador = 0;
+                    _this2.ContadorEmailTrabajador = 0;
+
+                    if (trabajador.razon_social != "") {
+                      _this2.VerInputRazonSocial = true;
+                    }
+
+                    _this2.form.CodigoPersona = trabajador.id;
+                    _this2.form.RazonSocial = trabajador.razon_social;
+                    _this2.form.Nombres = trabajador.nombres;
+                    _this2.form.ApellidoPaterno = trabajador.apellido_paterno;
+                    _this2.form.ApellidoMaterno = trabajador.apellido_materno;
+                    _this2.form.TipoDocumento = trabajador.tipo_documento;
+                    _this2.InputForm = true;
+
+                    if (trabajador.datopersonas != null) {
+                      _this2.form.Direccion = [];
+                      _this2.form.Telefono = [];
+                      _this2.form.Email = [];
+
+                      var _iterator = _createForOfIteratorHelper(trabajador.datopersonas),
+                          _step;
+
+                      try {
+                        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                          var valor = _step.value;
+
+                          if (valor.dato_personal === 1 && valor.valor != "") {
+                            if (_this2.ContadorDireccionTrabajador == 0) {
+                              _this2.form.Direccion.splice(0, 1);
+                            }
+
+                            _this2.form.Direccion.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorDireccionTrabajador = +1;
+                            _this2.InputDireccion = true;
+                            _this2.VerAgregarDireccion = false;
+                            _this2.VerEliminarDireccion = false;
+                          }
+
+                          if (valor.dato_personal === 2 && valor.valor != "") {
+                            if (_this2.ContadorTelefonoTrabajador == 0) {
+                              _this2.form.Telefono.splice(0, 1);
+                            }
+
+                            _this2.form.Telefono.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorTelefonoTrabajador = +1;
+                            _this2.InputTelefono = true;
+                            _this2.VerAgregarTelefono = false;
+                            _this2.VerEliminarTelefono = false;
+                          }
+
+                          if (valor.dato_personal === 3 && valor.valor != "") {
+                            _this2.form.Email.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorEmail = +1;
+                            _this2.InputEmail = true;
+                            _this2.VerAgregarEmail = false;
+                            _this2.VerEliminarEmail = false;
+                          }
+                        }
+                      } catch (err) {
+                        _iterator.e(err);
+                      } finally {
+                        _iterator.f();
+                      }
+                    }
+                  } else {
+                    //limpiar inputs
+                    var NumeroAuxiliar = _this2.form.NumeroDocumento;
+
+                    _this2.form.reset();
+
+                    _this2.form.NumeroDocumento = NumeroAuxiliar; //direccion
+
+                    //direccion
+                    _this2.InputDireccion = false;
+                    _this2.VerAgregarDireccion = true;
+                    _this2.VerEliminarDireccion = true; //telefono
+
+                    //telefono
+                    _this2.InputTelefono = false;
+                    _this2.VerAgregarTelefono = true;
+                    _this2.VerEliminarTelefono = true; //email
+
+                    //email
+                    _this2.InputEmail = false;
+                    _this2.VerAgregarEmail = true;
+                    _this2.VerEliminarEmail = true; // input razon social
+
+                    // input razon social
+                    _this2.VerInputRazonSocial = false;
+                    _this2.InputForm = false;
+                  }
+                })["catch"](function (err) {
+                  console.log(err);
+                })["finally"](function () {
+                  return _this2.loadingTrabajador = false;
+                });
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    },
+    //validaciones personalizadas
+    ValidarNumerosTipoDocumento: function ValidarNumerosTipoDocumento() {
+      if (this.form.TipoDocumento == "1" && this.form.NumeroDocumento.length == 8 || this.form.TipoDocumento == "2" && this.form.NumeroDocumento.length == 11 || this.form.TipoDocumento == "3" && this.form.NumeroDocumento.length == 12 || this.form.TipoDocumento == "4" && this.form.NumeroDocumento.length == 12 || this.form.TipoDocumento == "5" && this.form.NumeroDocumento.length == 15) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarNumerosDigitosIguales: function ValidarNumerosDigitosIguales() {
+      if (this.form.TipoDocumento == "1" && this.form.NumeroDocumento != "11111111" && this.form.NumeroDocumento != "22222222" && this.form.NumeroDocumento != "33333333" && this.form.NumeroDocumento != "44444444" && this.form.NumeroDocumento != "55555555" && this.form.NumeroDocumento != "66666666" && this.form.NumeroDocumento != "77777777" && this.form.NumeroDocumento != "88888888" && this.form.NumeroDocumento != "99999999" || this.form.TipoDocumento == "2" && this.form.NumeroDocumento != "11111111111" && this.form.NumeroDocumento != "22222222222" && this.form.NumeroDocumento != "33333333333" && this.form.NumeroDocumento != "44444444444" && this.form.NumeroDocumento != "55555555555" && this.form.NumeroDocumento != "66666666666" && this.form.NumeroDocumento != "77777777777" && this.form.NumeroDocumento != "88888888888" && this.form.NumeroDocumento != "99999999999" || this.form.TipoDocumento == "3" && this.form.NumeroDocumento != "111111111111" && this.form.NumeroDocumento != "222222222222" && this.form.NumeroDocumento != "333333333333" && this.form.NumeroDocumento != "444444444444" && this.form.NumeroDocumento != "555555555555" && this.form.NumeroDocumento != "666666666666" && this.form.NumeroDocumento != "777777777777" && this.form.NumeroDocumento != "888888888888" && this.form.NumeroDocumento != "999999999999" || this.form.TipoDocumento == "4" && this.form.NumeroDocumento != "111111111111" && this.form.NumeroDocumento != "222222222222" && this.form.NumeroDocumento != "333333333333" && this.form.NumeroDocumento != "444444444444" && this.form.NumeroDocumento != "555555555555" && this.form.NumeroDocumento != "666666666666" && this.form.NumeroDocumento != "777777777777" && this.form.NumeroDocumento != "888888888888" && this.form.NumeroDocumento != "999999999999" || this.form.TipoDocumento == "5" && this.form.NumeroDocumento.length == 15) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarNumeroRuc: function ValidarNumeroRuc() {
+      if (this.form.TipoDocumento == "2" && this.form.NumeroDocumento.charAt(0) == "2" || this.form.TipoDocumento == "2" && this.form.NumeroDocumento.charAt(0) == "1" || this.form.TipoDocumento != "2" && this.form.NumeroDocumento.charAt(0) != "1" || this.form.TipoDocumento != "2" && this.form.NumeroDocumento.charAt(0) != 2) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadDireccion: function ValidarDupicidadDireccion() {
+      var ids = this.form.Direccion.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Direccion.filter(function (_ref, index) {
+        var Valor = _ref.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadTelefono: function ValidarDupicidadTelefono() {
+      var ids = this.form.Telefono.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Telefono.filter(function (_ref2, index) {
+        var Valor = _ref2.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadEmail: function ValidarDupicidadEmail() {
+      var ids = this.form.Email.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Email.filter(function (_ref3, index) {
+        var Valor = _ref3.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+
+    /*BuscarTrabajador() {
+          this.$inertia.get(
+            route("trabajador.create"),
+            {
+              buscar: this.form.NumeroDocumento,
+            },
+            {
+              preserveState: false,
+            }
+          );
+        },*/
+    //validar numeros
+    SoloNumeros: function SoloNumeros($event) {
+      if ($event.charCode === 0 || /\d/.test(String.fromCharCode($event.charCode))) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
+    //validar letras
+    SoloLetras: function SoloLetras($event) {
+      var reg_name_lastname = /^[a-zA-ZñÑ\s]*$/;
+
+      if (reg_name_lastname.test(String.fromCharCode($event.charCode))) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
+    //focus en el input Numero documento
+    FocusInputNumeroDocumento: function FocusInputNumeroDocumento() {
+      this.$refs.NumeroDocumento.focus();
+    },
+    //metodos de input direccion
+    AgregarDireccion: function AgregarDireccion(index) {
+      if (index < 4) {
+        this.form.Direccion.push({
+          DatoPersonal: "1",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarDireccion = false;
+      }
+    },
+    EliminarDireccion: function EliminarDireccion(index) {
+      this.form.Direccion.splice(index, 1);
+      this.VerAgregarDireccion = true;
+    },
+    //metodos de input telefono
+    AgregarTelefono: function AgregarTelefono(index) {
+      if (index < 4) {
+        this.form.Telefono.push({
+          DatoPersonal: "2",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarTelefono = false;
+      }
+    },
+    EliminarTelefono: function EliminarTelefono(index) {
+      this.form.Telefono.splice(index, 1);
+      this.VerAgregarTelefono = true;
+    },
+    //metodos de input email
+    AgregarEmail: function AgregarEmail(index) {
+      if (index < 4) {
+        this.form.Email.push({
+          DatoPersonal: "3",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarEmail = false;
+      }
+    },
+    EliminarEmail: function EliminarEmail(index) {
+      this.form.Email.splice(index, 1);
+      this.VerAgregarEmail = true;
+    },
+    //metodos de input Razon social
+    MostrarRazonSocial: function MostrarRazonSocial(event) {
+      if (this.form.TipoDocumento == "2") {
+        this.VerInputRazonSocial = true;
+        this.form.Nombres = "";
+        this.form.ApellidoPaterno = "";
+        this.form.ApellidoMaterno = "";
+      } else {
+        this.VerInputRazonSocial = false;
+        this.form.RazonSocial = "";
+      }
+    } //metodos de guardar datos
+
+    /*
+        GuardarInfraestrutura() {
+          this.form.post(
+            this.route("trabajador.store"),
+    
+            {
+              onSuccess: () => {
+                this.form.reset();
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "success",
+                    title: "Exíto",
+                    text: "Tabajador registrado correctamente",
+                  },
+                  2000
+                );
+              },
+              onError: (errors) => {
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "error",
+                    title: "Error",
+                    text: "Trabajador no registrado",
+                  },
+                  2000
+                );
+              },
+            }
+          );
+        },*/
+
+  }
+}));
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=script&lang=js":
 /*!********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=script&lang=js ***!
   \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _Layouts_MainLayout_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Layouts/MainLayout.vue */ "./resources/js/Layouts/MainLayout.vue");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var _Componentes_Button_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Componentes/Button.vue */ "./resources/js/Componentes/Button.vue");
+/* harmony import */ var _Componentes_Label_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/Componentes/Label.vue */ "./resources/js/Componentes/Label.vue");
+/* harmony import */ var _Componentes_Input_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/Componentes/Input.vue */ "./resources/js/Componentes/Input.vue");
+/* harmony import */ var _Componentes_Checkbox_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/Componentes/Checkbox.vue */ "./resources/js/Componentes/Checkbox.vue");
+/* harmony import */ var _vuelidate_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @vuelidate/core */ "./node_modules/@vuelidate/core/dist/index.esm.js");
+/* harmony import */ var _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @vuelidate/validators */ "./node_modules/@vuelidate/validators/dist/index.esm.js");
+
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_1__.defineComponent)({
+  components: {
+    Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__.Head,
+    MainLayout: _Layouts_MainLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_3__.Link,
+    JetButton: _Componentes_Button_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    JetInput: _Componentes_Input_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    JetLabel: _Componentes_Label_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    JetCheckbox: _Componentes_Checkbox_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
+  },
+  props: {
+    TipoDocumento: Object,
+    errors: Object
+  },
+  setup: function setup() {
+    return {
+      v$: (0,_vuelidate_core__WEBPACK_IMPORTED_MODULE_8__["default"])()
+    };
+  },
+  data: function data() {
+    return {
+      buscar: "",
+      VerInputRazonSocial: false,
+      InputForm: false,
+      InputDireccion: false,
+      InputTelefono: false,
+      InputEmail: false,
+      VerAgregarDireccion: true,
+      VerAgregarTelefono: true,
+      VerAgregarEmail: true,
+      VerEliminarDireccion: true,
+      VerEliminarTelefono: true,
+      VerEliminarEmail: true,
+      form: this.$inertia.form({
+        _method: "POST",
+        CodigoPersona: "",
+        RazonSocial: "",
+        Nombres: "",
+        ApellidoPaterno: "",
+        ApellidoMaterno: "",
+        TipoDocumento: "",
+        NumeroDocumento: "",
+        CodigoTrabajador: "",
+        Direccion: [{
+          DatoPersonal: "1",
+          Valor: ""
+        }],
+        Telefono: [{
+          DatoPersonal: "2",
+          Valor: ""
+        }],
+        Email: [{
+          DatoPersonal: "3",
+          Valor: ""
+        }],
+        UsuarioCreador: this.$page.props.user.name,
+        Estado: "1",
+        ConfirmarDatos: null
+      }),
+      loadingTrabajador: false
+    };
+  },
+  validations: function validations() {
+    var _this = this;
+
+    return {
+      form: {
+        TipoDocumento: {
+          required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+          $autoDirty: true
+        },
+        NumeroDocumento: {
+          required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+          numeric: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo solo debe contener numeros", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.numeric),
+          validarNumerosTipoDocumento: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El número de dígitos es incorrecto", this.ValidarNumerosTipoDocumento),
+          ValidarNumerosDigitosIguales: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Numero incorrecto los digitos no pueden ser iguales", this.ValidarNumerosDigitosIguales),
+          validarNumeroRuc: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El número ingresado es incorrecto", this.ValidarNumeroRuc),
+          $autoDirty: true
+        },
+        RazonSocial: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento == "2";
+          })),
+          $autoDirty: true
+        },
+        Nombres: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        ApellidoPaterno: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        ApellidoMaterno: {
+          requiredIf: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.requiredIf)(function () {
+            return _this.form.TipoDocumento != "2";
+          })),
+          max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+          $autoDirty: true
+        },
+        Direccion: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+              validarDupicidadDireccion: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Las direcciones deben ser distintas", this.ValidarDupicidadDireccion)
+            }
+          })
+        },
+        Telefono: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 9", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(9)),
+              min: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud mínima permitida es 8", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.minLength)(8)),
+              numeric: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo solo debe contener numeros", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.numeric),
+              validarDupicidadTelefono: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Las números de telefono deben ser distintos", this.ValidarDupicidadTelefono)
+            }
+          })
+        },
+        Email: {
+          $each: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.forEach({
+            Valor: {
+              required: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Este campo no puede estar vacío", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.required),
+              email: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("El valor no es una dirección de correo electrónico válida", _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.email),
+              max: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("La longitud máxima permitida es 200", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.maxLength)(200)),
+              validarDupicidadEmail: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Los correos electrónicos deben ser distintos", this.ValidarDupicidadEmail)
+            }
+          })
+        },
+        ConfirmarDatos: {
+          sameAs: _vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.helpers.withMessage("Confirme si la informacion correcta", (0,_vuelidate_validators__WEBPACK_IMPORTED_MODULE_9__.sameAs)(true)),
+          $autoDirty: true
+        }
+      }
+    };
+  },
+  methods: {
+    BuscarTrabajador: function BuscarTrabajador() {
+      var _this2 = this;
+
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                if (!(_this2.form.NumeroDocumento != "")) {
+                  _context.next = 4;
+                  break;
+                }
+
+                _this2.loadingTrabajador = true;
+                _context.next = 4;
+                return axios.get("/buscartrabajador/" + _this2.form.NumeroDocumento).then(function (response) {
+                  var trabajador = "";
+                  trabajador = response.data; // console.log(Object.keys(response.data).length);
+
+                  // console.log(Object.keys(response.data).length);
+                  if (Object.keys(response.data).length > 0) {
+                    _this2.ContadorDireccionTrabajador = 0;
+                    _this2.ContadorTelefonotTabajador = 0;
+                    _this2.ContadorEmailTrabajador = 0;
+
+                    if (trabajador.razon_social != "") {
+                      _this2.VerInputRazonSocial = true;
+                    }
+
+                    _this2.form.CodigoPersona = trabajador.id;
+                    _this2.form.RazonSocial = trabajador.razon_social;
+                    _this2.form.Nombres = trabajador.nombres;
+                    _this2.form.ApellidoPaterno = trabajador.apellido_paterno;
+                    _this2.form.ApellidoMaterno = trabajador.apellido_materno;
+                    _this2.form.TipoDocumento = trabajador.tipo_documento;
+                    _this2.InputForm = true;
+
+                    if (trabajador.datopersonas != null) {
+                      _this2.form.Direccion = [];
+                      _this2.form.Telefono = [];
+                      _this2.form.Email = [];
+
+                      var _iterator = _createForOfIteratorHelper(trabajador.datopersonas),
+                          _step;
+
+                      try {
+                        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+                          var valor = _step.value;
+
+                          if (valor.dato_personal === 1 && valor.valor != "") {
+                            if (_this2.ContadorDireccionTrabajador == 0) {
+                              _this2.form.Direccion.splice(0, 1);
+                            }
+
+                            _this2.form.Direccion.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorDireccionTrabajador = +1;
+                            _this2.InputDireccion = true;
+                            _this2.VerAgregarDireccion = false;
+                            _this2.VerEliminarDireccion = false;
+                          }
+
+                          if (valor.dato_personal === 2 && valor.valor != "") {
+                            if (_this2.ContadorTelefonoTrabajador == 0) {
+                              _this2.form.Telefono.splice(0, 1);
+                            }
+
+                            _this2.form.Telefono.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorTelefonoTrabajador = +1;
+                            _this2.InputTelefono = true;
+                            _this2.VerAgregarTelefono = false;
+                            _this2.VerEliminarTelefono = false;
+                          }
+
+                          if (valor.dato_personal === 3 && valor.valor != "") {
+                            _this2.form.Email.push({
+                              DatoPersonal: valor.dato_personal,
+                              Valor: valor.valor
+                            });
+
+                            _this2.ContadorEmail = +1;
+                            _this2.InputEmail = true;
+                            _this2.VerAgregarEmail = false;
+                            _this2.VerEliminarEmail = false;
+                          }
+                        }
+                      } catch (err) {
+                        _iterator.e(err);
+                      } finally {
+                        _iterator.f();
+                      }
+                    }
+                  } else {
+                    //limpiar inputs
+                    var NumeroAuxiliar = _this2.form.NumeroDocumento;
+
+                    _this2.form.reset();
+
+                    _this2.form.NumeroDocumento = NumeroAuxiliar; //direccion
+
+                    //direccion
+                    _this2.InputDireccion = false;
+                    _this2.VerAgregarDireccion = true;
+                    _this2.VerEliminarDireccion = true; //telefono
+
+                    //telefono
+                    _this2.InputTelefono = false;
+                    _this2.VerAgregarTelefono = true;
+                    _this2.VerEliminarTelefono = true; //email
+
+                    //email
+                    _this2.InputEmail = false;
+                    _this2.VerAgregarEmail = true;
+                    _this2.VerEliminarEmail = true; // input razon social
+
+                    // input razon social
+                    _this2.VerInputRazonSocial = false;
+                    _this2.InputForm = false;
+                  }
+                })["catch"](function (err) {
+                  console.log(err);
+                })["finally"](function () {
+                  return _this2.loadingTrabajador = false;
+                });
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    },
+    //validaciones personalizadas
+    ValidarNumerosTipoDocumento: function ValidarNumerosTipoDocumento() {
+      if (this.form.TipoDocumento == "1" && this.form.NumeroDocumento.length == 8 || this.form.TipoDocumento == "2" && this.form.NumeroDocumento.length == 11 || this.form.TipoDocumento == "3" && this.form.NumeroDocumento.length == 12 || this.form.TipoDocumento == "4" && this.form.NumeroDocumento.length == 12 || this.form.TipoDocumento == "5" && this.form.NumeroDocumento.length == 15) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarNumerosDigitosIguales: function ValidarNumerosDigitosIguales() {
+      if (this.form.TipoDocumento == "1" && this.form.NumeroDocumento != "11111111" && this.form.NumeroDocumento != "22222222" && this.form.NumeroDocumento != "33333333" && this.form.NumeroDocumento != "44444444" && this.form.NumeroDocumento != "55555555" && this.form.NumeroDocumento != "66666666" && this.form.NumeroDocumento != "77777777" && this.form.NumeroDocumento != "88888888" && this.form.NumeroDocumento != "99999999" || this.form.TipoDocumento == "2" && this.form.NumeroDocumento != "11111111111" && this.form.NumeroDocumento != "22222222222" && this.form.NumeroDocumento != "33333333333" && this.form.NumeroDocumento != "44444444444" && this.form.NumeroDocumento != "55555555555" && this.form.NumeroDocumento != "66666666666" && this.form.NumeroDocumento != "77777777777" && this.form.NumeroDocumento != "88888888888" && this.form.NumeroDocumento != "99999999999" || this.form.TipoDocumento == "3" && this.form.NumeroDocumento != "111111111111" && this.form.NumeroDocumento != "222222222222" && this.form.NumeroDocumento != "333333333333" && this.form.NumeroDocumento != "444444444444" && this.form.NumeroDocumento != "555555555555" && this.form.NumeroDocumento != "666666666666" && this.form.NumeroDocumento != "777777777777" && this.form.NumeroDocumento != "888888888888" && this.form.NumeroDocumento != "999999999999" || this.form.TipoDocumento == "4" && this.form.NumeroDocumento != "111111111111" && this.form.NumeroDocumento != "222222222222" && this.form.NumeroDocumento != "333333333333" && this.form.NumeroDocumento != "444444444444" && this.form.NumeroDocumento != "555555555555" && this.form.NumeroDocumento != "666666666666" && this.form.NumeroDocumento != "777777777777" && this.form.NumeroDocumento != "888888888888" && this.form.NumeroDocumento != "999999999999" || this.form.TipoDocumento == "5" && this.form.NumeroDocumento.length == 15) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarNumeroRuc: function ValidarNumeroRuc() {
+      if (this.form.TipoDocumento == "2" && this.form.NumeroDocumento.charAt(0) == "2" || this.form.TipoDocumento == "2" && this.form.NumeroDocumento.charAt(0) == "1" || this.form.TipoDocumento != "2" && this.form.NumeroDocumento.charAt(0) != "1" || this.form.TipoDocumento != "2" && this.form.NumeroDocumento.charAt(0) != 2) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadDireccion: function ValidarDupicidadDireccion() {
+      var ids = this.form.Direccion.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Direccion.filter(function (_ref, index) {
+        var Valor = _ref.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadTelefono: function ValidarDupicidadTelefono() {
+      var ids = this.form.Telefono.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Telefono.filter(function (_ref2, index) {
+        var Valor = _ref2.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    ValidarDupicidadEmail: function ValidarDupicidadEmail() {
+      var ids = this.form.Email.map(function (o) {
+        return o.Valor;
+      });
+      var filtered = this.form.Email.filter(function (_ref3, index) {
+        var Valor = _ref3.Valor;
+        return ids.includes(Valor, index + 1);
+      });
+
+      if (filtered.length < 1) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+
+    /*BuscarTrabajador() {
+          this.$inertia.get(
+            route("trabajador.create"),
+            {
+              buscar: this.form.NumeroDocumento,
+            },
+            {
+              preserveState: false,
+            }
+          );
+        },*/
+    //validar numeros
+    SoloNumeros: function SoloNumeros($event) {
+      if ($event.charCode === 0 || /\d/.test(String.fromCharCode($event.charCode))) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
+    //validar letras
+    SoloLetras: function SoloLetras($event) {
+      var reg_name_lastname = /^[a-zA-ZñÑ\s]*$/;
+
+      if (reg_name_lastname.test(String.fromCharCode($event.charCode))) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
+    //focus en el input Numero documento
+    FocusInputNumeroDocumento: function FocusInputNumeroDocumento() {
+      this.$refs.NumeroDocumento.focus();
+    },
+    //metodos de input direccion
+    AgregarDireccion: function AgregarDireccion(index) {
+      if (index < 4) {
+        this.form.Direccion.push({
+          DatoPersonal: "1",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarDireccion = false;
+      }
+    },
+    EliminarDireccion: function EliminarDireccion(index) {
+      this.form.Direccion.splice(index, 1);
+      this.VerAgregarDireccion = true;
+    },
+    //metodos de input telefono
+    AgregarTelefono: function AgregarTelefono(index) {
+      if (index < 4) {
+        this.form.Telefono.push({
+          DatoPersonal: "2",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarTelefono = false;
+      }
+    },
+    EliminarTelefono: function EliminarTelefono(index) {
+      this.form.Telefono.splice(index, 1);
+      this.VerAgregarTelefono = true;
+    },
+    //metodos de input email
+    AgregarEmail: function AgregarEmail(index) {
+      if (index < 4) {
+        this.form.Email.push({
+          DatoPersonal: "3",
+          Valor: ""
+        });
+      }
+
+      if (index == 3) {
+        this.VerAgregarEmail = false;
+      }
+    },
+    EliminarEmail: function EliminarEmail(index) {
+      this.form.Email.splice(index, 1);
+      this.VerAgregarEmail = true;
+    },
+    //metodos de input Razon social
+    MostrarRazonSocial: function MostrarRazonSocial(event) {
+      if (this.form.TipoDocumento == "2") {
+        this.VerInputRazonSocial = true;
+        this.form.Nombres = "";
+        this.form.ApellidoPaterno = "";
+        this.form.ApellidoMaterno = "";
+      } else {
+        this.VerInputRazonSocial = false;
+        this.form.RazonSocial = "";
+      }
+    } //metodos de guardar datos
+
+    /*
+        GuardarInfraestrutura() {
+          this.form.post(
+            this.route("trabajador.store"),
+    
+            {
+              onSuccess: () => {
+                this.form.reset();
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "success",
+                    title: "Exíto",
+                    text: "Tabajador registrado correctamente",
+                  },
+                  2000
+                );
+              },
+              onError: (errors) => {
+                this.$notify(
+                  {
+                    group: "mensajes",
+                    type: "error",
+                    title: "Error",
+                    text: "Trabajador no registrado",
+                  },
+                  2000
+                );
+              },
+            }
+          );
+        },*/
+
+  }
+}));
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=script&lang=js":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=script&lang=js ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -30676,15 +32796,103 @@ var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_8 = {
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "p-3 text-xs uppercase text-gray-400"
+}, "MODULO II: Estudiantes", -1
+/* HOISTED */
+);
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "w-5 h-5",
+  "aria-hidden": "true",
+  fill: "none",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "ml-4"
+}, "Matriculados")], -1
+/* HOISTED */
+);
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "w-5 h-5",
+  "aria-hidden": "true",
+  fill: "none",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "ml-4"
+}, "Asistencias")], -1
+/* HOISTED */
+);
+
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "w-5 h-5",
+  "aria-hidden": "true",
+  fill: "none",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "ml-4"
+}, "Aprobados")], -1
+/* HOISTED */
+);
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "p-3 text-xs uppercase text-gray-400"
+}, "MODULO III: DOCENTE", -1
+/* HOISTED */
+);
+
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "w-5 h-5",
+  "aria-hidden": "true",
+  fill: "none",
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "ml-4"
+}, "Docentes")], -1
+/* HOISTED */
+);
+
+var _hoisted_14 = {
   "class": "p-1 text-xs uppercase text-gray-400"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AJUSTES MODERNOS ");
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AJUSTES MODERNOS ");
 
-var _hoisted_10 = [_hoisted_9];
+var _hoisted_16 = [_hoisted_15];
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "w-5 h-5",
@@ -30703,7 +32911,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "w-5 h-5",
@@ -30722,7 +32930,7 @@ var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "w-5 h-5",
@@ -30824,10 +33032,86 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
+  , ["href"]), _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" BOTON DE MATRICULADOS"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "relative",
+    href: _ctx.route('matriculados.create')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg", {
+          'bg-red-600 dark:bg-red-600': _ctx.route().current('matriculados.*')
+        }]),
+        "aria-hidden": "true"
+      }, null, 2
+      /* CLASS */
+      ), _hoisted_9];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" BOTON DE ASISTENCIAS"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "relative",
+    href: _ctx.route('asistencia.create')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg", {
+          'bg-red-600 dark:bg-red-600': _ctx.route().current('asistencia.*')
+        }]),
+        "aria-hidden": "true"
+      }, null, 2
+      /* CLASS */
+      ), _hoisted_10];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" BOTON DE APROBADOS"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "relative",
+    href: _ctx.route('aprobados.create')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg", {
+          'bg-red-600 dark:bg-red-600': _ctx.route().current('aprobados.*')
+        }]),
+        "aria-hidden": "true"
+      }, null, 2
+      /* CLASS */
+      ), _hoisted_11];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"]), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" BOTON DE DOCENTES"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "relative",
+    href: _ctx.route('docente.create')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg", {
+          'bg-red-600 dark:bg-red-600': _ctx.route().current('docente.*')
+        }]),
+        "aria-hidden": "true"
+      }, null, 2
+      /* CLASS */
+      ), _hoisted_13];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
   , ["href"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\r\n      <Link class=\"relative\"  \r\n  \r\n        :href=\"route('solicitudes.index')\">\r\n        <span\r\n          class=\"absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg\"\r\n           :class=\"{\r\n            'bg-red-600 dark:bg-red-600': route().current('solicitudes.*'),\r\n          }\"\r\n          aria-hidden=\"true\"\r\n        ></span>\r\n        <div\r\n          class=\"inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100\"\r\n        >\r\n          <svg\r\n            class=\"w-5 h-5\"\r\n            aria-hidden=\"true\"\r\n            fill=\"none\"\r\n            stroke-linecap=\"round\"\r\n            stroke-linejoin=\"round\"\r\n            stroke-width=\"2\"\r\n            viewBox=\"0 0 24 24\"\r\n            stroke=\"currentColor\"\r\n          >\r\n            <path\r\n              d=\"M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01\"\r\n            ></path>\r\n          </svg>\r\n          <span class=\"ml-4\">Solicitudes</span>\r\n        </div>\r\n      </Link>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\r\n      <Link class=\"relative\"  \r\n      v-permission=\"'ver:solicitante'\"\r\n        :href=\"route('solicitantes.index')\">\r\n        <span\r\n          class=\"absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg\"\r\n           :class=\"{\r\n            'bg-red-600 dark:bg-red-600': route().current('solicitantes.*'),\r\n          }\"\r\n          aria-hidden=\"true\"\r\n        ></span>\r\n        <div\r\n          class=\"inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100\"\r\n        >\r\n          <svg\r\n            class=\"w-5 h-5\"\r\n            aria-hidden=\"true\"\r\n            fill=\"none\"\r\n            stroke-linecap=\"round\"\r\n            stroke-linejoin=\"round\"\r\n            stroke-width=\"2\"\r\n            viewBox=\"0 0 24 24\"\r\n            stroke=\"currentColor\"\r\n          >\r\n            <path\r\n              d=\"M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z\"\r\n            />\r\n          </svg>\r\n          <span class=\"ml-4\">Solicitantes</span>\r\n        </div>\r\n      </Link>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\r\n      <Link\r\n        v-permission=\"'ver:trabajador'\"\r\n        :href=\"route('trabajador.index')\"\r\n        class=\"relative\"\r\n      >\r\n        <span\r\n          class=\"absolute inset-y-0 left-0 w-1 bg-white dark:bg-gray-700 rounded-tr-lg rounded-br-lg\"\r\n          :class=\"{\r\n            'bg-red-600 dark:bg-red-600': route().current('trabajador.*'),\r\n          }\"\r\n          aria-hidden=\"true\"\r\n        ></span>\r\n        <div\r\n          class=\"inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100\"\r\n        >\r\n          <svg\r\n            class=\"w-5 h-5\"\r\n            aria-hidden=\"true\"\r\n            fill=\"none\"\r\n            stroke-linecap=\"round\"\r\n            stroke-linejoin=\"round\"\r\n            stroke-width=\"2\"\r\n            viewBox=\"0 0 24 24\"\r\n            stroke=\"currentColor\"\r\n          >\r\n            <path\r\n              d=\"M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z\"\r\n            />\r\n          </svg>\r\n          <span class=\"ml-4\">Trabajadores</span>\r\n        </div>\r\n      </Link>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\r\n      <Link \r\n        v-permission=\"'ver:paciente'\"\r\n        :href=\"route('pacientes.index')\"\r\n        class=\"relative\"\r\n      >\r\n        <span\r\n          class=\"absolute inset-y-0 left-0 w-1 bg-white dark:bg-gray-700 rounded-tr-lg rounded-br-lg\"\r\n           :class=\"{\r\n            'bg-red-600 dark:bg-red-600': route().current('pacientes.*'),\r\n          }\"\r\n          aria-hidden=\"true\"\r\n        ></span>\r\n        <div\r\n          class=\"inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100\"\r\n        >\r\n          <svg\r\n            class=\"w-5 h-5\"\r\n            aria-hidden=\"true\"\r\n            fill=\"none\"\r\n            stroke-linecap=\"round\"\r\n            stroke-linejoin=\"round\"\r\n            stroke-width=\"2\"\r\n            viewBox=\"0 0 24 24\"\r\n            stroke=\"currentColor\"\r\n          >\r\n            <path\r\n              d=\"M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z\"\r\n            />\r\n          </svg>\r\n          <span class=\"ml-4\">Pacientes</span>\r\n        </div>\r\n      </Link>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     "class": "w-full justify-start linkClass",
     href: "#"
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_8, _hoisted_10)), [[_directive_role, 'super admin']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_14, _hoisted_16)), [[_directive_role, 'super admin']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
     href: _ctx.route('usuarios.index'),
     "class": "relative"
   }, {
@@ -30839,7 +33123,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "aria-hidden": "true"
       }, null, 2
       /* CLASS */
-      ), _hoisted_11];
+      ), _hoisted_17];
     }),
     _: 1
     /* STABLE */
@@ -30858,7 +33142,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "aria-hidden": "true"
       }, null, 2
       /* CLASS */
-      ), _hoisted_12];
+      ), _hoisted_18];
     }),
     _: 1
     /* STABLE */
@@ -30877,7 +33161,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "aria-hidden": "true"
       }, null, 2
       /* CLASS */
-      ), _hoisted_13];
+      ), _hoisted_19];
     }),
     _: 1
     /* STABLE */
@@ -33294,21 +35578,10 @@ var _hoisted_4 = {
   "class": "flex items-center justify-center pt-6 bg-auto bg-no-repeat bg-center",
   id: "app3"
 };
-
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-red-500 dark:text-white font-black text-xl"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("S"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-blue-500"
-}, "I"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-red-500"
-}, "A")], -1
-/* HOISTED */
-);
-
-var _hoisted_6 = {
+var _hoisted_5 = {
   "class": "flex flex-col w-full p-2 md:p-4 md:space-y-4"
 };
-var _hoisted_7 = {
+var _hoisted_6 = {
   "class": "overflow-auto h-screen pb-24 pt-4 md:pt-0 md:pr-0 md:pl-0"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -33332,14 +35605,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   , ["href"])) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
     key: 1,
     href: _ctx.route('inicio')
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_5];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
+  }, null, 8
   /* PROPS */
   , ["href"]))]), _ctx.estadoMenu ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_SidebarDesktop, {
     key: 0
@@ -33347,7 +35613,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     key: 1
   }))])], 2
   /* CLASS */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Header, {
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Header, {
     onMenu: _ctx.abrirMenu,
     onMobil: _ctx.abrirMenuMobil
   }, null, 8
@@ -33355,7 +35621,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   , ["onMenu", "onMobil"]), _ctx.estadoMenuMobil ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_SidebarDesktop, {
     key: 0,
     "class": "flex md:hidden shadow-xl rounded-md bg-white dark:bg-gray-700"
-  })) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <SidebarMobil v-if=\"estadoMenuMobil\"/> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Toastr), (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])])])]);
+  })) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <SidebarMobil v-if=\"estadoMenuMobil\"/> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Toastr), (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])])])]);
 }
 
 /***/ }),
@@ -33775,6 +36041,4184 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, 8
   /* PROPS */
   , ["show"])]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=template&id=44dedd7c":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=template&id=44dedd7c ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "py-2"
+};
+var _hoisted_2 = {
+  "class": "max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2"
+};
+var _hoisted_3 = {
+  "class": "overflow-hidden px-2"
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-between"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "my-3 text-2xl font-semibold text-gray-600 dark:text-gray-200"
+}, " APROBADOS ")], -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
+  "class": "flex flex-col flex-wrap sm:flex-row"
+};
+var _hoisted_6 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+var _hoisted_7 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_8 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Regular ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_10 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_11 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Primaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_13 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_14 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_15 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_17 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_18 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_19 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_20 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_22 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_23 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_24 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_25 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_27 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_28 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_29 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_30 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_31 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_32 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_34 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_35 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_36 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_37 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_39 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_40 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_41 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_42 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_44 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_45 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_46 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_47 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_48 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Secundaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_50 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_51 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_52 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_54 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_55 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_56 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_57 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_58 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_59 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_60 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_61 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_62 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_64 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_65 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_66 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_67 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_68 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_69 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_70 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_71 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_72 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_73 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_74 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_75 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_76 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_77 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_78 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_79 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_80 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_81 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Alternativa ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_82 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_83 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_84 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_85 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_86 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_87 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_88 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_89 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_90 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_91 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_92 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_93 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_94 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_95 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_96 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_97 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_98 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_99 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Intermedio ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_100 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_101 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_102 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_103 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_104 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_105 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_106 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_107 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_108 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_109 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_110 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_111 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_112 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_113 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_114 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_115 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_116 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_117 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_118 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_119 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Avanzado ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_120 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_121 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_122 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_123 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_124 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_125 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_126 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_127 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_128 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_129 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_130 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_131 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_132 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_134 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_135 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_136 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_137 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_138 = {
+  "class": "grid grid-cols-1 md:grid-cols-2 md:gap-8"
+};
+var _hoisted_139 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_140 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar cantidad de alumnos aprobados. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_141 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_142 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_143 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_144 = {
+  "class": "grid grid-cols-1 md:grid-cols-1 md:gap-8"
+};
+var _hoisted_145 = {
+  "class": "block mt-4"
+};
+var _hoisted_146 = {
+  "class": "flex items-center"
+};
+
+var _hoisted_147 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "ml-2 font-medium text-sm text-gray-700 dark:text-white"
+}, "Confirmar si la informacion es correcta antes de guardar", -1
+/* HOISTED */
+);
+
+var _hoisted_148 = {
+  "class": "text-xs py-2 px-2 text-red-400 dark:text-red-400"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
+
+  var _component_JetLabel = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetLabel");
+
+  var _component_JetInput = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetInput");
+
+  var _component_JetCheckbox = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetCheckbox");
+
+  var _component_JetButton = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetButton");
+
+  var _component_MainLayout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("MainLayout");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_MainLayout, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, {
+        title: "Aprobados Crear"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+        id: "formGuardar",
+        onSubmit: _cache[41] || (_cache[41] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+          return _ctx.GuardarInfraestructura && _ctx.GuardarInfraestructura.apply(_ctx, arguments);
+        }, ["prevent"]))
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alumnos de primero a tercer grado de primaria"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "primergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.PrimerGrado,
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
+          return _ctx.form.PrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[1] || (_cache[1] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_16]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "segundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SegundoGrado,
+        "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
+          return _ctx.form.SegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[3] || (_cache[3] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_21]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.TercerGrado,
+        "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
+          return _ctx.form.TercerGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[5] || (_cache[5] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_26]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alumnos de cuarto a sexto grado de primaria"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuartogrado ",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.CuartoGrado,
+        "onUpdate:modelValue": _cache[6] || (_cache[6] = function ($event) {
+          return _ctx.form.CuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[7] || (_cache[7] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_33]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_34, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "quintogrado ",
+        value: "quintogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.QuintoGrado,
+        "onUpdate:modelValue": _cache[8] || (_cache[8] = function ($event) {
+          return _ctx.form.QuintoGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[9] || (_cache[9] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_38]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "sextogrado ",
+        value: "sexto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SextoGrado,
+        "onUpdate:modelValue": _cache[10] || (_cache[10] = function ($event) {
+          return _ctx.form.SextoGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[11] || (_cache[11] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_43]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_44, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_46, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_47, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION SECUNDARIA"), _hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "primerosecundaria ",
+        value: "primero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.PrimeroSecundaria,
+        "onUpdate:modelValue": _cache[12] || (_cache[12] = function ($event) {
+          return _ctx.form.PrimeroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[13] || (_cache[13] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_53]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_55, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "segundosecundaria",
+        value: "segundo de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SegundoSecundaria,
+        "onUpdate:modelValue": _cache[14] || (_cache[14] = function ($event) {
+          return _ctx.form.SegundoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[15] || (_cache[15] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_58]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_59, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_60, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_61, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tercerosecundaria ",
+        value: "tercero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.TerceroSecundaria,
+        "onUpdate:modelValue": _cache[16] || (_cache[16] = function ($event) {
+          return _ctx.form.TerceroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[17] || (_cache[17] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_63]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_64, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A QUINTO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuartosecundaria ",
+        value: "cuarto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_69, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.CuartoSecundaria,
+        "onUpdate:modelValue": _cache[18] || (_cache[18] = function ($event) {
+          return _ctx.form.CuartoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[19] || (_cache[19] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_70]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_71, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_72, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_73, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "quintosecundaria",
+        value: "quinto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_74, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.QuintoSecundaria,
+        "onUpdate:modelValue": _cache[20] || (_cache[20] = function ($event) {
+          return _ctx.form.QuintoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[21] || (_cache[21] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_75]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_76, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_77, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_78, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_79, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_80, [_hoisted_81, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_82, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_83, [_hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_85, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_86, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "inicialprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_87, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.InicialPrimerGrado,
+        "onUpdate:modelValue": _cache[22] || (_cache[22] = function ($event) {
+          return _ctx.form.InicialPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[23] || (_cache[23] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_88]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_89, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_90, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_91, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "inicialsegundogrado ",
+        value: "segundo grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_92, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.InicialSegundoGrado,
+        "onUpdate:modelValue": _cache[24] || (_cache[24] = function ($event) {
+          return _ctx.form.InicialSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[25] || (_cache[25] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_93]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_94, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_95, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_96, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_97, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_98, [_hoisted_99, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_100, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_101, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermedioprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioPrimerGrado,
+        "onUpdate:modelValue": _cache[26] || (_cache[26] = function ($event) {
+          return _ctx.form.IntermedioPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[27] || (_cache[27] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_103]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_104, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_105, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_106, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermediosegundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_107, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioSegundoGrado,
+        "onUpdate:modelValue": _cache[28] || (_cache[28] = function ($event) {
+          return _ctx.form.IntermedioSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[29] || (_cache[29] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_108]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_109, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_110, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_111, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermediotercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioTercerGrado,
+        "onUpdate:modelValue": _cache[30] || (_cache[30] = function ($event) {
+          return _ctx.form.IntermedioTercerGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[31] || (_cache[31] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_113]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_114, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_115, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_116, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_117, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_118, [_hoisted_119, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_120, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_121, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadoprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_122, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoPrimerGrado,
+        "onUpdate:modelValue": _cache[32] || (_cache[32] = function ($event) {
+          return _ctx.form.AvanzadoPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[33] || (_cache[33] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_123]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_124, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_125, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_126, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadosegundogrado",
+        value: "segundo grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_127, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoSegundoGrado,
+        "onUpdate:modelValue": _cache[34] || (_cache[34] = function ($event) {
+          return _ctx.form.AvanzadoSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[35] || (_cache[35] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_128]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_129, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_130, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_131, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadotercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_132, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoTercerGrado,
+        "onUpdate:modelValue": _cache[36] || (_cache[36] = function ($event) {
+          return _ctx.form.AvanzadoTercerGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[37] || (_cache[37] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_133]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_134, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_135, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_136, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_137, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_138, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadocuartogrado",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_139, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoCuartoGrado,
+        "onUpdate:modelValue": _cache[38] || (_cache[38] = function ($event) {
+          return _ctx.form.AvanzadoCuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Aprobados",
+        onKeypress: _cache[39] || (_cache[39] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_140]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_141, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_142, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_143, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_144, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_145, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", _hoisted_146, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetCheckbox, {
+        type: "checkbox",
+        checked: _ctx.form.ConfirmarDatos,
+        "onUpdate:checked": _cache[40] || (_cache[40] = function ($event) {
+          return _ctx.form.ConfirmarDatos = $event;
+        })
+      }, null, 8
+      /* PROPS */
+      , ["checked"]), _hoisted_147]), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.ConfirmarDatos.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(error.$message), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])], 32
+      /* HYDRATE_EVENTS */
+      ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetButton, {
+        form: "formGuardar",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["my-3", {
+          'opacity-25': _ctx.form.processing
+        }]),
+        disabled: _ctx.form.processing || _ctx.v$.form.$invalid
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Guardar " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.form.progress ? "".concat(_ctx.form.progress.percentage, "% ") : ""), 1
+          /* TEXT */
+          )];
+        }),
+        _: 1
+        /* STABLE */
+
+      }, 8
+      /* PROPS */
+      , ["class", "disabled"])])])])])])])];
+    }),
+    _: 1
+    /* STABLE */
+
+  });
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=template&id=0ff069c0":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=template&id=0ff069c0 ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "py-2"
+};
+var _hoisted_2 = {
+  "class": "max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2"
+};
+var _hoisted_3 = {
+  "class": "overflow-hidden px-2"
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-between"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "my-3 text-2xl font-semibold text-gray-600 dark:text-gray-200"
+}, " ASISTENCIAS ")], -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
+  "class": "flex flex-col flex-wrap sm:flex-row"
+};
+var _hoisted_6 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+var _hoisted_7 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_8 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Regular ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_10 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_11 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_13 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_14 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_15 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de niños de 3 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_17 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_18 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_19 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_20 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de niños de 4 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_22 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_23 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_24 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_25 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de niños de 5 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_27 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_28 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_29 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_30 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_31 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Primaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_33 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_34 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_35 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_37 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_38 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_39 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_40 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de segundo grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_42 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_43 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_44 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_45 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_47 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_48 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_49 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_50 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_51 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_52 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de cuarto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_54 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_55 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_56 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_57 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_58 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de quinto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_59 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_60 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_61 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_62 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de sexto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_64 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_65 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_66 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_67 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_68 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_69 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Secundaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_70 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_71 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_72 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_73 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_74 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_75 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_76 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_77 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_78 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_79 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_80 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_81 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_82 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_83 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de tercero de Secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_84 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_85 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_86 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_87 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_88 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_89 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_90 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de cuarto año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_91 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_92 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_93 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_94 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_95 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de quinto año de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_96 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_97 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_98 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_99 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_100 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_101 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Especial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_102 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_103 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_104 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_105 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_106 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_107 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_108 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de niños de 3 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_109 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_110 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_111 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_112 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_113 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de niños de 4 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_114 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_115 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_116 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_117 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_118 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de niños de 5 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_119 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_120 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_121 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_122 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_123 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_124 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Primaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_125 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_126 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_127 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_128 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_129 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_130 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_131 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_132 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de segundo grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_134 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_135 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_136 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_137 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_138 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_139 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_140 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_141 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_142 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_143 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_144 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_145 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de cuarto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_146 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_147 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_148 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_149 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_150 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de quinto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_151 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_152 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_153 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_154 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_155 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de sexto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_156 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_157 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_158 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_159 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_160 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_161 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Secundaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_162 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_163 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_164 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_165 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_166 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_167 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_168 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_169 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_170 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de segundo de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_171 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_172 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_173 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_174 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_175 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de tercero de Secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_176 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_177 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_178 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_179 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_180 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_181 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_182 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_183 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_184 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_185 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_186 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_187 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de segundo de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_188 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_189 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_190 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_191 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_192 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_193 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Alternativa ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_194 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_195 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_196 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_197 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_198 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_199 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_200 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos del primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_201 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_202 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_203 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_204 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_205 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de segundogrado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_206 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_207 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_208 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_209 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_210 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_211 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Intermedio ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_212 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_213 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_214 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_215 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_216 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_217 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_218 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_219 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_220 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de segundo grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_221 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_222 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_223 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_224 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_225 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_226 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_227 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_228 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_229 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_230 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_231 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Avanzado ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_232 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_233 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_234 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_235 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_236 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_237 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_238 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_239 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_240 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de segundo de grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_241 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_242 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_243 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_244 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_245 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la asistencia de alumnos de tercer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_246 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_247 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_248 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_249 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_250 = {
+  "class": "grid grid-cols-1 md:grid-cols-2 md:gap-8"
+};
+var _hoisted_251 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_252 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de cuarto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_253 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_254 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_255 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_256 = {
+  "class": "grid grid-cols-1 md:grid-cols-1 md:gap-8"
+};
+var _hoisted_257 = {
+  "class": "block mt-4"
+};
+var _hoisted_258 = {
+  "class": "flex items-center"
+};
+
+var _hoisted_259 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "ml-2 font-medium text-sm text-gray-700 dark:text-white"
+}, "Confirmar si la informacion es correcta antes de guardar", -1
+/* HOISTED */
+);
+
+var _hoisted_260 = {
+  "class": "text-xs py-2 px-2 text-red-400 dark:text-red-400"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
+
+  var _component_JetLabel = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetLabel");
+
+  var _component_JetInput = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetInput");
+
+  var _component_JetCheckbox = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetCheckbox");
+
+  var _component_JetButton = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetButton");
+
+  var _component_MainLayout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("MainLayout");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_MainLayout, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, {
+        title: "Matriculados Crear"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+        id: "formGuardar",
+        onSubmit: _cache[75] || (_cache[75] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+          return _ctx.GuardarInfraestructura && _ctx.GuardarInfraestructura.apply(_ctx, arguments);
+        }, ["prevent"]))
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tresanos ",
+        value: "niños de 3 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.tresaños,
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
+          return _ctx.form.tresaños = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[1] || (_cache[1] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_16]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuatroanos ",
+        value: "niños de 4 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.NumeroDocumento,
+        "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
+          return _ctx.form.NumeroDocumento = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[3] || (_cache[3] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_21]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cincoanos ",
+        value: "niños de 5 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.NumeroDocumento,
+        "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
+          return _ctx.form.NumeroDocumento = $event;
+        }),
+        placeholder: "Ingresar asistencia",
+        onKeypress: _cache[5] || (_cache[5] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_26]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [_hoisted_32, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alumnos de primero a tercer grado de primaria"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "primergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.PrimerGrado,
+        "onUpdate:modelValue": _cache[6] || (_cache[6] = function ($event) {
+          return _ctx.form.PrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[7] || (_cache[7] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_36]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "segundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SegundoGrado,
+        "onUpdate:modelValue": _cache[8] || (_cache[8] = function ($event) {
+          return _ctx.form.SegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[9] || (_cache[9] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_41]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_42, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.TercerGrado,
+        "onUpdate:modelValue": _cache[10] || (_cache[10] = function ($event) {
+          return _ctx.form.TercerGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[11] || (_cache[11] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_46]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_48, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alumnos de cuarto a sexto grado de primaria"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuartogrado ",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.CuartoGrado,
+        "onUpdate:modelValue": _cache[12] || (_cache[12] = function ($event) {
+          return _ctx.form.CuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[13] || (_cache[13] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_53]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_55, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "quintogrado ",
+        value: "quintogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.QuintoGrado,
+        "onUpdate:modelValue": _cache[14] || (_cache[14] = function ($event) {
+          return _ctx.form.QuintoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[15] || (_cache[15] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_58]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_59, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_60, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_61, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "sextogrado ",
+        value: "sexto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SextoGrado,
+        "onUpdate:modelValue": _cache[16] || (_cache[16] = function ($event) {
+          return _ctx.form.SextoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[17] || (_cache[17] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_63]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_64, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION SECUNDARIA"), _hoisted_69, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_70, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_71, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "primerosecundaria ",
+        value: "primero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_72, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.PrimeroSecundaria,
+        "onUpdate:modelValue": _cache[18] || (_cache[18] = function ($event) {
+          return _ctx.form.PrimeroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[19] || (_cache[19] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_73]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_74, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_75, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_76, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "segundosecundaria",
+        value: "segundo de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_77, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SegundoSecundaria,
+        "onUpdate:modelValue": _cache[20] || (_cache[20] = function ($event) {
+          return _ctx.form.SegundoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[21] || (_cache[21] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_78]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_79, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_80, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_81, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tercerosecundaria ",
+        value: "tercero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_82, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.TerceroSecundaria,
+        "onUpdate:modelValue": _cache[22] || (_cache[22] = function ($event) {
+          return _ctx.form.TerceroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[23] || (_cache[23] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_83]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_85, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_86, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A QUINTO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_87, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_88, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuartosecundaria ",
+        value: "cuarto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_89, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.CuartoSecundaria,
+        "onUpdate:modelValue": _cache[24] || (_cache[24] = function ($event) {
+          return _ctx.form.CuartoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[25] || (_cache[25] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_90]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_91, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_92, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_93, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "quintosecundaria",
+        value: "quinto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_94, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.QuintoSecundaria,
+        "onUpdate:modelValue": _cache[26] || (_cache[26] = function ($event) {
+          return _ctx.form.QuintoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[27] || (_cache[27] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_95]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_96, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_97, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_98, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_99, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_100, [_hoisted_101, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION INICIAL"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_103, [_hoisted_104, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Formulario Educacion Inicial"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_105, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_106, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtresanos ",
+        value: "niños de 3 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_107, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTresAnos,
+        "onUpdate:modelValue": _cache[28] || (_cache[28] = function ($event) {
+          return _ctx.form.EspecialTresAnos = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[29] || (_cache[29] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_108]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_109, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_110, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_111, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuatroanos ",
+        value: "niños de 4 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuatroAnos,
+        "onUpdate:modelValue": _cache[30] || (_cache[30] = function ($event) {
+          return _ctx.form.EspecialCuatroAnos = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[31] || (_cache[31] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_113]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_114, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_115, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_116, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcincoanos ",
+        value: "niños de 5 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_117, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCincoAnos,
+        "onUpdate:modelValue": _cache[32] || (_cache[32] = function ($event) {
+          return _ctx.form.EspecialCincoAnos = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[33] || (_cache[33] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_118]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_119, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_120, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_121, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION PRIMARIA "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_122, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_123, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION PRIMARIA"), _hoisted_124, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO PRIMERO A TERCER GRADO PRIMARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_125, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_126, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_127, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialPrimerGrado,
+        "onUpdate:modelValue": _cache[34] || (_cache[34] = function ($event) {
+          return _ctx.form.EspecialPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[35] || (_cache[35] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_128]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_129, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_130, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_131, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsegundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_132, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSegundoGrado,
+        "onUpdate:modelValue": _cache[36] || (_cache[36] = function ($event) {
+          return _ctx.form.EspecialSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[37] || (_cache[37] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_133]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_134, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_135, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_136, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_137, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTercerGrado,
+        "onUpdate:modelValue": _cache[38] || (_cache[38] = function ($event) {
+          return _ctx.form.EspecialTercerGrado = $event;
+        }),
+        placeholder: "Ingresar asistencia",
+        onKeypress: _cache[39] || (_cache[39] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_138]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_139, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_140, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_141, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A SEXTO PRIMARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_142, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_143, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuartogrado ",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_144, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuartoGrado,
+        "onUpdate:modelValue": _cache[40] || (_cache[40] = function ($event) {
+          return _ctx.form.EspecialCuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[41] || (_cache[41] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_145]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_146, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_147, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialquintogrado ",
+        value: "quintogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_149, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialQuintoGrado,
+        "onUpdate:modelValue": _cache[42] || (_cache[42] = function ($event) {
+          return _ctx.form.EspecialQuintoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[43] || (_cache[43] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_150]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_151, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_152, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_153, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsextogrado ",
+        value: "sexto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_154, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSextoGrado,
+        "onUpdate:modelValue": _cache[44] || (_cache[44] = function ($event) {
+          return _ctx.form.EspecialSextoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[45] || (_cache[45] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_155]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_156, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_157, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_158, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_159, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_160, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION SECUNDARIA "), _hoisted_161, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO PRIMERO A TERCERO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_162, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_163, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialprimerosecundaria ",
+        value: "primero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_164, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialPrimeroSecundaria,
+        "onUpdate:modelValue": _cache[46] || (_cache[46] = function ($event) {
+          return _ctx.form.EspecialPrimeroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[47] || (_cache[47] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_165]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_166, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_167, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_168, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsegundosecundaria",
+        value: "segundo de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_169, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSegundoSecundaria,
+        "onUpdate:modelValue": _cache[48] || (_cache[48] = function ($event) {
+          return _ctx.form.EspecialSegundoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[49] || (_cache[49] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_170]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_171, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_172, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_173, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtercerosecundaria ",
+        value: "tercero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_174, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTerceroSecundaria,
+        "onUpdate:modelValue": _cache[50] || (_cache[50] = function ($event) {
+          return _ctx.form.EspecialTerceroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[51] || (_cache[51] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_175]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_176, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_177, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_178, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A QUINTO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_179, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_180, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuartosecundaria ",
+        value: "cuarto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_181, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuartoSecundaria,
+        "onUpdate:modelValue": _cache[52] || (_cache[52] = function ($event) {
+          return _ctx.form.EspecialCuartoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[53] || (_cache[53] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_182]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_183, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_184, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_185, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialquintosecundaria",
+        value: "quinto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_186, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialQuintoSecundaria,
+        "onUpdate:modelValue": _cache[54] || (_cache[54] = function ($event) {
+          return _ctx.form.EspecialQuintoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[55] || (_cache[55] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_187]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_188, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_189, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_190, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_191, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_192, [_hoisted_193, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_194, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_195, [_hoisted_196, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_197, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_198, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "inicialprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_199, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.InicialPrimerGrado,
+        "onUpdate:modelValue": _cache[56] || (_cache[56] = function ($event) {
+          return _ctx.form.InicialPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[57] || (_cache[57] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_200]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_201, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_202, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_203, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "inicialsegundogrado ",
+        value: "segundo grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_204, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.InicialSegundoGrado,
+        "onUpdate:modelValue": _cache[58] || (_cache[58] = function ($event) {
+          return _ctx.form.InicialSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[59] || (_cache[59] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_205]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_206, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_207, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_208, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_209, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_210, [_hoisted_211, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_212, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_213, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermedioprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_214, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioPrimerGrado,
+        "onUpdate:modelValue": _cache[60] || (_cache[60] = function ($event) {
+          return _ctx.form.IntermedioPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[61] || (_cache[61] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_215]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_216, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_217, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_218, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermediosegundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_219, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioSegundoGrado,
+        "onUpdate:modelValue": _cache[62] || (_cache[62] = function ($event) {
+          return _ctx.form.IntermedioSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[63] || (_cache[63] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_220]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_221, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_222, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_223, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermediotercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_224, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioTercerGrado,
+        "onUpdate:modelValue": _cache[64] || (_cache[64] = function ($event) {
+          return _ctx.form.IntermedioTercerGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[65] || (_cache[65] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_225]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_226, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_227, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_228, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_229, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_230, [_hoisted_231, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_232, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_233, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadoprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_234, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoPrimerGrado,
+        "onUpdate:modelValue": _cache[66] || (_cache[66] = function ($event) {
+          return _ctx.form.AvanzadoPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[67] || (_cache[67] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_235]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_236, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_237, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_238, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadosegundogrado",
+        value: "segundo grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_239, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoSegundoGrado,
+        "onUpdate:modelValue": _cache[68] || (_cache[68] = function ($event) {
+          return _ctx.form.AvanzadoSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[69] || (_cache[69] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_240]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_241, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_242, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_243, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadotercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_244, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoTercerGrado,
+        "onUpdate:modelValue": _cache[70] || (_cache[70] = function ($event) {
+          return _ctx.form.AvanzadoTercerGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[71] || (_cache[71] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_245]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_246, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_247, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_248, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_249, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_250, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadocuartogrado",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_251, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoCuartoGrado,
+        "onUpdate:modelValue": _cache[72] || (_cache[72] = function ($event) {
+          return _ctx.form.AvanzadoCuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Asistencia",
+        onKeypress: _cache[73] || (_cache[73] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_252]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_253, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_254, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_255, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_256, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_257, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", _hoisted_258, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetCheckbox, {
+        type: "checkbox",
+        checked: _ctx.form.ConfirmarDatos,
+        "onUpdate:checked": _cache[74] || (_cache[74] = function ($event) {
+          return _ctx.form.ConfirmarDatos = $event;
+        })
+      }, null, 8
+      /* PROPS */
+      , ["checked"]), _hoisted_259]), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.ConfirmarDatos.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_260, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(error.$message), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])], 32
+      /* HYDRATE_EVENTS */
+      ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetButton, {
+        form: "formGuardar",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["my-3", {
+          'opacity-25': _ctx.form.processing
+        }]),
+        disabled: _ctx.form.processing || _ctx.v$.form.$invalid
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Guardar " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.form.progress ? "".concat(_ctx.form.progress.percentage, "% ") : ""), 1
+          /* TEXT */
+          )];
+        }),
+        _: 1
+        /* STABLE */
+
+      }, 8
+      /* PROPS */
+      , ["class", "disabled"])])])])])])])];
+    }),
+    _: 1
+    /* STABLE */
+
+  });
 }
 
 /***/ }),
@@ -35936,6 +42380,2674 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=template&id=bc77b4b4":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=template&id=bc77b4b4 ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "py-2"
+};
+var _hoisted_2 = {
+  "class": "max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2"
+};
+var _hoisted_3 = {
+  "class": "overflow-hidden px-2"
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-between"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "my-3 text-2xl font-semibold text-gray-600 dark:text-gray-200"
+}, " DOCENTES ")], -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
+  "class": "flex flex-col flex-wrap sm:flex-row"
+};
+var _hoisted_6 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+var _hoisted_7 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_8 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Regular ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_10 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_11 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_13 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_14 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_15 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 3 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_17 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_18 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_19 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_20 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 4 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_22 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_23 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_24 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_25 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 5 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_27 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_28 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_29 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_30 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_31 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Primaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_33 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_34 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_35 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_37 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_38 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_39 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_40 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_42 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_43 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_44 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_45 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_47 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_48 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_49 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_50 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_51 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_52 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de cuarto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_54 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_55 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_56 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_57 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_58 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de quinto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_59 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_60 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_61 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_62 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de sexto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_64 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_65 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_66 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_67 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_68 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_69 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Secundaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_70 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_71 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_72 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_73 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_74 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_75 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_76 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_77 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_78 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_79 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_80 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_81 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_82 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_83 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercero de Secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_84 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_85 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_86 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_87 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_88 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_89 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_90 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_91 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_92 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_93 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_94 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_95 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_96 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_97 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_98 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_99 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_100 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_101 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Especial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_102 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_103 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_104 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_105 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_106 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_107 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_108 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 3 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_109 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_110 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_111 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_112 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_113 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 4 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_114 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_115 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_116 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_117 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_118 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 5 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_119 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_120 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_121 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_122 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_123 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_124 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Primaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_125 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_126 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_127 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_128 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_129 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_130 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_131 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_132 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_134 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_135 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_136 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_137 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_138 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_139 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_140 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_141 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_142 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_143 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_144 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_145 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de cuarto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_146 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_147 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_148 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_149 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_150 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de quinto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_151 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_152 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_153 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_154 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_155 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de sexto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_156 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_157 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_158 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_159 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_160 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_161 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Secundaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_162 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_163 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_164 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_165 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_166 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_167 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_168 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_169 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_170 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_171 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_172 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_173 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_174 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_175 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercero de Secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_176 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_177 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_178 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_179 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_180 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_181 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_182 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_183 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_184 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_185 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_186 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_187 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_188 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_189 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_190 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_191 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_192 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_193 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Alternativa ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_194 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_195 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_196 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_197 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_198 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_199 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_200 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 3 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_201 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_202 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_203 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_204 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_205 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 4 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_206 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_207 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_208 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_209 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_210 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_211 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Intermedio ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_212 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_213 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_214 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_215 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_216 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_217 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_218 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_219 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_220 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_221 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_222 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_223 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_224 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_225 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_226 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_227 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_228 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_229 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_230 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_231 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Avanzado ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_232 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_233 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_234 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_235 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_236 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_237 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_238 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_239 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_240 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_241 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_242 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_243 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_244 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_245 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_246 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_247 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_248 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_249 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_250 = {
+  "class": "grid grid-cols-1 md:grid-cols-2 md:gap-8"
+};
+var _hoisted_251 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_252 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_253 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_254 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_255 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_256 = {
+  "class": "grid grid-cols-1 md:grid-cols-1 md:gap-8"
+};
+var _hoisted_257 = {
+  "class": "block mt-4"
+};
+var _hoisted_258 = {
+  "class": "flex items-center"
+};
+
+var _hoisted_259 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "ml-2 font-medium text-sm text-gray-700 dark:text-white"
+}, "Confirmar si la informacion es correcta antes de guardar", -1
+/* HOISTED */
+);
+
+var _hoisted_260 = {
+  "class": "text-xs py-2 px-2 text-red-400 dark:text-red-400"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
+
+  var _component_JetLabel = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetLabel");
+
+  var _component_JetInput = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetInput");
+
+  var _component_JetCheckbox = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetCheckbox");
+
+  var _component_JetButton = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetButton");
+
+  var _component_MainLayout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("MainLayout");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_MainLayout, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, {
+        title: "Docentes Crear"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+        id: "formGuardar",
+        onSubmit: _cache[75] || (_cache[75] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+          return _ctx.GuardarInfraestructura && _ctx.GuardarInfraestructura.apply(_ctx, arguments);
+        }, ["prevent"]))
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tresanos ",
+        value: "niños de 3 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.tresaños,
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
+          return _ctx.form.tresaños = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[1] || (_cache[1] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_16]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuatroanos ",
+        value: "niños de 4 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.NumeroDocumento,
+        "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
+          return _ctx.form.NumeroDocumento = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[3] || (_cache[3] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_21]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cincoanos ",
+        value: "niños de 5 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.NumeroDocumento,
+        "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
+          return _ctx.form.NumeroDocumento = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[5] || (_cache[5] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_26]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [_hoisted_32, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alumnos de primero a tercer grado de primaria"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "primergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.PrimerGrado,
+        "onUpdate:modelValue": _cache[6] || (_cache[6] = function ($event) {
+          return _ctx.form.PrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[7] || (_cache[7] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_36]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "segundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SegundoGrado,
+        "onUpdate:modelValue": _cache[8] || (_cache[8] = function ($event) {
+          return _ctx.form.SegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[9] || (_cache[9] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_41]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_42, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.TercerGrado,
+        "onUpdate:modelValue": _cache[10] || (_cache[10] = function ($event) {
+          return _ctx.form.TercerGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[11] || (_cache[11] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_46]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_48, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alumnos de cuarto a sexto grado de primaria"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuartogrado ",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.CuartoGrado,
+        "onUpdate:modelValue": _cache[12] || (_cache[12] = function ($event) {
+          return _ctx.form.CuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[13] || (_cache[13] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_53]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_55, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "quintogrado ",
+        value: "quintogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.QuintoGrado,
+        "onUpdate:modelValue": _cache[14] || (_cache[14] = function ($event) {
+          return _ctx.form.QuintoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[15] || (_cache[15] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_58]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_59, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_60, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_61, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "sextogrado ",
+        value: "sexto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SextoGrado,
+        "onUpdate:modelValue": _cache[16] || (_cache[16] = function ($event) {
+          return _ctx.form.SextoGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[17] || (_cache[17] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_63]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_64, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION SECUNDARIA"), _hoisted_69, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_70, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_71, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "primerosecundaria ",
+        value: "primero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_72, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.PrimeroSecundaria,
+        "onUpdate:modelValue": _cache[18] || (_cache[18] = function ($event) {
+          return _ctx.form.PrimeroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[19] || (_cache[19] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_73]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_74, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_75, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_76, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "segundosecundaria",
+        value: "segundo de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_77, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SegundoSecundaria,
+        "onUpdate:modelValue": _cache[20] || (_cache[20] = function ($event) {
+          return _ctx.form.SegundoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[21] || (_cache[21] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_78]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_79, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_80, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_81, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tercerosecundaria ",
+        value: "tercero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_82, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.TerceroSecundaria,
+        "onUpdate:modelValue": _cache[22] || (_cache[22] = function ($event) {
+          return _ctx.form.TerceroSecundaria = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[23] || (_cache[23] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_83]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_85, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_86, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A QUINTO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_87, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_88, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuartosecundaria ",
+        value: "cuarto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_89, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.CuartoSecundaria,
+        "onUpdate:modelValue": _cache[24] || (_cache[24] = function ($event) {
+          return _ctx.form.CuartoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[25] || (_cache[25] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_90]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_91, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_92, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_93, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "quintosecundaria",
+        value: "quinto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_94, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.QuintoSecundaria,
+        "onUpdate:modelValue": _cache[26] || (_cache[26] = function ($event) {
+          return _ctx.form.QuintoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[27] || (_cache[27] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_95]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_96, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_97, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_98, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_99, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_100, [_hoisted_101, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION INICIAL"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_103, [_hoisted_104, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Formulario Educacion Inicial"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_105, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_106, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtresanos ",
+        value: "niños de 3 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_107, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTresAnos,
+        "onUpdate:modelValue": _cache[28] || (_cache[28] = function ($event) {
+          return _ctx.form.EspecialTresAnos = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[29] || (_cache[29] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_108]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_109, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_110, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_111, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuatroanos ",
+        value: "niños de 4 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuatroAnos,
+        "onUpdate:modelValue": _cache[30] || (_cache[30] = function ($event) {
+          return _ctx.form.EspecialCuatroAnos = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[31] || (_cache[31] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_113]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_114, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_115, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_116, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcincoanos ",
+        value: "niños de 5 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_117, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCincoAnos,
+        "onUpdate:modelValue": _cache[32] || (_cache[32] = function ($event) {
+          return _ctx.form.EspecialCincoAnos = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[33] || (_cache[33] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_118]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_119, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_120, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_121, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION PRIMARIA "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_122, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_123, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION PRIMARIA"), _hoisted_124, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO PRIMERO A TERCER GRADO PRIMARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_125, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_126, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_127, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialPrimerGrado,
+        "onUpdate:modelValue": _cache[34] || (_cache[34] = function ($event) {
+          return _ctx.form.EspecialPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[35] || (_cache[35] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_128]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_129, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_130, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_131, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsegundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_132, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSegundoGrado,
+        "onUpdate:modelValue": _cache[36] || (_cache[36] = function ($event) {
+          return _ctx.form.EspecialSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[37] || (_cache[37] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_133]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_134, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_135, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_136, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_137, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTercerGrado,
+        "onUpdate:modelValue": _cache[38] || (_cache[38] = function ($event) {
+          return _ctx.form.EspecialTercerGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[39] || (_cache[39] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_138]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_139, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_140, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_141, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A SEXTO PRIMARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_142, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_143, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuartogrado ",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_144, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuartoGrado,
+        "onUpdate:modelValue": _cache[40] || (_cache[40] = function ($event) {
+          return _ctx.form.EspecialCuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[41] || (_cache[41] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_145]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_146, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_147, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialquintogrado ",
+        value: "quintogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_149, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialQuintoGrado,
+        "onUpdate:modelValue": _cache[42] || (_cache[42] = function ($event) {
+          return _ctx.form.EspecialQuintoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[43] || (_cache[43] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_150]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_151, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_152, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_153, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsextogrado ",
+        value: "sexto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_154, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSextoGrado,
+        "onUpdate:modelValue": _cache[44] || (_cache[44] = function ($event) {
+          return _ctx.form.EspecialSextoGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[45] || (_cache[45] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_155]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_156, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_157, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_158, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_159, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_160, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION SECUNDARIA "), _hoisted_161, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO PRIMERO A TERCERO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_162, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_163, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialprimerosecundaria ",
+        value: "primero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_164, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialPrimeroSecundaria,
+        "onUpdate:modelValue": _cache[46] || (_cache[46] = function ($event) {
+          return _ctx.form.EspecialPrimeroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[47] || (_cache[47] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_165]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_166, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_167, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_168, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsegundosecundaria",
+        value: "segundo de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_169, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSegundoSecundaria,
+        "onUpdate:modelValue": _cache[48] || (_cache[48] = function ($event) {
+          return _ctx.form.EspecialSegundoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[49] || (_cache[49] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_170]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_171, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_172, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_173, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtercerosecundaria ",
+        value: "tercero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_174, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTerceroSecundaria,
+        "onUpdate:modelValue": _cache[50] || (_cache[50] = function ($event) {
+          return _ctx.form.EspecialTerceroSecundaria = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[51] || (_cache[51] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_175]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_176, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_177, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_178, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A QUINTO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_179, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_180, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuartosecundaria ",
+        value: "cuarto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_181, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuartoSecundaria,
+        "onUpdate:modelValue": _cache[52] || (_cache[52] = function ($event) {
+          return _ctx.form.EspecialCuartoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[53] || (_cache[53] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_182]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_183, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_184, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_185, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialquintosecundaria",
+        value: "quinto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_186, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialQuintoSecundaria,
+        "onUpdate:modelValue": _cache[54] || (_cache[54] = function ($event) {
+          return _ctx.form.EspecialQuintoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[55] || (_cache[55] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_187]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_188, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_189, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_190, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_191, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_192, [_hoisted_193, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_194, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_195, [_hoisted_196, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_197, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_198, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "inicialprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_199, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.InicialPrimerGrado,
+        "onUpdate:modelValue": _cache[56] || (_cache[56] = function ($event) {
+          return _ctx.form.InicialPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[57] || (_cache[57] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_200]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_201, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_202, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_203, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "inicialsegundogrado ",
+        value: "segundo grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_204, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.InicialSegundoGrado,
+        "onUpdate:modelValue": _cache[58] || (_cache[58] = function ($event) {
+          return _ctx.form.InicialSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[59] || (_cache[59] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_205]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_206, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_207, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_208, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_209, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_210, [_hoisted_211, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_212, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_213, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermedioprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_214, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioPrimerGrado,
+        "onUpdate:modelValue": _cache[60] || (_cache[60] = function ($event) {
+          return _ctx.form.IntermedioPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[61] || (_cache[61] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_215]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_216, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_217, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_218, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermediosegundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_219, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioSegundoGrado,
+        "onUpdate:modelValue": _cache[62] || (_cache[62] = function ($event) {
+          return _ctx.form.IntermedioSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[63] || (_cache[63] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_220]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_221, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_222, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_223, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermediotercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_224, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioTercerGrado,
+        "onUpdate:modelValue": _cache[64] || (_cache[64] = function ($event) {
+          return _ctx.form.IntermedioTercerGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[65] || (_cache[65] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_225]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_226, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_227, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_228, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_229, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_230, [_hoisted_231, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_232, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_233, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadoprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_234, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoPrimerGrado,
+        "onUpdate:modelValue": _cache[66] || (_cache[66] = function ($event) {
+          return _ctx.form.AvanzadoPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[67] || (_cache[67] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_235]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_236, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_237, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_238, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadosegundogrado",
+        value: "segundo grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_239, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoSegundoGrado,
+        "onUpdate:modelValue": _cache[68] || (_cache[68] = function ($event) {
+          return _ctx.form.AvanzadoSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[69] || (_cache[69] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_240]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_241, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_242, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_243, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadotercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_244, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoTercerGrado,
+        "onUpdate:modelValue": _cache[70] || (_cache[70] = function ($event) {
+          return _ctx.form.AvanzadoTercerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[71] || (_cache[71] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_245]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_246, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_247, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_248, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_249, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_250, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadocuartogrado",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_251, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoCuartoGrado,
+        "onUpdate:modelValue": _cache[72] || (_cache[72] = function ($event) {
+          return _ctx.form.AvanzadoCuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[73] || (_cache[73] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_252]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_253, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_254, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_255, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_256, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_257, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", _hoisted_258, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetCheckbox, {
+        type: "checkbox",
+        checked: _ctx.form.ConfirmarDatos,
+        "onUpdate:checked": _cache[74] || (_cache[74] = function ($event) {
+          return _ctx.form.ConfirmarDatos = $event;
+        })
+      }, null, 8
+      /* PROPS */
+      , ["checked"]), _hoisted_259]), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.ConfirmarDatos.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_260, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(error.$message), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])], 32
+      /* HYDRATE_EVENTS */
+      ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetButton, {
+        form: "formGuardar",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["my-3", {
+          'opacity-25': _ctx.form.processing
+        }]),
+        disabled: _ctx.form.processing || _ctx.v$.form.$invalid
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Guardar " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.form.progress ? "".concat(_ctx.form.progress.percentage, "% ") : ""), 1
+          /* TEXT */
+          )];
+        }),
+        _: 1
+        /* STABLE */
+
+      }, 8
+      /* PROPS */
+      , ["class", "disabled"])])])])])])])];
+    }),
+    _: 1
+    /* STABLE */
+
+  });
+}
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=template&id=6dd7e9ac":
 /*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=template&id=6dd7e9ac ***!
@@ -36215,6 +45327,2674 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
           key: index
         }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(error.$message), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])], 32
+      /* HYDRATE_EVENTS */
+      ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetButton, {
+        form: "formGuardar",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["my-3", {
+          'opacity-25': _ctx.form.processing
+        }]),
+        disabled: _ctx.form.processing || _ctx.v$.form.$invalid
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Guardar " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.form.progress ? "".concat(_ctx.form.progress.percentage, "% ") : ""), 1
+          /* TEXT */
+          )];
+        }),
+        _: 1
+        /* STABLE */
+
+      }, 8
+      /* PROPS */
+      , ["class", "disabled"])])])])])])])];
+    }),
+    _: 1
+    /* STABLE */
+
+  });
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=template&id=90528200":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=template&id=90528200 ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "py-2"
+};
+var _hoisted_2 = {
+  "class": "max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2"
+};
+var _hoisted_3 = {
+  "class": "overflow-hidden px-2"
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-between"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "my-3 text-2xl font-semibold text-gray-600 dark:text-gray-200"
+}, " MATRICULADOS ")], -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
+  "class": "flex flex-col flex-wrap sm:flex-row"
+};
+var _hoisted_6 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+var _hoisted_7 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_8 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Regular ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_10 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_11 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_13 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_14 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_15 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 3 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_17 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_18 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_19 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_20 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 4 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_22 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_23 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_24 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_25 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 5 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_27 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_28 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_29 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_30 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_31 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Primaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_33 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_34 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_35 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_37 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_38 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_39 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_40 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_42 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_43 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_44 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_45 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_47 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_48 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_49 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_50 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_51 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_52 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de cuarto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_54 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_55 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_56 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_57 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_58 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de quinto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_59 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_60 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_61 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_62 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de sexto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_64 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_65 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_66 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_67 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_68 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_69 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Secundaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_70 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_71 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_72 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_73 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_74 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_75 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_76 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_77 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_78 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_79 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_80 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_81 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_82 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_83 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercero de Secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_84 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_85 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_86 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_87 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_88 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_89 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_90 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_91 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_92 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_93 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_94 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_95 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_96 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_97 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_98 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_99 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_100 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_101 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Especial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_102 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_103 = {
+  "class": "shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_104 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_105 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_106 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_107 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_108 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 3 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_109 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_110 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_111 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_112 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_113 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 4 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_114 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_115 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_116 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_117 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_118 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 5 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_119 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_120 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_121 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_122 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_123 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_124 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Primaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_125 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_126 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_127 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_128 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_129 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_130 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_131 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_132 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_134 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_135 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_136 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_137 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_138 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_139 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_140 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_141 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_142 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_143 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_144 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_145 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de cuarto grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_146 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_147 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_148 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_149 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_150 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de quinto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_151 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_152 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_153 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_154 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_155 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de sexto grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_156 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_157 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_158 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_159 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_160 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_161 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Secundaria ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_162 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_163 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_164 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_165 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_166 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_167 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_168 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_169 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_170 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_171 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_172 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_173 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_174 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_175 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercero de Secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_176 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_177 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_178 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_179 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_180 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_181 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_182 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_183 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_184 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_185 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_186 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_187 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_188 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_189 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_190 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_191 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_192 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_193 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Educacion Basica Alternativa ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_194 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_195 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_196 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Inicial ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_197 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_198 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_199 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_200 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 3 años. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_201 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_202 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_203 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_204 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_205 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de niños de 4 años "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_206 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_207 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_208 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_209 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_210 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_211 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Intermedio ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_212 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_213 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_214 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_215 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer grado. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_216 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_217 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_218 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_219 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_220 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_221 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_222 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_223 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_224 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_225 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de tercer grado "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_226 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_227 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_228 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_229 = {
+  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+};
+var _hoisted_230 = {
+  "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
+};
+
+var _hoisted_231 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col md:flex-row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "w-full flex-1 mx-2 mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-2 text-2xl font-medium text-gray-600 dark:text-white"
+}, " Avanzado ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_232 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_233 = {
+  "class": "grid grid-cols-1 md:grid-cols-3 md:gap-8"
+};
+var _hoisted_234 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_235 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_236 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_237 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_238 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_239 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_240 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_241 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_242 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_243 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_244 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_245 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de primer año de secundaria. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_246 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_247 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_248 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_249 = {
+  "class": "flex flex-col md:flex-row"
+};
+var _hoisted_250 = {
+  "class": "grid grid-cols-1 md:grid-cols-2 md:gap-8"
+};
+var _hoisted_251 = {
+  "class": "group w-full cursor-pointer relative inline-block text-center"
+};
+
+var _hoisted_252 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "opacity-0 w-auto bg-yellow-300 text-gray-600 text-center text-xs rounded-lg py-1 absolute z-10 group-hover:opacity-100 bottom-full px-2 pointer-events-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Porfavor ingresar la cantidad de alumnos de segundo de secundaria "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "absolute text-yellow-300 h-2 w-full left-0 top-full",
+  x: "0px",
+  y: "0px",
+  viewBox: "0 0 255 255",
+  "xml:space": "preserve"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("polygon", {
+  "class": "fill-current",
+  points: "0,0 127.5,127.5 255,0"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_253 = {
+  key: 0,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_254 = {
+  key: 1,
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_255 = {
+  "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
+};
+var _hoisted_256 = {
+  "class": "grid grid-cols-1 md:grid-cols-1 md:gap-8"
+};
+var _hoisted_257 = {
+  "class": "block mt-4"
+};
+var _hoisted_258 = {
+  "class": "flex items-center"
+};
+
+var _hoisted_259 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "ml-2 font-medium text-sm text-gray-700 dark:text-white"
+}, "Confirmar si la informacion es correcta antes de guardar", -1
+/* HOISTED */
+);
+
+var _hoisted_260 = {
+  "class": "text-xs py-2 px-2 text-red-400 dark:text-red-400"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
+
+  var _component_JetLabel = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetLabel");
+
+  var _component_JetInput = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetInput");
+
+  var _component_JetCheckbox = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetCheckbox");
+
+  var _component_JetButton = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("JetButton");
+
+  var _component_MainLayout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("MainLayout");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_MainLayout, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, {
+        title: "Matriculados Crear"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+        id: "formGuardar",
+        onSubmit: _cache[75] || (_cache[75] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+          return _ctx.GuardarInfraestructura && _ctx.GuardarInfraestructura.apply(_ctx, arguments);
+        }, ["prevent"]))
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tresanos ",
+        value: "niños de 3 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.tresaños,
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
+          return _ctx.form.tresaños = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[1] || (_cache[1] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_16]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuatroanos ",
+        value: "niños de 4 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.NumeroDocumento,
+        "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
+          return _ctx.form.NumeroDocumento = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[3] || (_cache[3] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_21]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cincoanos ",
+        value: "niños de 5 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.NumeroDocumento,
+        "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
+          return _ctx.form.NumeroDocumento = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[5] || (_cache[5] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_26]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [_hoisted_32, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alumnos de primero a tercer grado de primaria"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "primergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.PrimerGrado,
+        "onUpdate:modelValue": _cache[6] || (_cache[6] = function ($event) {
+          return _ctx.form.PrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[7] || (_cache[7] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_36]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "segundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SegundoGrado,
+        "onUpdate:modelValue": _cache[8] || (_cache[8] = function ($event) {
+          return _ctx.form.SegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[9] || (_cache[9] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_41]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_42, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.TercerGrado,
+        "onUpdate:modelValue": _cache[10] || (_cache[10] = function ($event) {
+          return _ctx.form.TercerGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[11] || (_cache[11] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_46]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_48, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alumnos de cuarto a sexto grado de primaria"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuartogrado ",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.CuartoGrado,
+        "onUpdate:modelValue": _cache[12] || (_cache[12] = function ($event) {
+          return _ctx.form.CuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[13] || (_cache[13] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_53]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_55, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "quintogrado ",
+        value: "quintogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.QuintoGrado,
+        "onUpdate:modelValue": _cache[14] || (_cache[14] = function ($event) {
+          return _ctx.form.QuintoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[15] || (_cache[15] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_58]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_59, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_60, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_61, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "sextogrado ",
+        value: "sexto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SextoGrado,
+        "onUpdate:modelValue": _cache[16] || (_cache[16] = function ($event) {
+          return _ctx.form.SextoGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[17] || (_cache[17] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_63]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_64, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_67, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION SECUNDARIA"), _hoisted_69, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_70, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_71, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "primerosecundaria ",
+        value: "primero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_72, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.PrimeroSecundaria,
+        "onUpdate:modelValue": _cache[18] || (_cache[18] = function ($event) {
+          return _ctx.form.PrimeroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[19] || (_cache[19] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_73]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_74, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_75, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_76, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "segundosecundaria",
+        value: "segundo de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_77, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.SegundoSecundaria,
+        "onUpdate:modelValue": _cache[20] || (_cache[20] = function ($event) {
+          return _ctx.form.SegundoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[21] || (_cache[21] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_78]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_79, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_80, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_81, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "tercerosecundaria ",
+        value: "tercero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_82, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.TerceroSecundaria,
+        "onUpdate:modelValue": _cache[22] || (_cache[22] = function ($event) {
+          return _ctx.form.TerceroSecundaria = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[23] || (_cache[23] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_83]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_85, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_86, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A QUINTO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_87, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_88, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "cuartosecundaria ",
+        value: "cuarto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_89, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.CuartoSecundaria,
+        "onUpdate:modelValue": _cache[24] || (_cache[24] = function ($event) {
+          return _ctx.form.CuartoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[25] || (_cache[25] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_90]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_91, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_92, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_93, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "quintosecundaria",
+        value: "quinto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_94, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.QuintoSecundaria,
+        "onUpdate:modelValue": _cache[26] || (_cache[26] = function ($event) {
+          return _ctx.form.QuintoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[27] || (_cache[27] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_95]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_96, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_97, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_98, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_99, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_100, [_hoisted_101, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION INICIAL"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_103, [_hoisted_104, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Formulario Educacion Inicial"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_105, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_106, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtresanos ",
+        value: "niños de 3 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_107, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTresAnos,
+        "onUpdate:modelValue": _cache[28] || (_cache[28] = function ($event) {
+          return _ctx.form.EspecialTresAnos = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[29] || (_cache[29] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_108]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_109, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_110, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_111, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuatroanos ",
+        value: "niños de 4 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuatroAnos,
+        "onUpdate:modelValue": _cache[30] || (_cache[30] = function ($event) {
+          return _ctx.form.EspecialCuatroAnos = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[31] || (_cache[31] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_113]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_114, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_115, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_116, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcincoanos ",
+        value: "niños de 5 años:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_117, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCincoAnos,
+        "onUpdate:modelValue": _cache[32] || (_cache[32] = function ($event) {
+          return _ctx.form.EspecialCincoAnos = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[33] || (_cache[33] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_118]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_119, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_120, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_121, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION PRIMARIA "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_122, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_123, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION PRIMARIA"), _hoisted_124, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO PRIMERO A TERCER GRADO PRIMARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_125, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_126, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_127, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialPrimerGrado,
+        "onUpdate:modelValue": _cache[34] || (_cache[34] = function ($event) {
+          return _ctx.form.EspecialPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[35] || (_cache[35] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_128]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_129, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_130, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_131, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsegundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_132, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSegundoGrado,
+        "onUpdate:modelValue": _cache[36] || (_cache[36] = function ($event) {
+          return _ctx.form.EspecialSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[37] || (_cache[37] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_133]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_134, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_135, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_136, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_137, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTercerGrado,
+        "onUpdate:modelValue": _cache[38] || (_cache[38] = function ($event) {
+          return _ctx.form.EspecialTercerGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[39] || (_cache[39] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_138]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_139, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_140, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_141, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A SEXTO PRIMARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_142, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_143, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuartogrado ",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_144, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuartoGrado,
+        "onUpdate:modelValue": _cache[40] || (_cache[40] = function ($event) {
+          return _ctx.form.EspecialCuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[41] || (_cache[41] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_145]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_146, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_147, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialquintogrado ",
+        value: "quintogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_149, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialQuintoGrado,
+        "onUpdate:modelValue": _cache[42] || (_cache[42] = function ($event) {
+          return _ctx.form.EspecialQuintoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[43] || (_cache[43] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_150]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_151, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_152, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_153, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsextogrado ",
+        value: "sexto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_154, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSextoGrado,
+        "onUpdate:modelValue": _cache[44] || (_cache[44] = function ($event) {
+          return _ctx.form.EspecialSextoGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[45] || (_cache[45] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_155]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_156, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_157, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_158, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCACION SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_159, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_160, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" TITULO EDUCACION SECUNDARIA "), _hoisted_161, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO PRIMERO A TERCERO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_162, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_163, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialprimerosecundaria ",
+        value: "primero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_164, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialPrimeroSecundaria,
+        "onUpdate:modelValue": _cache[46] || (_cache[46] = function ($event) {
+          return _ctx.form.EspecialPrimeroSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[47] || (_cache[47] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_165]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_166, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_167, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_168, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialsegundosecundaria",
+        value: "segundo de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_169, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialSegundoSecundaria,
+        "onUpdate:modelValue": _cache[48] || (_cache[48] = function ($event) {
+          return _ctx.form.EspecialSegundoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[49] || (_cache[49] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_170]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_171, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_172, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_173, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialtercerosecundaria ",
+        value: "tercero de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_174, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialTerceroSecundaria,
+        "onUpdate:modelValue": _cache[50] || (_cache[50] = function ($event) {
+          return _ctx.form.EspecialTerceroSecundaria = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[51] || (_cache[51] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_175]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_176, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_177, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_178, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FORMULARIO DE CUARTO A QUINTO SECUNDARIA"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_179, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_180, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialcuartosecundaria ",
+        value: "cuarto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_181, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialCuartoSecundaria,
+        "onUpdate:modelValue": _cache[52] || (_cache[52] = function ($event) {
+          return _ctx.form.EspecialCuartoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[53] || (_cache[53] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_182]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_183, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_184, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_185, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "especialquintosecundaria",
+        value: "quinto de secundaria:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_186, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.EspecialQuintoSecundaria,
+        "onUpdate:modelValue": _cache[54] || (_cache[54] = function ($event) {
+          return _ctx.form.EspecialQuintoSecundaria = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[55] || (_cache[55] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_187]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_188, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_189, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_190, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_191, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_192, [_hoisted_193, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_194, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_195, [_hoisted_196, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_197, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_198, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "inicialprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_199, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.InicialPrimerGrado,
+        "onUpdate:modelValue": _cache[56] || (_cache[56] = function ($event) {
+          return _ctx.form.InicialPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[57] || (_cache[57] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_200]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_201, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_202, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_203, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "inicialsegundogrado ",
+        value: "segundo grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_204, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.InicialSegundoGrado,
+        "onUpdate:modelValue": _cache[58] || (_cache[58] = function ($event) {
+          return _ctx.form.InicialSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[59] || (_cache[59] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_205]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_206, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_207, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_208, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_209, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_210, [_hoisted_211, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_212, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_213, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermedioprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_214, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioPrimerGrado,
+        "onUpdate:modelValue": _cache[60] || (_cache[60] = function ($event) {
+          return _ctx.form.IntermedioPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[61] || (_cache[61] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_215]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_216, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_217, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_218, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermediosegundogrado ",
+        value: "segundogrado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_219, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioSegundoGrado,
+        "onUpdate:modelValue": _cache[62] || (_cache[62] = function ($event) {
+          return _ctx.form.IntermedioSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[63] || (_cache[63] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_220]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_221, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_222, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_223, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "intermediotercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_224, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.IntermedioTercerGrado,
+        "onUpdate:modelValue": _cache[64] || (_cache[64] = function ($event) {
+          return _ctx.form.IntermedioTercerGrado = $event;
+        }),
+        placeholder: "Ingresar cantidad",
+        onKeypress: _cache[65] || (_cache[65] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_225]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_226, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_227, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_228, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_229, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_230, [_hoisted_231, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_232, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_233, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadoprimergrado ",
+        value: "primer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_234, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoPrimerGrado,
+        "onUpdate:modelValue": _cache[66] || (_cache[66] = function ($event) {
+          return _ctx.form.AvanzadoPrimerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[67] || (_cache[67] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_235]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_236, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_237, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_238, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadosegundogrado",
+        value: "segundo grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_239, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoSegundoGrado,
+        "onUpdate:modelValue": _cache[68] || (_cache[68] = function ($event) {
+          return _ctx.form.AvanzadoSegundoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[69] || (_cache[69] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_240]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_241, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_242, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_243, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadotercergrado ",
+        value: "tercer grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_244, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoTercerGrado,
+        "onUpdate:modelValue": _cache[70] || (_cache[70] = function ($event) {
+          return _ctx.form.AvanzadoTercerGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[71] || (_cache[71] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_245]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_246, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_247, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_248, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_249, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_250, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetLabel, {
+        "for": "avanzadocuartogrado",
+        value: "cuarto grado:"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start tooltip "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_251, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" start icono editar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetInput, {
+        type: "text",
+        "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["mt-1 block w-full", {
+          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200': _ctx.v$.form.NumeroDocumento.$error
+        }]),
+        autofocus: "",
+        modelValue: _ctx.form.AvanzadoCuartoGrado,
+        "onUpdate:modelValue": _cache[72] || (_cache[72] = function ($event) {
+          return _ctx.form.AvanzadoCuartoGrado = $event;
+        }),
+        placeholder: "Ingresar Cantidad",
+        onKeypress: _cache[73] || (_cache[73] = function ($event) {
+          return _ctx.SoloNumeros($event);
+        })
+      }, null, 8
+      /* PROPS */
+      , ["modelValue", "class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end icono editar "), _hoisted_252]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" end tooltip "), _ctx.errors.NumeroDocumento ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_253, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.errors.CodigoPersona ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_254, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+      /* TEXT */
+      )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.NumeroDocumento.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_255, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(), 1
+        /* TEXT */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_256, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_257, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", _hoisted_258, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_JetCheckbox, {
+        type: "checkbox",
+        checked: _ctx.form.ConfirmarDatos,
+        "onUpdate:checked": _cache[74] || (_cache[74] = function ($event) {
+          return _ctx.form.ConfirmarDatos = $event;
+        })
+      }, null, 8
+      /* PROPS */
+      , ["checked"]), _hoisted_259]), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.v$.form.ConfirmarDatos.$errors, function (error, index) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: index
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_260, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(error.$message), 1
         /* TEXT */
         )]);
       }), 128
@@ -71951,6 +83731,62 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Aprobados/AprobadosInsertar.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/Pages/Aprobados/AprobadosInsertar.vue ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _AprobadosInsertar_vue_vue_type_template_id_44dedd7c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AprobadosInsertar.vue?vue&type=template&id=44dedd7c */ "./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=template&id=44dedd7c");
+/* harmony import */ var _AprobadosInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AprobadosInsertar.vue?vue&type=script&lang=js */ "./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=script&lang=js");
+/* harmony import */ var C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_AprobadosInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_AprobadosInsertar_vue_vue_type_template_id_44dedd7c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Aprobados/AprobadosInsertar.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Asistencia/AsistenciaInsertar.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/Pages/Asistencia/AsistenciaInsertar.vue ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _AsistenciaInsertar_vue_vue_type_template_id_0ff069c0__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AsistenciaInsertar.vue?vue&type=template&id=0ff069c0 */ "./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=template&id=0ff069c0");
+/* harmony import */ var _AsistenciaInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AsistenciaInsertar.vue?vue&type=script&lang=js */ "./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=script&lang=js");
+/* harmony import */ var C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_AsistenciaInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_AsistenciaInsertar_vue_vue_type_template_id_0ff069c0__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Asistencia/AsistenciaInsertar.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Auth/ConfirmPassword.vue":
 /*!*****************************************************!*\
   !*** ./resources/js/Pages/Auth/ConfirmPassword.vue ***!
@@ -72315,6 +84151,34 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Docente/DocenteInsertar.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/Pages/Docente/DocenteInsertar.vue ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _DocenteInsertar_vue_vue_type_template_id_bc77b4b4__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DocenteInsertar.vue?vue&type=template&id=bc77b4b4 */ "./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=template&id=bc77b4b4");
+/* harmony import */ var _DocenteInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DocenteInsertar.vue?vue&type=script&lang=js */ "./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=script&lang=js");
+/* harmony import */ var C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_DocenteInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_DocenteInsertar_vue_vue_type_template_id_bc77b4b4__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Docente/DocenteInsertar.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Infraestructura/Infraestructura.vue":
 /*!****************************************************************!*\
   !*** ./resources/js/Pages/Infraestructura/Infraestructura.vue ***!
@@ -72335,6 +84199,34 @@ __webpack_require__.r(__webpack_exports__);
 
 ;
 const __exports__ = /*#__PURE__*/(0,C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Infraestructura_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Infraestructura_vue_vue_type_template_id_6dd7e9ac__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Infraestructura/Infraestructura.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Matriculados/MatriculadosInsertar.vue":
+/*!******************************************************************!*\
+  !*** ./resources/js/Pages/Matriculados/MatriculadosInsertar.vue ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _MatriculadosInsertar_vue_vue_type_template_id_90528200__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MatriculadosInsertar.vue?vue&type=template&id=90528200 */ "./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=template&id=90528200");
+/* harmony import */ var _MatriculadosInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MatriculadosInsertar.vue?vue&type=script&lang=js */ "./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=script&lang=js");
+/* harmony import */ var C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_xampp_htdocs_america_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_MatriculadosInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_MatriculadosInsertar_vue_vue_type_template_id_90528200__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Matriculados/MatriculadosInsertar.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -73458,6 +85350,38 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=script&lang=js":
+/*!************************************************************************************!*\
+  !*** ./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=script&lang=js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AprobadosInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AprobadosInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./AprobadosInsertar.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=script&lang=js":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=script&lang=js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AsistenciaInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AsistenciaInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./AsistenciaInsertar.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Auth/ConfirmPassword.vue?vue&type=script&setup=true&lang=js":
 /*!****************************************************************************************!*\
   !*** ./resources/js/Pages/Auth/ConfirmPassword.vue?vue&type=script&setup=true&lang=js ***!
@@ -73666,6 +85590,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=script&lang=js":
+/*!********************************************************************************!*\
+  !*** ./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=script&lang=js ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_DocenteInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_DocenteInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./DocenteInsertar.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=script&lang=js":
 /*!****************************************************************************************!*\
   !*** ./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=script&lang=js ***!
@@ -73678,6 +85618,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Infraestructura_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Infraestructura_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Infraestructura.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=script&lang=js":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_MatriculadosInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_MatriculadosInsertar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./MatriculadosInsertar.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=script&lang=js");
  
 
 /***/ }),
@@ -74706,6 +86662,38 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=template&id=44dedd7c":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=template&id=44dedd7c ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AprobadosInsertar_vue_vue_type_template_id_44dedd7c__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AprobadosInsertar_vue_vue_type_template_id_44dedd7c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./AprobadosInsertar.vue?vue&type=template&id=44dedd7c */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Aprobados/AprobadosInsertar.vue?vue&type=template&id=44dedd7c");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=template&id=0ff069c0":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=template&id=0ff069c0 ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AsistenciaInsertar_vue_vue_type_template_id_0ff069c0__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AsistenciaInsertar_vue_vue_type_template_id_0ff069c0__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./AsistenciaInsertar.vue?vue&type=template&id=0ff069c0 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Asistencia/AsistenciaInsertar.vue?vue&type=template&id=0ff069c0");
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Auth/ConfirmPassword.vue?vue&type=template&id=475ae21d":
 /*!***********************************************************************************!*\
   !*** ./resources/js/Pages/Auth/ConfirmPassword.vue?vue&type=template&id=475ae21d ***!
@@ -74914,6 +86902,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=template&id=bc77b4b4":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=template&id=bc77b4b4 ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_DocenteInsertar_vue_vue_type_template_id_bc77b4b4__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_DocenteInsertar_vue_vue_type_template_id_bc77b4b4__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./DocenteInsertar.vue?vue&type=template&id=bc77b4b4 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Docente/DocenteInsertar.vue?vue&type=template&id=bc77b4b4");
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=template&id=6dd7e9ac":
 /*!**********************************************************************************************!*\
   !*** ./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=template&id=6dd7e9ac ***!
@@ -74926,6 +86930,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Infraestructura_vue_vue_type_template_id_6dd7e9ac__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Infraestructura_vue_vue_type_template_id_6dd7e9ac__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Infraestructura.vue?vue&type=template&id=6dd7e9ac */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Infraestructura/Infraestructura.vue?vue&type=template&id=6dd7e9ac");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=template&id=90528200":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=template&id=90528200 ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_MatriculadosInsertar_vue_vue_type_template_id_90528200__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_MatriculadosInsertar_vue_vue_type_template_id_90528200__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./MatriculadosInsertar.vue?vue&type=template&id=90528200 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Matriculados/MatriculadosInsertar.vue?vue&type=template&id=90528200");
 
 
 /***/ }),
@@ -76026,6 +88046,8 @@ function compileToFunction(template, options) {
 var map = {
 	"./API/Index.vue": "./resources/js/Pages/API/Index.vue",
 	"./API/Partials/ApiTokenManager.vue": "./resources/js/Pages/API/Partials/ApiTokenManager.vue",
+	"./Aprobados/AprobadosInsertar.vue": "./resources/js/Pages/Aprobados/AprobadosInsertar.vue",
+	"./Asistencia/AsistenciaInsertar.vue": "./resources/js/Pages/Asistencia/AsistenciaInsertar.vue",
 	"./Auth/ConfirmPassword.vue": "./resources/js/Pages/Auth/ConfirmPassword.vue",
 	"./Auth/ForgotPassword.vue": "./resources/js/Pages/Auth/ForgotPassword.vue",
 	"./Auth/Login.vue": "./resources/js/Pages/Auth/Login.vue",
@@ -76039,7 +88061,9 @@ var map = {
 	"./Autorizacion/RolesLista.vue": "./resources/js/Pages/Autorizacion/RolesLista.vue",
 	"./CercoPerimetrico/CercoInsertar.vue": "./resources/js/Pages/CercoPerimetrico/CercoInsertar.vue",
 	"./Dashboard.vue": "./resources/js/Pages/Dashboard.vue",
+	"./Docente/DocenteInsertar.vue": "./resources/js/Pages/Docente/DocenteInsertar.vue",
 	"./Infraestructura/Infraestructura.vue": "./resources/js/Pages/Infraestructura/Infraestructura.vue",
+	"./Matriculados/MatriculadosInsertar.vue": "./resources/js/Pages/Matriculados/MatriculadosInsertar.vue",
 	"./PrivacyPolicy.vue": "./resources/js/Pages/PrivacyPolicy.vue",
 	"./Profile/Partials/DeleteUserForm.vue": "./resources/js/Pages/Profile/Partials/DeleteUserForm.vue",
 	"./Profile/Partials/LogoutOtherBrowserSessionsForm.vue": "./resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue",

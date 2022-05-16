@@ -16,9 +16,7 @@
               
             </Link>
             <Link :href="route('inicio')" v-else>
-              <span class="text-red-500 dark:text-white font-black text-xl"
-                >S<span class="text-blue-500">I</span><span class="text-red-500">A</span></span
-              >
+              
             </Link>
             
             

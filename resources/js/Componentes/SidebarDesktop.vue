@@ -36,7 +36,6 @@
       <!-- BOTON SANEAMIENTO FISICO LEGAL -->
       
       <Link class="relative"  
-  
         :href="route('saneamiento.create')">
         <span
           class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
@@ -131,6 +130,143 @@
           <span class="ml-4">Servicios</span>
         </div>
      </link>
+
+     <p class="p-3 text-xs uppercase text-gray-400">MODULO II: Estudiantes</p>
+
+     <!-- BOTON DE MATRICULADOS-->
+
+     <Link class="relative"  
+  
+        :href="route('matriculados.create')">
+        <span
+          class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
+           :class="{
+            'bg-red-600 dark:bg-red-600': route().current('matriculados.*'),
+          }"
+          aria-hidden="true"
+        ></span>
+        <div
+          class="inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+            ></path>
+          </svg>
+          <span class="ml-4">Matriculados</span>
+        </div>
+     </link>
+
+     <!-- BOTON DE ASISTENCIAS-->
+
+     <Link class="relative"  
+  
+        :href="route('asistencia.create')">
+        <span
+          class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
+           :class="{
+            'bg-red-600 dark:bg-red-600': route().current('asistencia.*'),
+          }"
+          aria-hidden="true"
+        ></span>
+        <div
+          class="inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+            ></path>
+          </svg>
+          <span class="ml-4">Asistencias</span>
+        </div>
+     </link>
+
+     <!-- BOTON DE APROBADOS-->
+
+     <Link class="relative"  
+  
+        :href="route('aprobados.create')">
+        <span
+          class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
+           :class="{
+            'bg-red-600 dark:bg-red-600': route().current('aprobados.*'),
+          }"
+          aria-hidden="true"
+        ></span>
+        <div
+          class="inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+            ></path>
+          </svg>
+          <span class="ml-4">Aprobados</span>
+        </div>
+     </link>
+
+     <p class="p-3 text-xs uppercase text-gray-400">MODULO III: DOCENTE</p>
+
+     <!-- BOTON DE DOCENTES-->
+
+     <Link class="relative"  
+  
+        :href="route('docente.create')">
+        <span
+          class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
+           :class="{
+            'bg-red-600 dark:bg-red-600': route().current('docente.*'),
+          }"
+          aria-hidden="true"
+        ></span>
+        <div
+          class="inline-flex items-center px-6 py-3 w-full text-base transition-colors duration-150 hover:bg-red-600 hover:bg-opacity-25 dark:hover:text-gray-200 dark:text-gray-100"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+            ></path>
+          </svg>
+          <span class="ml-4">Docentes</span>
+        </div>
+     </link>
+
 
      <!--
       <Link class="relative"  

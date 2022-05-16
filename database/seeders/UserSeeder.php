@@ -38,6 +38,8 @@ class UserSeeder extends Seeder
         Permission::create(["name" => "editar:usuario"])->assignRole($adminRole);
         Permission::create(["name" => "eliminar:usuario"])->assignRole($adminRole);
 
+        //--------------------------------------------------------------------------------------
+
         //Creamos permisos a Saneamiento Fisico Legal
 
         Permission::create(["name" => "ver:saneamiento"])->assignRole($adminRole);
@@ -45,7 +47,33 @@ class UserSeeder extends Seeder
         Permission::create(["name" => "editar:saneamiento"])->assignRole($adminRole);
         Permission::create(["name" => "eliminar:saneamiento"])->assignRole($adminRole);
 
+        //Creamos permisos a Cerco Perimetrico
 
+        Permission::create(["name" => "ver:cerco"])->assignRole($adminRole);
+        Permission::create(["name" => "crear:cerco"])->assignRole($adminRole);
+        Permission::create(["name" => "editar:cerco"])->assignRole($adminRole);
+        Permission::create(["name" => "eliminar:cerco"])->assignRole($adminRole);
+
+        //Creamos permisos a Servicio
+
+        Permission::create(["name" => "ver:servicio"])->assignRole($adminRole);
+        Permission::create(["name" => "crear:servicio"])->assignRole($adminRole);
+        Permission::create(["name" => "editar:servicio"])->assignRole($adminRole);
+        Permission::create(["name" => "eliminar:servicio"])->assignRole($adminRole);
+
+        //Creamos permisos a Matriculados
+
+        Permission::create(["name" => "ver:matriculado"])->assignRole($adminRole);
+        Permission::create(["name" => "crear:matriculado"])->assignRole($adminRole);
+        Permission::create(["name" => "editar:matriculado"])->assignRole($adminRole);
+        Permission::create(["name" => "eliminar:matriculado"])->assignRole($adminRole);
+
+        //Creamos permisos a Asistencias
+
+        Permission::create(["name" => "ver:asistencia"])->assignRole($adminRole);
+        Permission::create(["name" => "crear:asistencia"])->assignRole($adminRole);
+        Permission::create(["name" => "editar:asistencia"])->assignRole($adminRole);
+        Permission::create(["name" => "eliminar:asistencia"])->assignRole($adminRole);
 
 
         //creamos el usuario admin y asignamos rol

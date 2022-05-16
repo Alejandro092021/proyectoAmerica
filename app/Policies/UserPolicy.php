@@ -65,5 +65,83 @@ class UserPolicy
     return $user->hasPermissionTo("eliminar:saneamiento");
   }
 
+  //creamos politicas para cerco perimetrico
+  public function VerCerco(User $user)
+  {
+    return $user->hasPermissionTo("ver:cerco");
+  }
+  public function CrearCerco(User $user)
+  {
+    return $user->hasPermissionTo("crear:cerco");
+  }
+
+  public function EditarCerco(User $user)
+  {
+    return $user->hasPermissionTo("editar:cerco");
+  }
+
+  public function EliminarCerco(User $user)
+  {
+    return $user->hasPermissionTo("eliminar:cerco");
+  }
+
+  //creamos politicas para servicio
+  public function VerServicio(User $user)
+  {
+    return $user->hasPermissionTo("ver:servicio");
+  }
+  public function CrearServicio(User $user)
+  {
+    return $user->hasPermissionTo("crear:servicio");
+  }
+
+  public function EditarServicio(User $user)
+  {
+    return $user->hasPermissionTo("editar:servicio");
+  }
+
+  public function EliminarServicio(User $user)
+  {
+    return $user->hasPermissionTo("eliminar:servicio");
+  }
+
+  //creamos politicas para matriculado
+  public function VerMatriculado(User $user)
+  {
+    return $user->hasPermissionTo("ver:matriculado");
+  }
+  public function CrearMatriculado(User $user)
+  {
+    return $user->hasPermissionTo("crear:matriculado");
+  }
+
+  public function EditarMatriculado(User $user)
+  {
+    return $user->hasPermissionTo("editar:matriculado");
+  }
+
+  public function EliminarMatriculado(User $user)
+  {
+    return $user->hasPermissionTo("eliminar:matriculado");
+  }
   
+  //creamos politicas para asistencias
+  public function VerAsistencia(User $user)
+  {
+    return $user->hasPermissionTo("ver:asistencia");
+  }
+  public function CrearAsistencia(User $user)
+  {
+    return $user->hasPermissionTo("crear:asistencia");
+  }
+
+  public function EditarAsistencia(User $user)
+  {
+    return $user->hasPermissionTo("editar:asistencia");
+  }
+
+  public function EliminarAsistencia(User $user)
+  {
+    return $user->hasPermissionTo("eliminar:asistencia");
+  }
 }

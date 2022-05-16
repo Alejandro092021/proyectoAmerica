@@ -17,7 +17,10 @@ use App\Http\Controllers\SaneamientoController;
 use App\Http\Controllers\InfraestructuraController;
 use App\Http\Controllers\CercoPerimetricoController;
 use App\Http\Controllers\ServicioController;
-
+use App\Http\Controllers\MatriculadosController;
+use App\Http\Controllers\AsistenciaController;
+use App\Http\Controllers\AprobadosController;
+use App\Http\Controllers\DocentesController;
 
 
 
@@ -84,3 +87,15 @@ Route::resource('cerco', CercoPerimetricoController::class)->names('cercoperimet
 
 //ruta Servicios
 Route::resource('servicio', ServicioController::class)->names('servicios');
+
+//ruta Matriculados
+Route::resource('matriculados', MatriculadosController::class)->names('matriculados');
+
+//ruta Asistencia
+Route::resource('asistencia', AsistenciaController::class)->names('asistencia');
+
+//ruta Aprobados
+Route::resource('aprobados', AprobadosController::class)->names('aprobados');
+
+//ruta Docentes
+Route::resource('docente', DocentesController::class)->names('docente');
