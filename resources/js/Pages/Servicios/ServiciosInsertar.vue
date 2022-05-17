@@ -11,7 +11,7 @@
                 my-3
                 text-2xl
                 font-semibold
-                text-blue-600
+                text-blue-900
                 dark:text-gray-200
               "
             >
@@ -34,6 +34,7 @@
                   <div class="flex flex-col flex-wrap sm:flex-row mx-10 p-2">
                     <div
                       class="
+                      border border-slate-700
                         shadow-lg
                         rounded-2xl
                         p-4
@@ -49,11 +50,11 @@
                               py-2
                               text-2xl
                               font-medium
-                              text-gray-600
+                              text-blue-900
                               dark:text-white
                             "
                           >
-                            Informacion de Servicios
+                            Información de Servicios Básicos
                           </div>
                         </div>
                       </div>
@@ -500,8 +501,8 @@
                         </div>
                       </div>
 
-                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
-                        <div>
+                      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8">
+                        <div class="col-start-2">
                           <JetLabel
                             for="TanqueCisterna"
                             value="Tanque o Cisterna:"
@@ -509,6 +510,7 @@
 
                           <select
                             class="
+                            
                               border-gray-300
                               focus:border-indigo-300
                               focus:ring

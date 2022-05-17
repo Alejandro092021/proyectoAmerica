@@ -11,11 +11,11 @@
                 my-3
                 text-2xl
                 font-semibold
-                text-gray-600
+                text-blue-900
                 dark:text-gray-200
               "
             >
-              CERCO PERIMETRICO
+              CERCO PERIMÉTRICO
             </h2>
           </div>
           <div>
@@ -34,6 +34,7 @@
                   <div class="flex flex-col flex-wrap sm:flex-row mx-10 p-2">
                     <div
                       class="
+                      border border-slate-700
                         shadow-lg
                         rounded-2xl
                         p-4
@@ -49,11 +50,11 @@
                               py-2
                               text-2xl
                               font-medium
-                              text-gray-600
+                              text-blue-900
                               dark:text-white
                             "
                           >
-                            Informacion Cerco Perimetrico
+                            Información Cerco Perimétrico
                           </div>
                         </div>
                       </div>
@@ -61,7 +62,7 @@
                         <div>
                           <JetLabel
                             for="Cerco Perimetrico"
-                            value="Cerco Perimetrico:"
+                            value="Cerco Perimétrico:"
                           />
 
                           <select
@@ -144,7 +145,7 @@
                         <div>
                           <JetLabel
                             for="Tipo Cerco Perimetrico"
-                            value="Tipo Cerco Perimetrico:"
+                            value="Tipo Cerco Perimétrico:"
                           />
 
                           <select
@@ -231,8 +232,185 @@
                             </div>
                           </div>
                         </div>
+                        <div>
+                          <JetLabel
+                            for="Estado Cerco Perimetrico"
+                            value="Estado Cerco Perimétrico:"
+                          />
+
+                          <select
+                            class="
+                              border-gray-300
+                              focus:border-indigo-300
+                              focus:ring
+                              focus:ring-indigo-200
+                              focus:ring-opacity-50
+                              rounded-md
+                              shadow-sm
+                              w-full
+                              mt-1
+                              py-2.5
+                              px-4
+                              text-gray-700
+                              leading-tight
+                              focus:border-indigo-300
+                              rounded-lg
+                              dark:border-gray-200
+                              dark:border-none
+                              dark:bg-gray-600
+                              dark:text-white
+                              dark:focus:border-blue-500
+                              dark:focus:shadow-outline-blue
+                            "
+                            v-model="form.TipoCercoPerimetrico"
+                            @change="MostrarRazonSocial(this.value)"
+                            :class="[
+                              {
+                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                                  v$.form.TipoDocumento.$error,
+                              },
+                              {
+                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
+                                  InputForm,
+                              },
+                            ]"
+                            :disabled="InputForm"
+                          >
+                            <option disabled selected value="">
+                              Seleccione Estado de Cerco Perimetrico
+                            </option>
+
+                            <option>
+                              Bueno
+                            </option>
+                            <option>
+                              Regular
+                            </option>
+                            <option>
+                              Malo
+                            </option>
+                            
+                          </select>
+                          <div
+                            v-if="errors.TipoDocumento"
+                            class="
+                              text-xs
+                              px-2
+                              py-2
+                              text-red-400
+                              dark:text-red-400
+                            "
+                          >
+                            {{  }}
+                          </div>
+
+                          <div
+                            v-for="(error, index) of v$.form.TipoDocumento
+                              .$errors"
+                            :key="index"
+                          >
+                            <div
+                              class="
+                                text-xs
+                                px-2
+                                py-2
+                                text-red-400
+                                dark:text-red-400
+                              "
+                            >
+                              {{  }}
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                            <div>
+                          <JetLabel
+                            for="Reqiere Espacio Recreacional"
+                            value="Se Requiere Espacio Recreacional:"
+                          />
+
+                          <select
+                            class="
+                              border-gray-300
+                              focus:border-indigo-300
+                              focus:ring
+                              focus:ring-indigo-200
+                              focus:ring-opacity-50
+                              rounded-md
+                              shadow-sm
+                              w-full
+                              mt-1
+                              py-2.5
+                              px-4
+                              text-gray-700
+                              leading-tight
+                              focus:border-indigo-300
+                              rounded-lg
+                              dark:border-gray-200
+                              dark:border-none
+                              dark:bg-gray-600
+                              dark:text-white
+                              dark:focus:border-blue-500
+                              dark:focus:shadow-outline-blue
+                            "
+                            v-model="form.RequiereEspacioRecreacional"
+                            @change="MostrarRazonSocial(this.value)"
+                            :class="[
+                              {
+                                'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                                  v$.form.TipoDocumento.$error,
+                              },
+                              {
+                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
+                                  InputForm,
+                              },
+                            ]"
+                            :disabled="InputForm"
+                          >
+                            <option disabled selected value="">
+                              Seleccione opcion:
+                            </option>
+
+                            <option>
+                              Si
+                            </option>
+                            <option>
+                              No
+                            </option>
+                            
+                          </select>
+                          <div
+                            v-if="errors.TipoDocumento"
+                            class="
+                              text-xs
+                              px-2
+                              py-2
+                              text-red-400
+                              dark:text-red-400
+                            "
+                          >
+                            {{ errors.TipoDocumento }}
+                          </div>
+
+                          <div
+                            v-for="(error, index) of v$.form.TipoDocumento
+                              .$errors"
+                            :key="index"
+                          >
+                            <div
+                              class="
+                                text-xs
+                                px-2
+                                py-2
+                                text-red-400
+                                dark:text-red-400
+                              "
+                            >
+                              {{ error.$message }}
+                            </div>
+                          </div>
+                        </div>
                             <div>
                           <JetLabel
                             for="Espacio Recreacional"

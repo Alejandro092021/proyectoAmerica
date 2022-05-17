@@ -11,11 +11,11 @@
                 my-3
                 text-2xl
                 font-semibold
-                text-gray-600
+                text-blue-900
                 dark:text-gray-200
               "
             >
-              SANEAMIENTO FISICO LEGAL
+              SANEAMIENTO FÍSICO LEGAL
             </h2>
           </div>
           <div>
@@ -34,6 +34,7 @@
                   <div class="flex flex-col flex-wrap sm:flex-row mx-10 p-2">
                     <div
                       class="
+                      border border-slate-700
                         shadow-lg
                         rounded-2xl
                         p-4
@@ -49,11 +50,11 @@
                               py-2
                               text-2xl
                               font-medium
-                              text-gray-600
+                              text-blue-900
                               dark:text-white
                             "
                           >
-                            Informacion de Saneamiento Fisico Legal
+                            Información de Saneamiento Físico Legal
                           </div>
                         </div>
                       </div>
@@ -107,12 +108,8 @@
                               Seleccione Saneamiento
                             </option>
 
-                            <option>
-                              Si 
-                            </option>
-                            <option>
-                              No 
-                            </option>
+                            <option>Si</option>
+                            <option>No</option>
                           </select>
                           <div
                             v-if="errors.TipoDocumento"
@@ -147,79 +144,60 @@
                         </div>
 
                         <div>
-                          <JetLabel for="Sfl Nombre " value="Con SFL a nombre de:" />
-                          <!-- start tooltip -->
-                          <div
+                          <JetLabel
+                            for="sflnombre"
+                            value="Con SFL a Nombre de:"
+                          />
+
+                          <select
                             class="
-                              group
+                              border-gray-300
+                              focus:border-indigo-300
+                              focus:ring
+                              focus:ring-indigo-200
+                              focus:ring-opacity-50
+                              rounded-md
+                              shadow-sm
                               w-full
-                              cursor-pointer
-                              relative
-                              inline-block
-                              text-center
+                              mt-1
+                              py-2.5
+                              px-4
+                              text-gray-700
+                              leading-tight
+                              focus:border-indigo-300
+                              rounded-lg
+                              dark:border-gray-200
+                              dark:border-none
+                              dark:bg-gray-600
+                              dark:text-white
+                              dark:focus:border-blue-500
+                              dark:focus:shadow-outline-blue
                             "
-                          >
-                            <!-- start icono editar -->
-
-                            <JetInput
-                              type="text"
-                              class="mt-1 block w-full"
-                              autofocus
-                              v-model="form.NumeroDocumento"
-                              placeholder="Ingresar Nombre"
-                              @keypress="SoloLetras($event)"
-                              :class="{
+                            v-model="form.SflNombre"
+                            @change="MostrarRazonSocial(this.value)"
+                            :class="[
+                              {
                                 'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
-                                  v$.form.NumeroDocumento.$error,
-                              }"
-                            />
+                                  v$.form.TipoDocumento.$error,
+                              },
+                              {
+                                'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400':
+                                  InputForm,
+                              },
+                            ]"
+                            :disabled="InputForm"
+                          >
+                            <option disabled selected value="">
+                              Seleccione Nombre
+                            </option>
 
-                            <!--end icono editar -->
-                            <div
-                              class="
-                                opacity-0
-                                w-auto
-                                bg-yellow-300
-                                text-gray-600 text-center text-xs
-                                rounded-lg
-                                py-1
-                                absolute
-                                z-10
-                                group-hover:opacity-100
-                                bottom-full
-                                px-2
-                                pointer-events-none
-                              "
-                            >
-                              <p>
-                                Porfavor ingresar nombre:
-                                Director-Privado-MINEDU
-                              </p>
-                              <svg
-                                class="
-                                  absolute
-                                  text-yellow-300
-                                  h-2
-                                  w-full
-                                  left-0
-                                  top-full
-                                "
-                                x="0px"
-                                y="0px"
-                                viewBox="0 0 255 255"
-                                xml:space="preserve"
-                              >
-                                <polygon
-                                  class="fill-current"
-                                  points="0,0 127.5,127.5 255,0"
-                                />
-                              </svg>
-                            </div>
-                          </div>
-                          <!-- end tooltip -->
-
+                            <option>UGEL</option>
+                            <option>Director</option>
+                            <option>Comunidad</option>
+                            <option>Empresa Privada</option>
+                          </select>
                           <div
-                            v-if="errors.NumeroDocumento"
+                            v-if="errors.TipoDocumento"
                             class="
                               text-xs
                               px-2
@@ -228,22 +206,11 @@
                               dark:text-red-400
                             "
                           >
-                            {{  }}
+                            {{ errors.TipoDocumento }}
                           </div>
+
                           <div
-                            v-if="errors.CodigoPersona"
-                            class="
-                              text-xs
-                              px-2
-                              py-2
-                              text-red-400
-                              dark:text-red-400
-                            "
-                          >
-                            {{  }}
-                          </div>
-                          <div
-                            v-for="(error, index) of v$.form.NumeroDocumento
+                            v-for="(error, index) of v$.form.TipoDocumento
                               .$errors"
                             :key="index"
                           >
@@ -256,7 +223,7 @@
                                 dark:text-red-400
                               "
                             >
-                              {{  }}
+                              {{ error.$message }}
                             </div>
                           </div>
                         </div>
@@ -311,12 +278,8 @@
                               Seleccione si tiene Documento
                             </option>
 
-                            <option>
-                              Si
-                            </option>
-                            <option>
-                              No
-                            </option>
+                            <option>Si</option>
+                            <option>No</option>
                           </select>
                           <div
                             v-if="errors.TipoDocumento"
@@ -328,7 +291,7 @@
                               dark:text-red-400
                             "
                           >
-                            {{  }}
+                            {{}}
                           </div>
 
                           <div
@@ -345,12 +308,10 @@
                                 dark:text-red-400
                               "
                             >
-                              {{  }}
+                              {{}}
                             </div>
                           </div>
                         </div>
-
-                        
                       </div>
 
                       <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
@@ -398,12 +359,8 @@
                               Seleccione si esta en Proceso Sfl
                             </option>
 
-                            <option>
-                              Si
-                            </option>
-                            <option>
-                              No
-                            </option>
+                            <option>Si</option>
+                            <option>No</option>
                           </select>
                           <div
                             v-if="errors.TipoDocumento"
@@ -415,7 +372,7 @@
                               dark:text-red-400
                             "
                           >
-                            {{  }}
+                            {{}}
                           </div>
 
                           <div
@@ -432,12 +389,15 @@
                                 dark:text-red-400
                               "
                             >
-                              {{  }}
+                              {{}}
                             </div>
                           </div>
                         </div>
                         <div>
-                          <JetLabel for="Tipo Proceso" value="Tipo de Proceso:" />
+                          <JetLabel
+                            for="Tipo Proceso"
+                            value="Tipo de Proceso:"
+                          />
 
                           <select
                             class="
@@ -474,22 +434,15 @@
                                   InputForm,
                               },
                             ]"
-                            
                             :disabled="InputForm"
                           >
                             <option disabled selected value="">
                               Seleccione tipo de Proceso sfl
                             </option>
 
-                            <option>
-                              Preventiva
-                            </option>
-                            <option>
-                              Definitiva
-                            </option>
-                            <option>
-                              Estudio
-                            </option>
+                            <option>Preventiva</option>
+                            <option>Definitiva</option>
+                            <option>Estudio</option>
                           </select>
                           <div
                             v-if="errors.TipoDocumento"
@@ -501,7 +454,7 @@
                               dark:text-red-400
                             "
                           >
-                            {{  }}
+                            {{}}
                           </div>
 
                           <div
@@ -518,53 +471,50 @@
                                 dark:text-red-400
                               "
                             >
-                              {{  }}
+                              {{}}
                             </div>
                           </div>
                         </div>
                       </div>
-
-                      
                     </div>
                   </div>
 
                   <div class="grid grid-cols-1 md:grid-cols-1 md:gap-8">
-                        <div class="block mt-4">
-                          <label class="flex items-center">
-                            <JetCheckbox
-                              type="checkbox"
-                              v-model:checked="form.ConfirmarDatos"
-                            />
-                            <span
-                              class="
-                                ml-2
-                                font-medium
-                                text-sm text-gray-700
-                                dark:text-white
-                              "
-                              >Confirmar si la informacion es correcta antes de
-                              guardar</span
-                            >
-                          </label>
-                          <div
-                            v-for="(error, index) of v$.form.ConfirmarDatos
-                              .$errors"
-                            :key="index"
-                          >
-                            <div
-                              class="
-                                text-xs
-                                py-2
-                                px-2
-                                text-red-400
-                                dark:text-red-400
-                              "
-                            >
-                              {{ error.$message }}
-                            </div>
-                          </div>
+                    <div class="block mt-4">
+                      <label class="flex items-center">
+                        <JetCheckbox
+                          type="checkbox"
+                          v-model:checked="form.ConfirmarDatos"
+                        />
+                        <span
+                          class="
+                            ml-2
+                            font-medium
+                            text-sm text-gray-700
+                            dark:text-white
+                          "
+                          >Confirmar si la informacion es correcta antes de
+                          guardar</span
+                        >
+                      </label>
+                      <div
+                        v-for="(error, index) of v$.form.ConfirmarDatos.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            py-2
+                            px-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
                         </div>
                       </div>
+                    </div>
+                  </div>
                 </form>
 
                 <JetButton

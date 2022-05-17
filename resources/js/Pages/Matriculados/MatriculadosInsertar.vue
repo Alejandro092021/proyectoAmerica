@@ -11,7 +11,7 @@
                 my-3
                 text-2xl
                 font-semibold
-                text-gray-600
+                text-blue-900
                 dark:text-gray-200
               "
             >
@@ -34,6 +34,7 @@
                   <div class="flex flex-col flex-wrap sm:flex-row mx-10 p-2">
                     <div
                       class="
+                      border border-slate-700
                         shadow-lg
                         rounded-2xl
                         p-4
@@ -49,11 +50,11 @@
                               py-2
                               text-2xl
                               font-medium
-                              text-gray-600
+                              text-blue-900
                               dark:text-white
                             "
                           >
-                            Educacion Basica Regular
+                            Educación Básica Regular
                           </div>
                         </div>
                       </div>
@@ -63,6 +64,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-2
@@ -82,7 +84,7 @@
                                   dark:text-white
                                 "
                               >
-                                Educacion Inicial
+                                Educación Inicial
                               </div>
                             </div>
                           </div>
@@ -94,7 +96,7 @@
                               <div>
                                 <JetLabel
                                   for="tresanos "
-                                  value="niños de 3 años:"
+                                  value="Niños de 3 Años:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -212,7 +214,7 @@
                               <div>
                                 <JetLabel
                                   for="cuatroanos "
-                                  value="niños de 4 años:"
+                                  value="Niños de 4 Años:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -330,7 +332,7 @@
                               <div>
                                 <JetLabel
                                   for="cincoanos "
-                                  value="niños de 5 años:"
+                                  value="Niños de 5 Años:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -455,6 +457,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-2
@@ -474,7 +477,7 @@
                                   dark:text-white
                                 "
                               >
-                                Educacion Primaria
+                                Educación Primaria
                               </div>
                             </div>
                           </div>
@@ -487,7 +490,7 @@
                               <div>
                                 <JetLabel
                                   for="primergrado "
-                                  value="primer grado:"
+                                  value="Primer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -605,7 +608,7 @@
                               <div>
                                 <JetLabel
                                   for="segundogrado "
-                                  value="segundogrado:"
+                                  value="Segundo Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -723,7 +726,7 @@
                               <div>
                                 <JetLabel
                                   for="tercergrado "
-                                  value="tercer grado:"
+                                  value="Tercer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -848,7 +851,7 @@
                               <div>
                                 <JetLabel
                                   for="cuartogrado "
-                                  value="cuarto grado:"
+                                  value="Cuarto Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -966,7 +969,7 @@
                               <div>
                                 <JetLabel
                                   for="quintogrado "
-                                  value="quintogrado:"
+                                  value="Quinto Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -1084,7 +1087,7 @@
                               <div>
                                 <JetLabel
                                   for="sextogrado "
-                                  value="sexto grado:"
+                                  value="Sexto Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -1208,6 +1211,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-4
@@ -1228,7 +1232,7 @@
                                   dark:text-white
                                 "
                               >
-                                Educacion Secundaria
+                                Educación Secundaria
                               </div>
                             </div>
                           </div>
@@ -1240,7 +1244,7 @@
                               <div>
                                 <JetLabel
                                   for="primerosecundaria "
-                                  value="primero de secundaria:"
+                                  value="Primero de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -1358,7 +1362,7 @@
                               <div>
                                 <JetLabel
                                   for="segundosecundaria"
-                                  value="segundo de secundaria:"
+                                  value="Segundo de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -1476,7 +1480,7 @@
                               <div>
                                 <JetLabel
                                   for="tercerosecundaria "
-                                  value="tercero de secundaria:"
+                                  value="Tercero de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -1601,7 +1605,7 @@
                               <div>
                                 <JetLabel
                                   for="cuartosecundaria "
-                                  value="cuarto de secundaria:"
+                                  value="Cuarto de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -1719,7 +1723,7 @@
                               <div>
                                 <JetLabel
                                   for="quintosecundaria"
-                                  value="quinto de secundaria:"
+                                  value="Quinto de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -1833,7 +1837,6 @@
                                   </div>
                                 </div>
                               </div>
-
                               
                             </div>
                           </div>
@@ -1845,6 +1848,7 @@
                   <div class="flex flex-col flex-wrap sm:flex-row mx-10 p-2">
                     <div
                       class="
+                      border border-slate-700
                         shadow-lg
                         rounded-2xl
                         p-4
@@ -1860,11 +1864,11 @@
                               py-2
                               text-2xl
                               font-medium
-                              text-gray-600
+                              text-blue-900
                               dark:text-white
                             "
                           >
-                            Educacion Basica Especial
+                            Educación Básica Especial
                           </div>
                         </div>
                       </div>
@@ -1874,6 +1878,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-2
@@ -1893,7 +1898,7 @@
                                   dark:text-white
                                 "
                               >
-                                Educacion Inicial
+                                Educación Inicial
                               </div>
                             </div>
                           </div>
@@ -1905,7 +1910,7 @@
                               <div>
                                 <JetLabel
                                   for="especialtresanos "
-                                  value="niños de 3 años:"
+                                  value="Niños de 3 Años:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -2023,7 +2028,7 @@
                               <div>
                                 <JetLabel
                                   for="especialcuatroanos "
-                                  value="niños de 4 años:"
+                                  value="Niños de 4 Años:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -2141,7 +2146,7 @@
                               <div>
                                 <JetLabel
                                   for="especialcincoanos "
-                                  value="niños de 5 años:"
+                                  value="Niños de 5 Años:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -2266,6 +2271,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-4
@@ -2286,7 +2292,7 @@
                                   dark:text-white
                                 "
                               >
-                                Educacion Primaria
+                                Educación Primaria
                               </div>
                             </div>
                           </div>
@@ -2299,7 +2305,7 @@
                             <div>
                                 <JetLabel
                                   for="especialprimergrado "
-                                  value="primer grado:"
+                                  value="Primer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -2417,7 +2423,7 @@
                               <div>
                                 <JetLabel
                                   for="especialsegundogrado "
-                                  value="segundogrado:"
+                                  value="Segundo Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -2535,7 +2541,7 @@
                               <div>
                                 <JetLabel
                                   for="especialtercergrado "
-                                  value="tercer grado:"
+                                  value="Tercer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -2662,7 +2668,7 @@
                               <div>
                                 <JetLabel
                                   for="especialcuartogrado "
-                                  value="cuarto grado:"
+                                  value="Cuarto Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -2780,7 +2786,7 @@
                               <div>
                                 <JetLabel
                                   for="especialquintogrado "
-                                  value="quintogrado:"
+                                  value="Quinto grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -2898,7 +2904,7 @@
                               <div>
                                 <JetLabel
                                   for="especialsextogrado "
-                                  value="sexto grado:"
+                                  value="Sexto Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -3023,6 +3029,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-4
@@ -3043,7 +3050,7 @@
                                   dark:text-white
                                 "
                               >
-                                Educacion Secundaria
+                                Educación Secundaria
                               </div>
                             </div>
                           </div>
@@ -3055,7 +3062,7 @@
                               <div>
                                 <JetLabel
                                   for="especialprimerosecundaria "
-                                  value="primero de secundaria:"
+                                  value="Primero de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -3173,7 +3180,7 @@
                               <div>
                                 <JetLabel
                                   for="especialsegundosecundaria"
-                                  value="segundo de secundaria:"
+                                  value="Segundo de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -3291,7 +3298,7 @@
                               <div>
                                 <JetLabel
                                   for="especialtercerosecundaria "
-                                  value="tercero de secundaria:"
+                                  value="Tercero de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -3416,7 +3423,7 @@
                               <div>
                                 <JetLabel
                                   for="especialcuartosecundaria "
-                                  value="cuarto de secundaria:"
+                                  value="Cuarto de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -3534,7 +3541,7 @@
                               <div>
                                 <JetLabel
                                   for="especialquintosecundaria"
-                                  value="quinto de secundaria:"
+                                  value="Quinto de Secundaria:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -3660,6 +3667,7 @@
                   <div class="flex flex-col flex-wrap sm:flex-row mx-10 p-2">
                     <div
                       class="
+                      border border-slate-700
                         shadow-lg
                         rounded-2xl
                         p-4
@@ -3675,11 +3683,11 @@
                               py-2
                               text-2xl
                               font-medium
-                              text-gray-600
+                              text-blue-900
                               dark:text-white
                             "
                           >
-                            Educacion Basica Alternativa
+                            Educación Básica Alternativa
                           </div>
                         </div>
                       </div>
@@ -3689,6 +3697,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-4
@@ -3719,7 +3728,7 @@
                               <div>
                                 <JetLabel
                                   for="inicialprimergrado "
-                                  value="primer grado:"
+                                  value="Primer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -3837,7 +3846,7 @@
                               <div>
                                 <JetLabel
                                   for="inicialsegundogrado "
-                                  value="segundo grado:"
+                                  value="Segundo Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -3961,6 +3970,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-4
@@ -3991,7 +4001,7 @@
                               <div>
                                 <JetLabel
                                   for="intermedioprimergrado "
-                                  value="primer grado:"
+                                  value="Primer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -4109,7 +4119,7 @@
                               <div>
                                 <JetLabel
                                   for="intermediosegundogrado "
-                                  value="segundogrado:"
+                                  value="Segundo Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -4227,7 +4237,7 @@
                               <div>
                                 <JetLabel
                                   for="intermediotercergrado "
-                                  value="tercer grado:"
+                                  value="Tercer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -4352,6 +4362,7 @@
                       >
                         <div
                           class="
+                          border border-blue-800
                             shadow-lg
                             rounded-2xl
                             p-4
@@ -4382,7 +4393,7 @@
                               <div>
                                 <JetLabel
                                   for="avanzadoprimergrado "
-                                  value="primer grado:"
+                                  value="Primer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -4500,7 +4511,7 @@
                               <div>
                                 <JetLabel
                                   for="avanzadosegundogrado"
-                                  value="segundo grado:"
+                                  value="Segundo Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -4618,7 +4629,7 @@
                               <div>
                                 <JetLabel
                                   for="avanzadotercergrado "
-                                  value="tercer grado:"
+                                  value="Tercer Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
@@ -4742,7 +4753,7 @@
                               <div>
                                 <JetLabel
                                   for="avanzadocuartogrado"
-                                  value="cuarto grado:"
+                                  value="Cuarto Grado:"
                                 />
                                 <!-- start tooltip -->
                                 <div
