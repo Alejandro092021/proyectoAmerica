@@ -57,7 +57,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8">
                         <div>
                           <JetLabel
                             for="Cerco Perimetrico"

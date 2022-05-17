@@ -147,7 +147,7 @@
                         </div>
 
                         <div>
-                          <JetLabel for="Sfl Nombre " value="Sfl Nombre:" />
+                          <JetLabel for="Sfl Nombre " value="Con SFL a nombre de:" />
                           <!-- start tooltip -->
                           <div
                             class="
@@ -350,6 +350,10 @@
                           </div>
                         </div>
 
+                        
+                      </div>
+
+                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
                         <div>
                           <JetLabel for="Proceso Sfl" value="Proceso Sfl:" />
 
@@ -432,9 +436,6 @@
                             </div>
                           </div>
                         </div>
-                      </div>
-
-                      <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
                         <div>
                           <JetLabel for="Tipo Proceso" value="Tipo de Proceso:" />
 
