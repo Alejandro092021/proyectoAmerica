@@ -36089,7 +36089,7 @@ var _hoisted_6 = {
   "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
 };
 var _hoisted_7 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_8 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -36106,7 +36106,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_10 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_11 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
@@ -36315,7 +36315,7 @@ var _hoisted_46 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_47 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_48 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -36494,7 +36494,7 @@ var _hoisted_78 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_79 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_80 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -37599,7 +37599,7 @@ var _hoisted_6 = {
   "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
 };
 var _hoisted_7 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_8 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -37616,7 +37616,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_10 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_11 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
@@ -37729,7 +37729,7 @@ var _hoisted_29 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_30 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_31 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
@@ -37938,7 +37938,7 @@ var _hoisted_66 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_67 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_68 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -38117,7 +38117,7 @@ var _hoisted_98 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_99 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_100 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -38635,7 +38635,7 @@ var _hoisted_190 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_191 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_192 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -42060,7 +42060,7 @@ var _hoisted_6 = {
   "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
 };
 var _hoisted_7 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_8 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -42536,7 +42536,7 @@ var _hoisted_6 = {
   "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
 };
 var _hoisted_7 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_8 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -42553,7 +42553,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_10 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_11 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
@@ -42666,7 +42666,7 @@ var _hoisted_29 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_30 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_31 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
@@ -42875,7 +42875,7 @@ var _hoisted_66 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_67 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_68 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -43054,7 +43054,7 @@ var _hoisted_98 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_99 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_100 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -43572,7 +43572,7 @@ var _hoisted_190 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_191 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_192 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -45516,7 +45516,7 @@ var _hoisted_6 = {
   "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
 };
 var _hoisted_7 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col sm:flex-row mx-5 p-2"
 };
 var _hoisted_8 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -45533,7 +45533,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_10 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2 md:flex-row mx-10"
 };
 var _hoisted_11 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
@@ -45646,7 +45646,7 @@ var _hoisted_29 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_30 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2 md:flex-row mx-10"
 };
 var _hoisted_31 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
@@ -45855,7 +45855,7 @@ var _hoisted_66 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_67 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2 md:flex-row mx-10"
 };
 var _hoisted_68 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -46034,7 +46034,7 @@ var _hoisted_98 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_99 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2 md:flex-row mx-10"
 };
 var _hoisted_100 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -46051,7 +46051,7 @@ var _hoisted_101 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 );
 
 var _hoisted_102 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_103 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-2 bg-white dark:bg-gray-700 w-full"
@@ -46164,7 +46164,7 @@ var _hoisted_121 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_122 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_123 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -46373,7 +46373,7 @@ var _hoisted_158 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_159 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_160 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -46552,7 +46552,7 @@ var _hoisted_190 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_191 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap p-2 sm:flex-row mx-5 p-2 md:flex-row mx-10"
 };
 var _hoisted_192 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -46569,7 +46569,7 @@ var _hoisted_193 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 );
 
 var _hoisted_194 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_195 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -46652,7 +46652,7 @@ var _hoisted_208 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_209 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_210 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -46765,7 +46765,7 @@ var _hoisted_228 = {
   "class": "text-xs px-2 py-2 text-red-400 dark:text-red-400"
 };
 var _hoisted_229 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_230 = {
   "class": "border border-blue-800 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -49326,7 +49326,7 @@ var _hoisted_6 = {
   "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
 };
 var _hoisted_7 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_8 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
@@ -49337,7 +49337,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "w-full flex-1 mx-2 mb-2"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "py-2 text-2xl font-medium text-blue-900 dark:text-white"
+  "class": "py-2 text-xl md:text-2xl font-medium text-blue-900 dark:text-white"
 }, " Información de Saneamiento Físico Legal ")])], -1
 /* HOISTED */
 );
@@ -49751,7 +49751,7 @@ var _hoisted_6 = {
   "class": "shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"
 };
 var _hoisted_7 = {
-  "class": "flex flex-col flex-wrap sm:flex-row mx-10 p-2"
+  "class": "flex flex-col flex-wrap sm:flex-row mx-5 p-2"
 };
 var _hoisted_8 = {
   "class": "border border-slate-700 shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full"

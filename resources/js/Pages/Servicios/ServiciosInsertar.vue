@@ -31,7 +31,7 @@
                 "
               >
                 <form id="formGuardar" @submit.prevent="GuardarInfraestructura">
-                  <div class="flex flex-col flex-wrap sm:flex-row mx-10 p-2">
+                  <div class="flex flex-col flex-wrap sm:flex-row mx-5 p-2">
                     <div
                       class="
                       border border-slate-700
