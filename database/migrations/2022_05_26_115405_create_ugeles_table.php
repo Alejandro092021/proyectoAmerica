@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('nombre',255);
             $table->string('direccion',255);
             $table->string('numero',20);
-            //gerente ugel
+            //gerente ugel prueba
             $table->unsignedBigInteger('idUsuario');
             $table->foreign('idUsuario')->references('id')->on('users');
             $table->timestamps();
