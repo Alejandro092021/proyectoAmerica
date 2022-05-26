@@ -78,18 +78,28 @@ class UserSeeder extends Seeder
 
         //creamos el usuario admin y asignamos rol
         $user = new User();
-        $user->name = "Admin";
+        $user->nombres = "Admin";
+        $user->apellidos = "Admin";
+        $user->direccion = "Admin";
+        $user->telefono = "Admin";
+        $user->tipoDocumento = 1;
+        $user->estadoCivil =2;
         $user->email = "admin@mail.com";
         $user->password = bcrypt("123456789");
         $user->save();
         $user->assignRole($adminRole);
 
-        //creamos el usuario invitado y asignamos rol
         $user = new User();
-        $user->name = "SGGP";
-        $user->email = "sggp@mail.com";
+        $user->nombres = "Admin";
+        $user->apellidos = "Admin";
+        $user->direccion = "Admin";
+        $user->telefono = "Admin";
+        $user->tipoDocumento = 1;
+        $user->estadoCivil =2;
+        $user->email = "admin@mailww.com";
         $user->password = bcrypt("123456789");
         $user->save();
-        $user->assignRole($invitado1Role);
+        $user->assignRole($adminRole);
+
     }
 }
