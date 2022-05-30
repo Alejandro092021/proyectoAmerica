@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Maestro extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'nombreTabla', 'campo', 'valor',
+    ];
 }

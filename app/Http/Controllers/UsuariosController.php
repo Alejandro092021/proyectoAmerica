@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Imports\InstitucionesImport;
 use App\Models\Persona;
 use App\Models\Trabajadore;
 use Illuminate\Http\Request;
@@ -15,10 +16,23 @@ use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 use Illuminate\Support\Facades\Redirect;
 
+use App\Models\Maestro;
+use App\Models\Instituciones;
+
+use Maatwebsite\Excel\Facades\Excel;
+
+use Rap2hpoutre\FastExcel\FastExcel;
+
 class UsuariosController extends Controller
 {
   public function index(Request $request)
   {
+    /*
+    $Institucion = Instituciones::join('users','users.idInstitucion','=','instituciones.id')
+    ->join('maestros','maestros.valor','=','users.Cargo')
+    ->where('maestros.nombreTabla', '=', 'Cargo')
+    ->select('*')->get();*/
+
     /*$nombres = Persona::join('trabajadores as t','t.persona_id','=','personas.id')
     //$consulta = Persona::join('trabajadores','personas.id','=','trabajadores.persona_id')
     ->where('personas.apellido_paterno','=','huaripata')
@@ -40,11 +54,25 @@ class UsuariosController extends Controller
       "usuarios" => $usuarios->paginate(10)->withQueryString(),
     ]);
   }
+
+
+  public function importInstituciones(Request $request){
+    //dd($request);
+    $file = $request->file('documento')->store('temp');
+    $path = storage_path('app').'/'.$file;
+    Excel::import(new InstitucionesImport, $path);
+    return back();
+  }
+
+  
   public function create()
   {
    // $nombres = Trabajadore::with('personas')->();
 //dd($nombres);
     $this->authorize("CrearUsuarios", User::class);
+    $Cargo = Maestro::where('nombreTabla', "Cargo")->get();//dd($Cargo);
+    $Institucion = Instituciones::select("id","nombre","numero")->get();//dd($Institucion);
+    
     $roles = Role::select("id", "name", "guard_name")
       ->with("permissions")
       ->orderBy("id")
@@ -62,6 +90,8 @@ class UsuariosController extends Controller
 
     return Inertia::render("Usuarios/UsuariosInsertar", [
       "roles" => $roles,//"nombres"=>$nombres,
+      "cargo" => $Cargo,
+      "institucion" => $Institucion,
     ]);
   }
 
@@ -77,12 +107,16 @@ class UsuariosController extends Controller
       "password" => "Required|confirmed|min:8|max:50",
       "password_confirmation" => "required|min:8|max:50",
       "rolId" => "Required",
+      "Cargo" => "Required",
+      "institucion" => "Required",
     ]);
 
     $usuario = new User();
     $usuario->name = $request->name;
     $usuario->email = $request->email;
     $usuario->password = bcrypt($request->password);
+    $usuario->cargo=$request->Cargo;
+    $usuario->idInstitucion=$request->institucion;
     $usuario->roles()->detach();
     $usuario->assignRole($request->rolId);
     $usuario->save();

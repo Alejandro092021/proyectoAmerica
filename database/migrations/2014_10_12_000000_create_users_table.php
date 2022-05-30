@@ -15,20 +15,20 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('nombres',100);
-            $table->string('apellidos',100);
-            $table->string('direccion',255);
-            $table->string('telefono',20);
-            $table->smallInteger('operador')->nullable();/* referencia de la tabla maestro*/
-            $table->smallInteger('tipoDocumento')->nullable();/* referencia de la tabla maestro*/
-            $table->smallInteger('estadoCivil')->nullable();/* referencia de la tabla maestro*/
+            $table->string('name');
             $table->string('email')->unique();
+            $table->smallInteger('Cargo');
+            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->string('profile_photo_path', 2048)->nullable();
-            $table->enum('cargo',['DIRECTOR','GERENTE UGEL','GERENTE GENERAL']);
             $table->timestamps();
+
+            
+            //$table->unsignedBigInteger('idInstitucion')->unique();
+            
+           // $table->foreign('idInstitucion')->references('id')->on('instituciones');
         });
     }
 

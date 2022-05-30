@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nombreTabla',50);
             $table->string('campo',50);
-            $table->smallInteger('valor');
+            $table->char('valor',9);
             $table->timestamps();
         });
     }

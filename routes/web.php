@@ -74,6 +74,10 @@ Route::post('usuarios/password', [UsuariosController::class, 'actualizarPassword
 
 Route::get('/buscarnom/{nusuario}', [UsuariosController::class, 'buscarNombres'])->name('buscarnom');
 
+// Crear ruta para importar instituciones en usuarios
+
+Route::post('/import', [UsuariosController::class,'importInstituciones'])->name('import.excel');
+
 //----------------------------------------------------------------------------------------------------
 
 //ruta Saneamiento Fisico Legal

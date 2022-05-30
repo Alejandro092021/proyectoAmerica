@@ -29,8 +29,20 @@
                   w-full
                 "
               >
+              <form id="importar">
+                <Jet-input
+                          type="file"
+                          name="documento" 
+                        />
+                  <JetButton @click="ImportExcel" class=" ml-10 bg-green-400 hover:bg-green-500 active:bg-green-900 focus:border-green-900 focus:ring focus:ring-green-300 ">
+                    Importar a Excel
+                  </JetButton>
+              </form>
+
                 <form id="formGuardar" @submit.prevent="GuardarUsuario">
-                  <div class="grid grid-cols-1 md:grid-cols-1 md:gap-8">
+                
+
+                  <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
                     <div class="relative">
                       <JetLabel for="Nombre" value="Usuarios:" />
                       <JetInput
@@ -74,7 +86,148 @@
                       </div>
                     </div>
                     
+
+                    <div>
+                      <JetLabel for="Cargo" value="Tipo de Cargo:" />
+
+                      <select
+                        class="
+                          border-gray-300
+                          focus:border-indigo-300
+                          focus:ring
+                          focus:ring-indigo-200
+                          focus:ring-opacity-50
+                          rounded-md
+                          shadow-sm
+                          w-full
+                          mt-1
+                          py-2.5
+                          px-4
+                          text-gray-700
+                          leading-tight
+                          focus:border-indigo-300
+                          rounded-lg
+                          dark:border-gray-200
+                          dark:border-none
+                          dark:bg-gray-600
+                          dark:text-white
+                          dark:focus:border-blue-500
+                          dark:focus:shadow-outline-blue
+                        "
+                        v-model="form.Cargo"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.Cargo.$error,
+                        }"
+                      >
+                        <option disabled selected value="">
+                          Seleccionar Cargo
+                        </option>
+                        <option
+                          v-for="(c, index) in cargo "
+                          :key="index"
+                          :value="c.valor"
+                        >
+                          {{ c.campo }}
+                        </option>
+                      </select>
+                      <div
+                        v-if="errors.Cargo"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.Cargo }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.Cargo.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                    </div>
+                    
                   </div>
+
+                  <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                    <div>
+                      <JetLabel for="Institucion" value="Institucion Educativa:" />
+
+                      <select
+                        class="
+                          border-gray-300
+                          focus:border-indigo-300
+                          focus:ring
+                          focus:ring-indigo-200
+                          focus:ring-opacity-50
+                          rounded-md
+                          shadow-sm
+                          w-full
+                          mt-1
+                          py-2.5
+                          px-4
+                          text-gray-700
+                          leading-tight
+                          focus:border-indigo-300
+                          rounded-lg
+                          dark:border-gray-200
+                          dark:border-none
+                          dark:bg-gray-600
+                          dark:text-white
+                          dark:focus:border-blue-500
+                          dark:focus:shadow-outline-blue
+                        "
+                        v-model="form.institucion"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.institucion.$error,
+                        }"
+                      >
+                        <option disabled selected value="">
+                          Seleccionar Institucion
+                        </option>
+                        <option
+                          v-for="(i, index) in institucion"
+                          :key="index"
+                          :value="i.id"
+                        >
+                          {{ i.nombre }}
+                        </option>
+                      </select>
+                      <div
+                        v-if="errors.institucion"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.institucion }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.institucion.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                   <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
                     <div>
                       <JetLabel for="email" value="Email:" />
@@ -259,6 +412,7 @@
                   </div>
                   <div></div>
                 </form>
+                
                 <JetButton
                   form="formGuardar"
                   class="my-3"
@@ -268,11 +422,15 @@
                   Guardar
                   {{ form.progress ? `${form.progress.percentage}% ` : "" }}
                 </JetButton>
+                
+                
+                
+
               </div>
             </div>
           </div>
         </div>
-    
+    {{cargo}}
       </div>
     </div>
     
@@ -309,6 +467,8 @@ export default defineComponent({
   props: {
     roles: Array,
     errors: Object,
+    cargo: Object,
+    institucion: Object,
   },
   setup() {
     return { v$: useVuelidate() };
@@ -325,6 +485,9 @@ export default defineComponent({
         password: "",
         password_confirmation: "",
         rolId: "",
+        Cargo:"",
+        institucion:"",
+      
       
       }),
     };
@@ -377,6 +540,20 @@ export default defineComponent({
           $autoDirty: true,
         },
         rolId: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+          $autoDirty: true,
+        },
+        Cargo: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+          $autoDirty: true,
+        },
+        institucion: {
           required: helpers.withMessage(
             "Este campo no puede estar vacío",
             required
@@ -463,6 +640,13 @@ export default defineComponent({
           },
         }
       );
+    },
+    ImportExcel() {
+
+      let paramString = new URLSearchParams();
+
+      window.open(`/import?${paramString.toString()}`);
+
     },
   },
 });

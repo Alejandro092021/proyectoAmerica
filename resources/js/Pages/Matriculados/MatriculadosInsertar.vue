@@ -2,9 +2,9 @@
   <MainLayout>
     <Head title="Matriculados Crear" />
 
-    <div class="py-2">
+    <div class="py-2 overflow-y-auto h-full">
       <div class="max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2">
-        <div class="overflow-hidden px-2">
+        <div class=" px-2">
           <div class="flex justify-between">
             <h2
               class="

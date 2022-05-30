@@ -19,5 +19,10 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class
         ]);
         // \App\Models\User::factory(10)->create();
+
+        //llamamos al seede MaestroSeeder
+        $this->call([
+            MaestroSeeder::class
+        ]);
     }
 }
