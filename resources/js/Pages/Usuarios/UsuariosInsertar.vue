@@ -29,15 +29,15 @@
                   w-full
                 "
               >
-              <form id="importar">
-                <Jet-input
-                          type="file"
-                          name="documento" 
-                        />
-                  <JetButton @click="ImportExcel" class=" ml-10 bg-green-400 hover:bg-green-500 active:bg-green-900 focus:border-green-900 focus:ring focus:ring-green-300 ">
-                    Importar a Excel
-                  </JetButton>
-              </form>
+              <div class="inline-block">
+                        
+                        <button type="button"
+                            class="border border-indigo-500 text-indigo-500 text-xl rounded-md px-4 py-2 m-2 duration-500 ease select-none transform hover:scale-110 focus:outline-none focus:shadow-outline">
+                            <Link href="/importar/">
+                                Importar</Link
+                              >
+                        </button>
+                    </div>
 
                 <form id="formGuardar" @submit.prevent="GuardarUsuario">
                 

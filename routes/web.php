@@ -21,6 +21,7 @@ use App\Http\Controllers\MatriculadosController;
 use App\Http\Controllers\AsistenciaController;
 use App\Http\Controllers\AprobadosController;
 use App\Http\Controllers\DocentesController;
+use App\Http\Controllers\ImportarController;
 
 
 
@@ -103,3 +104,6 @@ Route::resource('aprobados', AprobadosController::class)->names('aprobados');
 
 //ruta Docentes
 Route::resource('docente', DocentesController::class)->names('docente');
+
+
+Route::resource('importar', ImportarController::class)->names('importar')->except(['create', 'show', 'edit', 'store', 'update', 'destroy']);

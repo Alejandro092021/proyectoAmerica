@@ -57,11 +57,16 @@ class UsuariosController extends Controller
 
 
   public function importInstituciones(Request $request){
-    //dd($request);
-    $file = $request->file('documento')->store('temp');
-    $path = storage_path('app').'/'.$file;
-    Excel::import(new InstitucionesImport, $path);
-    return back();
+    
+    $file = $request->DocumentoExcel;//dd($file);
+   //$Instituciones = Instituciones::select('numero')->get();//dd($Instituciones);
+   
+
+     Excel::import(new InstitucionesImport, $file);
+    return Redirect::route('usuarios.create');
+
+    
+   
   }
 
   
