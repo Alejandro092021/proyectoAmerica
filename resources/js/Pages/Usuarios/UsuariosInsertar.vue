@@ -430,7 +430,7 @@
             </div>
           </div>
         </div>
-    {{cargo}}
+    
       </div>
     </div>
     

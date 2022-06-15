@@ -26,9 +26,9 @@ return new class extends Migration
             $table->timestamps();
 
             
-            //$table->unsignedBigInteger('idInstitucion')->unique();
+            $table->unsignedBigInteger('idInstitucion')->unique();
             
-           // $table->foreign('idInstitucion')->references('id')->on('instituciones');
+            $table->foreign('idInstitucion')->references('id')->on('instituciones');
         });
     }
 

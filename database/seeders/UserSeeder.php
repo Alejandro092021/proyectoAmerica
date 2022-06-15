@@ -121,7 +121,7 @@ class UserSeeder extends Seeder
         $InstitucionAdmin->tipoVigilancia = "1";
         $InstitucionAdmin->cancelaVigilancia = "1";
         $InstitucionAdmin->estadoVigilancia = "1";
-        //$InstitucionAdmin->save();
+        $InstitucionAdmin->save();
 
         //Institucion Invitado
         $InstitucionInvitado = new Instituciones();
@@ -167,7 +167,7 @@ class UserSeeder extends Seeder
         $InstitucionInvitado->tipoVigilancia = "1";
         $InstitucionInvitado->cancelaVigilancia = "1";
         $InstitucionInvitado->estadoVigilancia = "1";
-        //$InstitucionInvitado->save();
+        $InstitucionInvitado->save();
 
 
 
@@ -178,7 +178,7 @@ class UserSeeder extends Seeder
         $user->email = "admin@mail.com";
         $user->password = bcrypt("123456789");
         $user->Cargo="1";
-        //$user->idInstitucion=$InstitucionAdmin->id;
+        $user->idInstitucion=$InstitucionAdmin->id;
         $user->save();
         $user->assignRole($adminRole);
 
@@ -188,7 +188,7 @@ class UserSeeder extends Seeder
         $user->email = "sggp@mail.com";
         $user->Cargo="1";
         $user->password = bcrypt("123456789");
-        //$user->idInstitucion=$InstitucionInvitado->id;
+        $user->idInstitucion=$InstitucionInvitado->id;
         $user->save();
         $user->assignRole($invitado1Role);
     }
