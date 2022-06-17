@@ -80,93 +80,25 @@ class UserSeeder extends Seeder
         //Creamos institucion Admin
         $InstitucionAdmin = new Instituciones();
         $InstitucionAdmin->nombre = "InstitucionAdmin";
-        $InstitucionAdmin->numero = "numeroAdmin";
+        $InstitucionAdmin->codigoModular = "ModularA";
+        $InstitucionAdmin->codigoLocal = "LocalA";
+        $InstitucionAdmin->provincia = "ProvinciaAdmin";
+        $InstitucionAdmin->distrito = "DistritoAdmin";
         $InstitucionAdmin->direccion = "DireccionAdmin";
         $InstitucionAdmin->tipoZona = "1";
         $InstitucionAdmin->tipoModalidad = "1";
-        $InstitucionAdmin->distrito = "DistritoAdmin";
-        $InstitucionAdmin->tieneSfl = "1";
-        $InstitucionAdmin->tipoNombreSfl = "1";
-        $InstitucionAdmin->tieneDocumentoSfl = "1";
-        $InstitucionAdmin->tieneProcesoSfl = "1";
-        $InstitucionAdmin->tipoProcesoSfl = "1";
-        $InstitucionAdmin->tieneCerco = "1";
-        $InstitucionAdmin->tipoCerco = "1";
-        $InstitucionAdmin->estadoCerco = "1";
-        $InstitucionAdmin->requiereRecreacion = "1";
-        $InstitucionAdmin->tipoRecreacion = "1";
-        $InstitucionAdmin->tieneIntenet = "1";
-        $InstitucionAdmin->tipoIntenet = "1";
-
-        $InstitucionAdmin->cancelaIntenet = "1";
-        $InstitucionAdmin->estadoIntenet = "1";
-        $InstitucionAdmin->tieneLuz = "1";
-        $InstitucionAdmin->tipoLuz = "1";
-        $InstitucionAdmin->cancelaLuz = "1";
-        $InstitucionAdmin->estadoLuz = "1";
-        $InstitucionAdmin->tieneAgua = "1";
-        $InstitucionAdmin->tipoAgua = "1";
-        $InstitucionAdmin->cancelaAgua = "1";
-        $InstitucionAdmin->estadoAgua = "1";
-
-        $InstitucionAdmin->tieneDesague = "1";
-        $InstitucionAdmin->tipoDesague = "1";
-        $InstitucionAdmin->cancelaDesague = "1";
-        $InstitucionAdmin->estadoDesague = "1";
-        $InstitucionAdmin->tieneReserva = "1";
-        $InstitucionAdmin->tipoReserva = "1";
-        $InstitucionAdmin->cancelaReserva = "1";
-        $InstitucionAdmin->estadoReserva = "1";
-        $InstitucionAdmin->tieneVigilancia = "1";
-        $InstitucionAdmin->tipoVigilancia = "1";
-        $InstitucionAdmin->cancelaVigilancia = "1";
-        $InstitucionAdmin->estadoVigilancia = "1";
         $InstitucionAdmin->save();
 
         //Institucion Invitado
         $InstitucionInvitado = new Instituciones();
         $InstitucionInvitado->nombre = "InstitucionInvitado";
-        $InstitucionInvitado->numero = "numeroInvitado";
+        $InstitucionInvitado->codigoModular = "ModularI";
+        $InstitucionInvitado->codigoLocal = "LocalI";
+        $InstitucionInvitado->provincia = "ProvinciaInvitado";
+        $InstitucionInvitado->distrito = "DistritoInvitado";
         $InstitucionInvitado->direccion = "DireccionInvitado";
         $InstitucionInvitado->tipoZona = "1";
         $InstitucionInvitado->tipoModalidad = "1";
-        $InstitucionInvitado->distrito = "DistritoInvitado";
-        $InstitucionInvitado->tieneSfl = "1";
-        $InstitucionInvitado->tipoNombreSfl = "1";
-        $InstitucionInvitado->tieneDocumentoSfl = "1";
-        $InstitucionInvitado->tieneProcesoSfl = "1";
-        $InstitucionInvitado->tipoProcesoSfl = "1";
-        $InstitucionInvitado->tieneCerco = "1";
-        $InstitucionInvitado->tipoCerco = "1";
-        $InstitucionInvitado->estadoCerco = "1";
-        $InstitucionInvitado->requiereRecreacion = "1";
-        $InstitucionInvitado->tipoRecreacion = "1";
-        $InstitucionInvitado->tieneIntenet = "1";
-        $InstitucionInvitado->tipoIntenet = "1";
-
-        $InstitucionInvitado->cancelaIntenet = "1";
-        $InstitucionInvitado->estadoIntenet = "1";
-        $InstitucionInvitado->tieneLuz = "1";
-        $InstitucionInvitado->tipoLuz = "1";
-        $InstitucionInvitado->cancelaLuz = "1";
-        $InstitucionInvitado->estadoLuz = "1";
-        $InstitucionInvitado->tieneAgua = "1";
-        $InstitucionInvitado->tipoAgua = "1";
-        $InstitucionInvitado->cancelaAgua = "1";
-        $InstitucionInvitado->estadoAgua = "1";
-
-        $InstitucionInvitado->tieneDesague = "1";
-        $InstitucionInvitado->tipoDesague = "1";
-        $InstitucionInvitado->cancelaDesague = "1";
-        $InstitucionInvitado->estadoDesague = "1";
-        $InstitucionInvitado->tieneReserva = "1";
-        $InstitucionInvitado->tipoReserva = "1";
-        $InstitucionInvitado->cancelaReserva = "1";
-        $InstitucionInvitado->estadoReserva = "1";
-        $InstitucionInvitado->tieneVigilancia = "1";
-        $InstitucionInvitado->tipoVigilancia = "1";
-        $InstitucionInvitado->cancelaVigilancia = "1";
-        $InstitucionInvitado->estadoVigilancia = "1";
         $InstitucionInvitado->save();
 
 

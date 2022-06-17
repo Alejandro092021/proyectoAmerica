@@ -76,7 +76,7 @@ class UsuariosController extends Controller
 //dd($nombres);
     $this->authorize("CrearUsuarios", User::class);
     $Cargo = Maestro::where('nombreTabla', "Cargo")->get();//dd($Cargo);
-    $Institucion = Instituciones::select("id","nombre","numero")->get();//dd($Institucion);
+    $Institucion = Instituciones::select("id","nombre","codigoLocal")->get();//dd($Institucion);
     
     $roles = Role::select("id", "name", "guard_name")
       ->with("permissions")

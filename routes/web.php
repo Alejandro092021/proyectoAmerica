@@ -22,6 +22,7 @@ use App\Http\Controllers\AsistenciaController;
 use App\Http\Controllers\AprobadosController;
 use App\Http\Controllers\DocentesController;
 use App\Http\Controllers\ImportarController;
+use App\Http\Controllers\InstitucionController;
 
 
 
@@ -107,3 +108,7 @@ Route::resource('docente', DocentesController::class)->names('docente');
 
 
 Route::resource('importar', ImportarController::class)->names('importar')->except(['create', 'show', 'edit', 'store', 'update', 'destroy']);
+
+//ruta Instituciones
+Route::resource('institucion', InstitucionController::class)->names('institucion');
+Route::get('/exportInstitucion', [InstitucionController::class,'export'])->name('Instituciones.excel');
