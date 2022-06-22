@@ -23,12 +23,19 @@ return new class extends Migration
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->string('profile_photo_path', 2048)->nullable();
+            $table->smallInteger('estado')->default(1);
+        
             $table->timestamps();
 
             
             $table->unsignedBigInteger('idInstitucion')->unique();
             
             $table->foreign('idInstitucion')->references('id')->on('instituciones');
+
+            $table->unsignedBigInteger('idPersona')->unique();
+
+            $table->foreign('idPersona')->references('id')->on('personas');
+
         });
     }
 

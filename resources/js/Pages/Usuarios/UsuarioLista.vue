@@ -1,9 +1,9 @@
 <template>
   <MainLayout>
     <Head title="Usuarios" />
-    <div class="py-2">
+    <div class="py-2 overflow-y-auto h-full">
       <div class="max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2">
-        <div class="overflow-hidden px-2">
+        <div class=" px-2">
           <div class="flex justify-between">
             <h2
               class="
@@ -54,6 +54,7 @@
                     <th class="px-4 py-3">Nombre</th>
                     <th class="px-4 py-3">Correo</th>
                     <th class="px-4 py-3 text-center">Roles</th>
+                    <th class="px-2 py-3 text-center">Estado</th>
                     <th class="px-4 py-3">Acciones</th>
                   </template>
                   <template #row>
@@ -89,6 +90,32 @@
                           </span>
                         </div>
                       </td>
+
+                      <td class="px-2 py-1 text-center">
+                        <span
+                          class="
+                            text-white
+                            dark:text-gray-700
+                            bg-green-300
+                            px-1
+                            rounded-full
+                          "
+                          v-if="u.estado == 'Activado'"
+                          >{{u.estado}}</span
+                        >
+                        <span
+                          class="
+                            text-white
+                            dark:text-gray-700
+                            bg-red-300
+                            px-1
+                            rounded-full
+                          "
+                          v-if="u.estado == 'Desactivado'"
+                          >{{u.estado}}</span
+                        >
+                      </td>
+
                       <td class="px-4 py-1">
                         <div class="flex items-center space-x-4 text-sm">
                           <template v-if="u.id === 1">
@@ -136,6 +163,92 @@
                               </button>
                             </Link>
 
+                            <Link
+                            method="GET"
+                            as="button"
+                            type="button"
+                            class="mx-1 text-yellow-500 hover:text-yellow-600"
+                            :href="
+                              route('usuarios.show', { usuario: u })
+                            "
+                          >
+                            <button type="button">
+                              <!-- start tooltip -->
+                              <div
+                                class="
+                                  group
+                                  w-5
+                                  cursor-pointer
+                                  relative
+                                  inline-block
+                                  text-center
+                                "
+                              >
+                                <!-- start icono ojo -->
+                                <svg
+                                  class="w-5 h-5"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                  ></path>
+                                  <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                  ></path>
+                                </svg>
+                                <!--end icono ojo -->
+                                <div
+                                  class="
+                                    opacity-0
+                                    w-14
+                                    bg-yellow-300
+                                    text-gray-600 text-center text-xs
+                                    rounded-lg
+                                    py-1
+                                    absolute
+                                    z-10
+                                    group-hover:opacity-100
+                                    bottom-full
+                                    -ml-5
+                                    pointer-events-none
+                                  "
+                                >
+                                  <p>Ver</p>
+                                  <svg
+                                    class="
+                                      absolute
+                                      text-yellow-300
+                                      h-2
+                                      w-full
+                                      left-0
+                                      top-full
+                                    "
+                                    x="0px"
+                                    y="0px"
+                                    viewBox="0 0 255 255"
+                                    xml:space="preserve"
+                                  >
+                                    <polygon
+                                      class="fill-current"
+                                      points="0,0 127.5,127.5 255,0"
+                                    />
+                                  </svg>
+                                </div>
+                              </div>
+                              <!-- end tooltip -->
+                            </button>
+                          </Link>
+
+                          <!--
                             <button
                               type="button"
                               class="text-red-500 hover:text-red-600"
@@ -153,7 +266,151 @@
                                   clip-rule="evenodd"
                                 ></path>
                               </svg>
-                            </button>
+                            </button>-->
+
+                            <button type="button" @click="ConfirmarEstado(u)">
+                            <!-- start tooltip -->
+                            <div
+                              v-show="u.estado == 'Desactivado'"
+                              class="
+                                group
+                                w-5
+                                cursor-pointer
+                                relative
+                                inline-block
+                                text-center
+                              "
+                            >
+                              <!-- start icono desactivar -->
+                              <svg
+                                class="
+                                  w-5
+                                  h-5
+                                  text-green-400
+                                  hover:text-green-600
+                                "
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"
+                                ></path>
+                              </svg>
+                              <!--end icono desactivar -->
+                              <div
+                                class="
+                                  opacity-0
+                                  w-16
+                                  bg-green-300
+                                  text-gray-600 text-center text-xs
+                                  rounded-lg
+                                  py-1
+                                  absolute
+                                  z-10
+                                  group-hover:opacity-100
+                                  bottom-full
+                                  -ml-5
+                                  pointer-events-none
+                                "
+                              >
+                                <p>Activar</p>
+                                <svg
+                                  class="
+                                    absolute
+                                    text-green-300
+                                    h-2
+                                    w-full
+                                    left-0
+                                    top-full
+                                  "
+                                  x="0px"
+                                  y="0px"
+                                  viewBox="0 0 255 255"
+                                  xml:space="preserve"
+                                >
+                                  <polygon
+                                    class="fill-current"
+                                    points="0,0 127.5,127.5 255,0"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                            <!-- start tooltip -->
+                            <div
+                              v-show="u.estado == 'Activado'"
+                              class="
+                                group
+                                w-5
+                                cursor-pointer
+                                relative
+                                inline-block
+                                text-center
+                              "
+                            >
+                              <!-- start icono activar -->
+
+                              <svg
+                                v-show="u.estado == 'Activado'"
+                                class="w-5 h-5 text-red-500 hover:text-red-600"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M10 14H5.236a2 2 0 01-1.789-2.894l3.5-7A2 2 0 018.736 3h4.018a2 2 0 01.485.06l3.76.94m-7 10v5a2 2 0 002 2h.096c.5 0 .905-.405.905-.904 0-.715.211-1.413.608-2.008L17 13V4m-7 10h2m5-10h2a2 2 0 012 2v6a2 2 0 01-2 2h-2.5"
+                                ></path>
+                              </svg>
+                              <!--end icono activar -->
+                              <div
+                                class="
+                                  opacity-0
+                                  w-20
+                                  bg-red-300
+                                  text-gray-600 text-center text-xs
+                                  rounded-lg
+                                  py-1
+                                  absolute
+                                  z-10
+                                  group-hover:opacity-100
+                                  bottom-full
+                                  -ml-8
+                                  pointer-events-none
+                                "
+                              >
+                                <p>Desactivar</p>
+                                <svg
+                                  class="
+                                    absolute
+                                    text-red-300
+                                    h-2
+                                    w-full
+                                    left-0
+                                    top-full
+                                  "
+                                  x="0px"
+                                  y="0px"
+                                  viewBox="0 0 255 255"
+                                  xml:space="preserve"
+                                >
+                                  <polygon
+                                    class="fill-current"
+                                    points="0,0 127.5,127.5 255,0"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                            <!-- end tooltip -->
+                          </button> 
+
                           </template>
                         </div>
                       </td>
@@ -180,11 +437,20 @@
                     />
                   </template>
                 </JetTable>
+                
                 <JetConfirmationModal :show="Abrir" @close="CerrarModal">
-                  <template #title> Eliminar usuario </template>
+                  <template #title>
+                    <p v-show="usuario.estado == 'Activado'">Desactivar Usuario</p>
+                    <p v-show="usuariosestado == 'Desactivado'">Activar Usuario</p>
+                  </template>
 
                   <template #content>
-                    ¿Estas seguro de Eliminar este usuario?.
+                    <p v-show="usuario.estado == 'Activado'">
+                      ¿Estas seguro de Desactivar a este Usuario?
+                    </p>
+                    <p v-show="usuario.estado == 'Desactivado'">
+                      ¿Estas seguro de Activar a este Usuario?
+                    </p>
                   </template>
 
                   <template #footer>
@@ -198,15 +464,16 @@
                     <JetDeleteButton
                       class="w-full mr-2"
                       type="button"
-                      @click="EliminarUsuario(Usuario)"
+                      @click="CambiarEstadoUsuario(usuario)"
                     >
-                      Eliminar
+                      Aceptar
                     </JetDeleteButton>
                   </template>
                 </JetConfirmationModal>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
@@ -250,10 +517,42 @@ export default defineComponent({
         buscar: "",
       },
       Abrir: false,
-      Usuario: null,
+      usuario: null,
     };
   },
   methods: {
+    ConfirmarEstado(u) {
+      this.usuario = u;
+      this.AbrirModal();
+    },
+
+    CambiarEstadoUsuario(u) {
+      this.CerrarModal();
+      this.$inertia.delete(route("usuarios.destroy", u.id), {
+        onSuccess: () => {
+          this.$notify(
+            {
+              group: "mensajes",
+              type: "success",
+              title: "Exíto",
+              text: "Estado modificado correctamente",
+            },
+            2000
+          );
+        },
+        onError: (errors) => {
+          this.$notify(
+            {
+              group: "mensajes",
+              type: "error",
+              title: "Error",
+              text: "Estado no modificado",
+            },
+            2000
+          );
+        },
+      });
+    },
     AbrirModal() {
       this.Abrir = true;
     },

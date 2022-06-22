@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Imports\InstitucionesImport;
 use App\Models\Persona;
-use App\Models\Trabajadore;
 use Illuminate\Http\Request;
 //importamos estas clases
 use App\Models\User;
@@ -107,24 +106,47 @@ class UsuariosController extends Controller
     $this->authorize("CrearUsuarios", new User());
 
     $request->validate([
-      "name" => "Required|max:200",
+      "nombres" => "required|max:200",
+      "apellidopaterno" => "required|max:200",
+      "apellidomaterno" => "required|max:200",
+      "telefono" => "required|max:9",
+    
       "email" => "Required|email|unique:users,email",
       "password" => "Required|confirmed|min:8|max:50",
       "password_confirmation" => "required|min:8|max:50",
       "rolId" => "Required",
       "Cargo" => "Required",
-      "institucion" => "Required",
+      "institucion" => "Required|unique:users,idInstitucion",
     ]);
 
+
+    $persona = new Persona();
+    $persona->nombres = $request->nombres;//dd($request->nombres);
+    $persona->apellidoPaterno = $request->apellidopaterno;
+    $persona->apellidoMaterno = $request->apellidomaterno;
+    $persona->correo = $request->email;
+    $persona->telefono = $request->telefono;
+    $persona->save();
+
+    $primeraLetra = Str::substr($request->nombres, 0, 1);//dd($primeraLetra);
+    $apellido= $request->apellidopaterno;
+    $primeraLetraMaterno = Str::substr($request->apellidomaterno, 0, 1);
+    $sobrenombre = $primeraLetra . $apellido . $primeraLetraMaterno;//dd($sobrenombre);
+
     $usuario = new User();
-    $usuario->name = $request->name;
+    $usuario->name = $sobrenombre;//dd($usuario->name);
     $usuario->email = $request->email;
     $usuario->password = bcrypt($request->password);
     $usuario->cargo=$request->Cargo;
+
     $usuario->idInstitucion=$request->institucion;
+    $usuario->idPersona= $persona->id;
     $usuario->roles()->detach();
     $usuario->assignRole($request->rolId);
     $usuario->save();
+
+    
+
     return Redirect::route("usuarios.index");
   }
 
@@ -133,11 +155,13 @@ class UsuariosController extends Controller
     //dd($usuario);
     $this->authorize("EditarUsuarios", User::class);
 
+
     $user = User::where("id", $usuario->id)->with("roles")->first();
+    $persona = Persona::where("id", $usuario->idPersona)->first();
 
     $roles = Role::all();
 
-    return Inertia::render("Usuarios/UsuarioEditar", ["usuarios" => $user, "roles" => $roles]);
+    return Inertia::render("Usuarios/UsuarioEditar", ["usuarios" => $user, "roles" => $roles, "persona" => $persona]);
   }
 
   public function update(Request $request, User $usuario)
@@ -145,13 +169,35 @@ class UsuariosController extends Controller
     //dd($request);
     $this->authorize("EditarUsuarios", $usuario);
     $request->validate([
+      "nombres" => "Required|max:200",
+      "apellidopaterno" => "required|max:200",
+      "apellidomaterno" => "required|max:200",
+      "telefono" => "required|max:9",
+
       "name" => "Required|max:200",
       "email" => "Required|email|unique:users,email," . $usuario->id,
       "rolId" => "Required",
+
+      //"Cargo" => "Required",
+      //"institucion" => "Required|unique:users,idInstitucion",
     ]);
 
+    $persona = Persona::find($request->id);//dd($persona);
+    $persona->nombres = $request->nombres;//dd($request->nombres);
+    $persona->apellidoPaterno = $request->apellidopaterno;
+    $persona->apellidoMaterno = $request->apellidomaterno;
+    $persona->telefono = $request->telefono;
+    $persona->correo = $request->email;
+    $persona->save();//dd($persona);
+
+    $primeraLetra = Str::substr($request->nombres, 0, 1);//dd($primeraLetra);
+    $apellido= $request->apellidopaterno;
+    $primeraLetraMaterno = Str::substr($request->apellidomaterno, 0, 1);
+    $sobrenombre = $primeraLetra . $apellido . $primeraLetraMaterno;//dd($sobrenombre);
+
+
     $usuario = User::find($request->id);
-    $usuario->name = $request->name;
+    $usuario->name = $sobrenombre;//dd($usuario->name);
     $usuario->email = $request->email;
 
     if ($request->photo) {
@@ -168,7 +214,7 @@ class UsuariosController extends Controller
     $usuario->roles()->detach();
     $usuario->assignRole($request->rolId);
     $usuario->save();
-    return redirect()->back();
+    return Redirect::route("usuarios.index");
   }
 
   public function eliminarFoto(Request $request)
@@ -214,9 +260,32 @@ class UsuariosController extends Controller
 
   public function destroy(User $usuario)
   {
-    $user = User::findOrFail($usuario->id);
+    //dd($usuario);
+    $user = User::findOrFail($usuario->id);//dd($user);
     $this->authorize("EliminarUsuarios", $user);
-    $usuario->delete();
+    if ($user->estado == 'Activado') {
+      $user->estado = 0;
+  } else {
+      $user->estado = 1;
+  }
+    $user->update();
     return Redirect::route("usuarios.index");
   }
+
+  public function show(User $usuario)
+    {
+        //
+        //dd($usuario);
+
+        $usuario = User::join('personas', 'personas.id', '=', 'users.idPersona')
+        ->join('maestros','maestros.valor','=','users.Cargo')
+        ->where('maestros.nombreTabla','=','Cargo')
+            ->where('users.id', '=', $usuario->id)
+            ->select('*')
+            ->get();//dd($usuario);
+
+        
+
+        return Inertia::render('Usuarios/UsuarioVerDetalle', ["Usuario" => $usuario]);
+    }
 }

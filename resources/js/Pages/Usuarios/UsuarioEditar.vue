@@ -55,6 +55,7 @@
                           v-else
                           :src="`/storage/${usuarios.profile_photo_path}`"
                           :alt="usuarios.name"
+
                           class="rounded-full h-20 w-20 object-cover"
                         />
                       </div>
@@ -120,6 +121,189 @@
                       </div>
                     </div>
                     <div class="relative">
+                      <JetLabel>Nombres</JetLabel>
+                      <JetInput
+                      
+                        @keypress="sololetras($event)"
+                        class="mt-1 block w-full"
+                        type="text"
+                        v-model="form.nombres"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.nombres.$error,
+                        }"
+                        placeholder="buscar por apellido paterno o por razon social"
+                      />
+                      <div
+                        v-if="errors.nombres"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        Este usuario ya tiene una cuenta registrada.
+                      </div>
+                      <div
+                        v-if="errors.nombres"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.nombres }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.nombres.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="relative">
+                      <JetLabel>Apellido Paterno</JetLabel>
+                      <JetInput
+                      
+                        @keypress="sololetras($event)"
+                        class="mt-1 block w-full"
+                        type="text"
+                        v-model="form.apellidopaterno"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.apellidopaterno.$error,
+                        }"
+                        placeholder="Ingresar apellido paterno"
+                      />
+                      <div
+                        v-if="errors.apellidopaterno"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        Este usuario ya tiene una cuenta registrada.
+                      </div>
+                      <div
+                        v-if="errors.apellidopaterno"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.apellidopaterno }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.apellidopaterno.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="relative">
+                      <JetLabel>Apellido Materno</JetLabel>
+                      <JetInput
+                      
+                        @keypress="sololetras($event)"
+                        class="mt-1 block w-full"
+                        type="text"
+                        v-model="form.apellidomaterno"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.apellidomaterno.$error,
+                        }"
+                        placeholder="Ingresar apellido paterno"
+                      />
+                      <div
+                        v-if="errors.apellidomaterno"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        Este usuario ya tiene una cuenta registrada.
+                      </div>
+                      <div
+                        v-if="errors.apellidomaterno"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.apellidomaterno }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.apellidomaterno.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="relative">
+                      <JetLabel>Telefono</JetLabel>
+                      <JetInput
+                      
+                        @keypress="sololetras($event)"
+                        class="mt-1 block w-full"
+                        type="text"
+                        v-model="form.telefono"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.telefono.$error,
+                        }"
+                        placeholder="Ingresar apellido paterno"
+                      />
+                      <div
+                        v-if="errors.telefono"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        Este usuario ya tiene una cuenta registrada.
+                      </div>
+                      <div
+                        v-if="errors.telefono"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.telefono }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.telefono.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    
+
+
+                    <div class="relative">
                       <JetLabel>Usuarios</JetLabel>
                       <JetInput
                       
@@ -127,6 +311,7 @@
                         class="mt-1 block w-full"
                         type="text"
                         v-model="form.name"
+                        disabled
                         :class="{
                           'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
                             v$.form.name.$error,
@@ -386,6 +571,7 @@
           </div>
         </div>
       </div>
+      {{persona}}
       
     </div>
   </MainLayout>
@@ -426,6 +612,7 @@ export default defineComponent({
     usuarios: Object,
     roles: Object,
     errors: Object,
+    persona: Object,
   },
   setup() {
     return { v$: useVuelidate() };
@@ -437,6 +624,10 @@ export default defineComponent({
       form: this.$inertia.form({
         _method: "PUT",
         id: this.$props.usuarios.id,
+        nombres: this.$props.persona.nombres,
+        apellidopaterno: this.$props.persona.apellidoPaterno,
+        apellidomaterno: this.$props.persona.apellidoMaterno,
+        telefono: this.$props.persona.telefono,
         name: this.$props.usuarios.name,
         email: this.$props.usuarios.email,
         photo: this.$props.usuarios.profile_photo_path,
@@ -457,6 +648,40 @@ export default defineComponent({
   validations() {
     return {
       form: {
+        nombres: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+
+          $autoDirty: true,
+        },
+        apellidopaterno: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+
+          $autoDirty: true,
+        },
+        apellidomaterno: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+
+          $autoDirty: true,
+        },
+        telefono: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+
+          $autoDirty: true,
+        },
+
+
         name: {
           required: helpers.withMessage(
             "Este campo no puede estar vacío",
@@ -520,6 +745,16 @@ export default defineComponent({
       this.DatosTrabajador = [];
       
 
+    },
+    SoloNumeros($event) {
+      if (
+        $event.charCode === 0 ||
+        /\d/.test(String.fromCharCode($event.charCode))
+      ) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
     },
     sololetras($event) {
       var letras = /^[a-zA-ZñÑ\s]*$/;

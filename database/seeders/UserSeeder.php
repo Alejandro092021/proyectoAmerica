@@ -11,6 +11,7 @@ use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 //agregamos modelo institucion
 use App\Models\Instituciones;
+use App\Models\Persona;
 
 class UserSeeder extends Seeder
 {
@@ -101,6 +102,23 @@ class UserSeeder extends Seeder
         $InstitucionInvitado->tipoModalidad = "1";
         $InstitucionInvitado->save();
 
+        //Creamos persona Admin
+        $PersonaAdmin = new Persona();
+        $PersonaAdmin->nombres = "nombreAdmin";
+        $PersonaAdmin->apellidoPaterno = "apellidoPatAdmin";
+        $PersonaAdmin->apellidoMaterno = "apellidoMatAdmin";
+        $PersonaAdmin->correo = "correoAdmin";
+        $PersonaAdmin->telefono = "telefonoAdmin";
+        $PersonaAdmin->save();
+
+        //Creamos persona Invitado
+        $PersonaInvitado = new Persona();
+        $PersonaInvitado->nombres = "nombreInvitado";
+        $PersonaInvitado->apellidoPaterno = "apellidoPatInvitado";
+        $PersonaInvitado->apellidoMaterno = "apellidoMatAdmin";
+        $PersonaInvitado->correo = "correoInvitado";
+        $PersonaInvitado->telefono = "telefonoInvitado";
+        $PersonaInvitado->save();
 
 
 
@@ -111,6 +129,7 @@ class UserSeeder extends Seeder
         $user->password = bcrypt("123456789");
         $user->Cargo="1";
         $user->idInstitucion=$InstitucionAdmin->id;
+        $user->idPersona=$PersonaAdmin->id;
         $user->save();
         $user->assignRole($adminRole);
 
@@ -121,6 +140,7 @@ class UserSeeder extends Seeder
         $user->Cargo="1";
         $user->password = bcrypt("123456789");
         $user->idInstitucion=$InstitucionInvitado->id;
+        $user->idPersona=$PersonaInvitado->id;
         $user->save();
         $user->assignRole($invitado1Role);
     }

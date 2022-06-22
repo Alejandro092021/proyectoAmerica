@@ -1,7 +1,7 @@
 <template>
   <MainLayout>
     <Head title="Usuario Insertar" />
-    <div class="py-2">
+    <div class="py-2 overflow-y-auto h-full">
       <div class="max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2">
         <div class="overflow-hidden px-2">
           <div class="flex justify-between">
@@ -29,20 +29,120 @@
                   w-full
                 "
               >
-              <div class="inline-block">
-                        
-                        <button type="button"
-                            class="border border-indigo-500 text-indigo-500 text-xl rounded-md px-4 py-2 m-2 duration-500 ease select-none transform hover:scale-110 focus:outline-none focus:shadow-outline">
-                            <Link href="/importar/">
-                                Importar</Link
-                              >
-                        </button>
-                    </div>
+                <div  class="inline-block">
+                  <button
+                    type="button"
+                    class="
+                      border border-indigo-500
+                      text-indigo-500 text-xl
+                      rounded-md
+                      px-4
+                      py-2
+                      m-2
+                      duration-500
+                      ease
+                      select-none
+                      transform
+                      hover:scale-110
+                      focus:outline-none focus:shadow-outline
+                    "
+                  >
+                    <Link href="/importar/"> Importar</Link>
+                  </button>
+                </div>
 
                 <form id="formGuardar" @submit.prevent="GuardarUsuario">
-                
-
                   <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                    <div class="relative">
+                      <JetLabel for="Nombres" value="Nombres:" />
+                      <JetInput
+                        @keypress="sololetras($event)"
+                        class="mt-1 block w-full"
+                        type="text"
+                        v-model="form.nombres"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.nombres.$error,
+                        }"
+                        placeholder="ingresar nombres"
+                      />
+                      <div
+                        v-if="errors.nombres"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        Este usuario ya tiene una cuenta registrada.
+                      </div>
+                      <div
+                        v-if="errors.nombres"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.nombres }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.nombres.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="relative">
+                      <JetLabel for="ApellidoPaterno" value="ApellidoPaterno:" />
+                      <JetInput
+                        @keypress="sololetras($event)"
+                        class="mt-1 block w-full"
+                        type="text"
+                        v-model="form.apellidopaterno"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.apellidopaterno.$error,
+                        }"
+                        placeholder="ingresar apellidos"
+                      />
+                      <div
+                        v-if="errors.apellidopaterno"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        Este usuario ya tiene estos apellidos registrado.
+                      </div>
+                      <div
+                        v-if="errors.apellidopaterno"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.apellidopaterno }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.apellidopaterno.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Nombre Usuario -- Cargo -->
+                  <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                    <!-- 
                     <div class="relative">
                       <JetLabel for="Nombre" value="Usuarios:" />
                       <JetInput
@@ -84,8 +184,50 @@
                           {{ error.$message }}
                         </div>
                       </div>
+                    </div>-->
+
+                    <div class="relative">
+                      <JetLabel for="ApellidoMaterno" value="ApellidoMaterno:" />
+                      <JetInput
+                        @keypress="sololetras($event)"
+                        class="mt-1 block w-full"
+                        type="text"
+                        v-model="form.apellidomaterno"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.apellidomaterno.$error,
+                        }"
+                        placeholder="ingresar apellido materno"
+                      />
+                      <div
+                        v-if="errors.apellidomaterno"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        Este usuario ya tiene estos apellidos registrado.
+                      </div>
+                      <div
+                        v-if="errors.apellidomaterno"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.apellidomaterno }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.apellidomaterno.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
                     </div>
-                    
 
                     <div>
                       <JetLabel for="Cargo" value="Tipo de Cargo:" />
@@ -124,7 +266,7 @@
                           Seleccionar Cargo
                         </option>
                         <option
-                          v-for="(c, index) in cargo "
+                          v-for="(c, index) in cargo"
                           :key="index"
                           :value="c.valor"
                         >
@@ -154,12 +296,15 @@
                         </div>
                       </div>
                     </div>
-                    
                   </div>
-
+                  <!-- Institucion Educativa -- Telefono -->
                   <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+                    <!-- Institucion Educativa -->
                     <div>
-                      <JetLabel for="Institucion" value="Institucion Educativa:" />
+                      <JetLabel
+                        for="Institucion"
+                        value="Institucion Educativa:"
+                      />
 
                       <select
                         class="
@@ -206,7 +351,7 @@
                         v-if="errors.institucion"
                         class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
                       >
-                        {{ errors.institucion }}
+                        La institucion ya ha sido registrada
                       </div>
                       <div
                         v-for="(error, index) of v$.form.institucion.$errors"
@@ -225,9 +370,46 @@
                         </div>
                       </div>
                     </div>
+
+                    <div class="relative">
+                      <JetLabel for="Telefono" value="Telefono:" />
+                      <JetInput
+                        @keypress="SoloNumeros($event)"
+                        class="mt-1 block w-full"
+                        type="text"
+                        v-model="form.telefono"
+                        :class="{
+                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
+                            v$.form.telefono.$error,
+                        }"
+                        placeholder="ingresar telefono"
+                      />
+                      <div
+                        v-if="errors.telefono"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        {{ errors.telefono }}
+                      </div>
+                      <div
+                        v-for="(error, index) of v$.form.telefono.$errors"
+                        :key="index"
+                      >
+                        <div
+                          class="
+                            text-xs
+                            px-2
+                            py-2
+                            text-red-400
+                            dark:text-red-400
+                          "
+                        >
+                          {{ error.$message }}
+                        </div>
+                      </div>
+                    </div>
                   </div>
 
-
+                  <!-- Email -- Tipo rol -->
                   <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
                     <div>
                       <JetLabel for="email" value="Email:" />
@@ -265,6 +447,7 @@
                         </div>
                       </div>
                     </div>
+
                     <div>
                       <JetLabel for="TipoRol" value="Tipo de Rol:" />
 
@@ -333,6 +516,7 @@
                       </div>
                     </div>
                   </div>
+                  <!-- Password -- Confirmar contraseña -->
                   <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
                     <div>
                       <JetLabel for="password" value="Contraseña:" />
@@ -410,9 +594,8 @@
                       </div>
                     </div>
                   </div>
-                  <div></div>
                 </form>
-                
+
                 <JetButton
                   form="formGuardar"
                   class="my-3"
@@ -422,18 +605,12 @@
                   Guardar
                   {{ form.progress ? `${form.progress.percentage}% ` : "" }}
                 </JetButton>
-                
-                
-                
-
               </div>
             </div>
           </div>
         </div>
-    
       </div>
     </div>
-    
   </MainLayout>
 </template>
 
@@ -480,15 +657,17 @@ export default defineComponent({
 
       form: this.$inertia.form({
         _method: "POST",
+        nombres:"",
+        apellidopaterno:"",
+        apellidomaterno:"",
+        telefono:"",
         name: "",
         email: "",
         password: "",
         password_confirmation: "",
         rolId: "",
-        Cargo:"",
-        institucion:"",
-      
-      
+        Cargo: "",
+        institucion: "",
       }),
     };
   },
@@ -496,7 +675,7 @@ export default defineComponent({
   validations() {
     return {
       form: {
-        name: {
+        nombres: {
           required: helpers.withMessage(
             "Este campo no puede estar vacío",
             required
@@ -504,6 +683,31 @@ export default defineComponent({
 
           $autoDirty: true,
         },
+        apellidopaterno: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+
+          $autoDirty: true,
+        },
+        apellidomaterno: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+
+          $autoDirty: true,
+        },
+        telefono: {
+          required: helpers.withMessage(
+            "Este campo no puede estar vacío",
+            required
+          ),
+
+          $autoDirty: true,
+        },
+        
         email: {
           required: helpers.withMessage(
             "Este campo no puede estar vacío",
@@ -573,7 +777,7 @@ export default defineComponent({
       
 
     },*/
-/*
+    /*
     async nombreusuario() {
       
       if (this.form.name != "") {
@@ -600,6 +804,16 @@ export default defineComponent({
         this.DatosTrabajador = [];
       }
     },*/
+    SoloNumeros($event) {
+      if (
+        $event.charCode === 0 ||
+        /\d/.test(String.fromCharCode($event.charCode))
+      ) {
+        return true;
+      } else {
+        $event.preventDefault();
+      }
+    },
     sololetras($event) {
       var letras = /^[a-zA-ZñÑ\s]*$/;
 
@@ -642,11 +856,9 @@ export default defineComponent({
       );
     },
     ImportExcel() {
-
       let paramString = new URLSearchParams();
 
       window.open(`/import?${paramString.toString()}`);
-
     },
   },
 });

@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -32,7 +33,9 @@ class User extends Authenticatable
         'email',
         'password',
         'Cargo',
+        'estado',
         'idInstitucion',
+        
     ];
 
     /**
@@ -90,4 +93,39 @@ class User extends Authenticatable
     {
         $this->attributes['email'] = ucfirst(strtolower($value));
     }
+
+    public function getNameAttribute($value)
+    {
+        return strtolower($value);
+    }
+
+    public function getCreatedAtAttribute($value)
+    {
+        return Carbon::parse($value)->format('d-m-Y');
+    }
+
+    public function getEstadoAttribute($value)
+    {
+        if ($value == 1) {
+            return 'Activado';
+        } else {
+            return 'Desactivado';
+        }
+    }
+    
+
+
+    //Relacion inversa de uno a muchos
+    public function personas()
+    {
+        return $this->belongsTo('App\Models\Persona', 'idPersona');
+    }
+
+    public function institucion()
+    {
+        return $this->belongsTo('App\Models\Institucion', 'idInstitucion');
+    }
+
+
+    
 }
