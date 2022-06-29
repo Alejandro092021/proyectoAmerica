@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Maestro;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
@@ -25,7 +27,30 @@ class AsistenciaController extends Controller
     public function create()
     {
         //
-        return Inertia::render("Asistencia/AsistenciaInsertar");
+        $instituciones = User::join('instituciones','instituciones.id','=','users.idInstitucion')
+        ->where('users.estado','=','1')
+        ->get();//dd($matriculados);
+
+        $tipomodalidad = Maestro::where('nombreTabla','=','TipoModalidad')->select('nombreTabla', 'campo','valor')->get();
+        $modulo = Maestro::where('nombreTabla','=','Modulo')
+        ->where('valor','=','2')
+        ->select('nombreTabla', 'campo','valor')->get();
+        $tipoestudio = Maestro::where('nombreTabla','=','TipoEstudio')->select('nombreTabla', 'campo','valor')->get();
+        $nivel = Maestro::where('nombreTabla','=','Nivel')->select('nombreTabla', 'campo','valor')->get();
+        $grado = Maestro::where('nombreTabla','=','Grado')->select('nombreTabla', 'campo','valor')->get();
+        $especialidad = Maestro::where('nombreTabla','=','Especialidad')->select('nombreTabla', 'campo','valor')->get();
+        $bimestre = Maestro::where('nombreTabla','=','Bimestre')->select('nombreTabla', 'campo','valor')->get();
+        
+        return Inertia::render("Asistencia/AsistenciaInsertar", [
+            "instituciones" => $instituciones,
+            "tipomodalidad" => $tipomodalidad,
+            "modulo" => $modulo,
+            "tipoestudio" => $tipoestudio,
+            "nivel" => $nivel,
+            "grado" => $grado,
+            "especialidad" => $especialidad,
+            "bimestre" => $bimestre,
+        ]);
     }
 
     /**
@@ -37,6 +62,7 @@ class AsistenciaController extends Controller
     public function store(Request $request)
     {
         //
+        dd($request);
     }
 
     /**

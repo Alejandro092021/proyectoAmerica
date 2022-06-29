@@ -120,6 +120,10 @@ class User extends Authenticatable
     {
         return $this->belongsTo('App\Models\Persona', 'idPersona');
     }
+    //Relacion de uno a muchos
+public function users(){
+    return $this->hasMany('App\Models\DetalleAdministrativo');
+}
 
     public function institucion()
     {

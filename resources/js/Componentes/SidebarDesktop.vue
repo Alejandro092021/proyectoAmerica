@@ -198,7 +198,7 @@
         </div>
      </link>
 
-     <p class="p-3 text-xs uppercase text-blue-800 dark:text-red-400">Asistencias</p>
+     <!--<p class="p-3 text-xs uppercase text-blue-800 dark:text-red-400">Asistencias</p>-->
 
      <!-- BOTON DE ASISTENCIAS-->
 
@@ -229,7 +229,7 @@
               d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
             ></path>
           </svg>
-          <span class="ml-4">Asistencias Presenciales</span>
+          <span class="ml-4">Asistencias</span>
         </div>
      </link>
 

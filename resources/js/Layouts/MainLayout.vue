@@ -8,9 +8,13 @@
         :class="estadoMenu ? 'w-72' : 'w-16'"
       >
         <main
-          class="bg-white overflow-y-auto h-full rounded-2xl dark:bg-gray-700 shadow-lg" 
+          class="bg-white overflow-y-auto h-full rounded-2xl dark:bg-gray-700 shadow-lg " 
         >
+<<<<<<< HEAD
           <div class="flex items-center justify-center pt-6 bg-auto bg-no-repeat bg-center" id="app3" >
+=======
+          <div class="flex items-center justify-center pt-6 bg-auto bg-no-repeat bg-center" id="app3">
+>>>>>>> 844902c3ddd9c859b5cbab6af9ac79803d176d6c
             
               <Link :href="route('inicio')" v-if="estadoMenu" >
               
@@ -86,7 +90,11 @@ export default defineComponent({
 #app3 {
   
   
+<<<<<<< HEAD
   background: url("C:\xampp\htdocs\proyectoAmerica\storage\app\public\logo.png");
+=======
+ background: url("C:\xampp\htdocs\proyectoAmerica\storage\app\public\logo.png");
+>>>>>>> 844902c3ddd9c859b5cbab6af9ac79803d176d6c
   background-size: contain;
   background-size: 100% 120%;
   height: 130px;
