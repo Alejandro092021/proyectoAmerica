@@ -17,7 +17,7 @@ return new class extends Migration
             //Datos de la institucion
             $table->id();
             $table->string('nombre', 200);
-            $table->string('codigoModular', 10);
+            $table->string('codigoModular', 10)->unique();
             $table->string('codigoLocal', 10);
             $table->string('provincia', 50);
             $table->string('distrito', 50);
