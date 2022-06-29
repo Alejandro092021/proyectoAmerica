@@ -10,7 +10,7 @@
         <main
           class="bg-white overflow-y-auto h-full rounded-2xl dark:bg-gray-700 shadow-lg" 
         >
-          <div class="flex items-center justify-center pt-6 bg-auto bg-no-repeat bg-center" id="app3" >
+          <div class="flex items-center justify-center pt-6 bg-auto bg-no-repeat bg-center" >
             
               <Link :href="route('inicio')" v-if="estadoMenu" >
               
@@ -86,7 +86,7 @@ export default defineComponent({
 #app3 {
   
   
-  background: url("C:\xampp\htdocs\america\storage\app\public\index\logo.png");
+ 
   background-size: contain;
   background-size: 100% 120%;
   height: 130px;
