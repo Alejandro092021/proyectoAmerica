@@ -66,6 +66,10 @@ class Instituciones extends Model
     {
         return strtolower($value);
     }
+    //Relacion de uno a muchos
+public function users(){
+    return $this->hasMany('App\Models\User');
+}
 
     
 

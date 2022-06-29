@@ -82,6 +82,7 @@ class MaestroSeeder extends Seeder
                 array("nombreTabla"=>"Modulo","campo"=>"Nivel de Logro","valor"=>"3"),
                 array("nombreTabla"=>"Modulo","campo"=>"Riesgo de Abandono","valor"=>"4"),
                 array("nombreTabla"=>"Modulo","campo"=>"Vacunados","valor"=>"5"),
+                array("nombreTabla"=>"Modulo","campo"=>"Docentes","valor"=>"6"),
                 
                 //Tipo de Nombre Saneamiento Fisico Legal
                 array("nombreTabla"=>"NombreSfl","campo"=>"Ugel","valor"=>"1"),
