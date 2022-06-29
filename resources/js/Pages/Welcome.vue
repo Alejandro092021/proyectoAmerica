@@ -71,7 +71,7 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
-  background: url("C:\xampp\htdocs\america\storage\app\public\index\index.png");
+  background: url("C:\xampp\htdocs\proyectoAmerica\storage\app\public\index.png");
   width: 100%;
   height: 100%;
   position: fixed;
