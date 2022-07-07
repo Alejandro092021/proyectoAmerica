@@ -10,7 +10,7 @@
                 my-3
                 text-2xl
                 font-semibold
-                text-gray-600
+                text-blue-900
                 dark:text-gray-200
               "
             >

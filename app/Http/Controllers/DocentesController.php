@@ -19,6 +19,22 @@ class DocentesController extends Controller
     public function index()
     {
         //
+        //$this->authorize("VerMatriculado", User::class);
+
+        $matriculado = DetalleAdministrativo::join('users', 'detalle_administrativos.idUsuario','=', 'users.id' )
+        ->join('instituciones','users.idInstitucion', '=',  'instituciones.id')
+        ->where('modulo', '=', '6')
+        ->where("users.name", 'LIKE', "%" . request("buscar") . "%")
+        ->select('detalle_administrativos.id','users.name','detalle_administrativos.modulo','detalle_administrativos.modalidad','detalle_administrativos.educacion',
+        'detalle_administrativos.nivel', 'detalle_administrativos.grado','detalle_administrativos.especialidad','detalle_administrativos.cantidad')
+        //->select('*')
+        ->paginate()
+        ->withQueryString();
+        //dd($matriculado);
+        
+            return Inertia::render("Docente/DocenteListar", [
+                "matriculados" => $matriculado,
+              ]);
     }
 
     /**
@@ -64,7 +80,7 @@ class DocentesController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            "institucion"=>"required",
+            
             "modalidad"=>"required",
             "modulo"=>"required",
             "tipoestudio"=>"required",
@@ -87,10 +103,9 @@ class DocentesController extends Controller
                 $matriculados->bimestre = null;
             }
 
-            $matriculados->institucion = $request->institucion;
-            $matriculados->tipoModalidad = $request->modalidad;
-            $matriculados->tipoModulo = $request->modulo;
-            $matriculados->tipoEducacion = $request->tipoestudio;
+            $matriculados->modalidad = $request->modalidad;
+            $matriculados->modulo = $request->modulo;
+            $matriculados->educacion = $request->tipoestudio;
             $matriculados->nivel = $request->nivel;
             $matriculados->grado = $request->grado;
             $matriculados->cantidad = $request->cantidad;
@@ -117,7 +132,7 @@ class DocentesController extends Controller
         
         
 
-        return redirect()->route('docente.create')->with('success','Registro creado satisfactoriamente');
+        return redirect()->route('docente.index')->with('success','Registro creado satisfactoriamente');
     }
 
     /**
@@ -137,9 +152,39 @@ class DocentesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(DetalleAdministrativo $docente)
     {
         //
+    
+        //$this->authorize("EditarMatriculado", User::class);
+
+        //dd($matriculado);
+        $administrativo = DetalleAdministrativo::where("id",$docente->id)->with("users")->first();
+        //dd($administrativo);
+        
+        $tipomodalidad = Maestro::where('nombreTabla','=','TipoModalidad')->select('nombreTabla', 'campo','valor')->get();
+        $modulo = Maestro::where('nombreTabla','=','Modulo')
+        ->where('valor','=','6')
+        ->select('nombreTabla', 'campo','valor')->get();
+        $tipoestudio = Maestro::where('nombreTabla','=','TipoEstudio')->select('nombreTabla', 'campo','valor')->get();
+        $nivel = Maestro::where('nombreTabla','=','Nivel')->select('nombreTabla', 'campo','valor')->get();//dd($nivel);
+        
+        $grado = Maestro::where('nombreTabla','=','Grado')
+        ->select('nombreTabla', 'campo','valor')->get();
+        $especialidad = Maestro::where('nombreTabla','=','Especialidad')->select('nombreTabla', 'campo','valor')->get();
+        $bimestre = Maestro::where('nombreTabla','=','Bimestre')->select('nombreTabla', 'campo','valor')->get();
+        
+
+        return Inertia::render("Docente/DocenteEditar", [
+            "matriculado" => $administrativo,
+            "tipomodalidad" => $tipomodalidad,
+            "modulo" => $modulo,
+            "tipoestudio" => $tipoestudio,
+            "nivel" => $nivel,
+            "grado" => $grado,
+            "especialidad" => $especialidad,
+            "bimestre" => $bimestre,
+        ]);
     }
 
     /**
@@ -149,9 +194,10 @@ class DocentesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, DetalleAdministrativo $docente)
     {
         //
+        dd($request);
     }
 
     /**

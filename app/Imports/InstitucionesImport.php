@@ -18,7 +18,7 @@ class InstitucionesImport implements ToModel
             //nombre numero direccion
 
             'nombre'=> $row[0], 'codigoModular'=> $row[1], 'codigoLocal'=> $row[2],'provincia'=> $row[3],'distrito'=> $row[4],
-            'direccion'=> $row[5], 'tipoZona'=> $row[6], 'tipoModalidad'=> $row[7],
+            'direccion'=> $row[5], 'tipoZona'=> $row[6], 'Modalidad'=> $row[7],
 
             
         ]);

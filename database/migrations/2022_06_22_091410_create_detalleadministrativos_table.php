@@ -16,12 +16,12 @@ return new class extends Migration
         Schema::create('detalle_administrativos', function (Blueprint $table) {
             $table->id();
 
-            $table->unsignedBigInteger('institucion');
-            $table->smallInteger('tipoModulo');
-            $table->smallInteger('tipoEducacion');
+            
+            $table->smallInteger('modulo');
+            $table->smallInteger('educacion');
             $table->smallInteger('nivel');
             $table->smallInteger('grado');
-            $table->smallInteger('tipoModalidad');
+            $table->smallInteger('modalidad');
             $table->smallInteger('especialidad')->nullable();
             $table->smallInteger('bimestre')->nullable();
             $table->integer('cantidad');

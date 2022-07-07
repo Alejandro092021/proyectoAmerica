@@ -10,7 +10,7 @@
                 my-3
                 text-2xl
                 font-semibold
-                text-gray-600
+                text-blue-900
                 dark:text-gray-200
               "
             >
@@ -301,57 +301,31 @@
                   <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
                     <!-- Institucion Educativa -->
                     <div>
-                      <JetLabel
-                        for="Institucion"
-                        value="Institucion Educativa:"
-                      />
-
-                      <select
-                        class="
-                          border-gray-300
-                          focus:border-indigo-300
-                          focus:ring
-                          focus:ring-indigo-200
-                          focus:ring-opacity-50
-                          rounded-md
-                          shadow-sm
-                          w-full
-                          mt-1
-                          py-2.5
-                          px-4
-                          text-gray-700
-                          leading-tight
-                          focus:border-indigo-300
-                          rounded-lg
-                          dark:border-gray-200
-                          dark:border-none
-                          dark:bg-gray-600
-                          dark:text-white
-                          dark:focus:border-blue-500
-                          dark:focus:shadow-outline-blue
-                        "
+                      <JetLabel for="Institucion" value="Institucion:" />
+                      <JetInput
+                        @keyup="nombreinstitucion"
+                        
+                        class="mt-1 block w-full"
+                        autofocus
+                        type="text"
                         v-model="form.institucion"
                         :class="{
                           'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
                             v$.form.institucion.$error,
                         }"
-                      >
-                        <option disabled selected value="">
-                          Seleccionar Institucion
-                        </option>
-                        <option
-                          v-for="(i, index) in institucion"
-                          :key="index"
-                          :value="i.id"
-                        >
-                          {{ i.nombre }}
-                        </option>
-                      </select>
+                        placeholder="Escribir nombre de la institucion"
+                      />
                       <div
                         v-if="errors.institucion"
                         class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
                       >
-                        La institucion ya ha sido registrada
+                        {{ errors.institucion }}
+                      </div>
+                      <div
+                        v-if="errors.institucionid"
+                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
+                      >
+                        Este colegio ya ha sido registrado
                       </div>
                       <div
                         v-for="(error, index) of v$.form.institucion.$errors"
@@ -369,6 +343,58 @@
                           {{ error.$message }}
                         </div>
                       </div>
+
+                      <div >
+                        <ul
+                        v-if="form.institucion"
+                        class="
+                      
+                          absolute
+                          align-self: center
+                          z-10
+                          mb-4
+                          w-80
+                          
+                          flex flex-col
+                          rounded-b-lg
+                          border border-t-0 border-b-0 border-gray-200
+                          shadow-lg
+                          bg-white
+                        "
+                      >
+                        <li v-for="n in DatosUsuario" :key="n.id">
+                          <button
+                            class="
+                              p-1
+                              text-sm
+                              font-medium
+                              border-b border-gray-200
+                              cursor-pointer
+                              hover:bg-orange-50
+                              block
+                              w-full
+                            "
+                            @click="llenarnombre(n.id, n.nombre)"
+                          >
+                            <div>
+                              <div>
+                                {{ n.nombre }} 
+                              </div>
+                            </div>
+                          </button>
+                        </li>
+                        
+                      </ul>
+                      </div>
+
+                      <div
+                          v-if="!userexists"
+                          class="p-4 w-full rounded-b-lg shadow my-0 text-sm"
+                        >
+                          No se encontraron resultados para:
+                          <strong>{{ form.name }}.</strong>
+                        </div>
+
                     </div>
 
                     <div class="relative">
@@ -610,6 +636,7 @@
           </div>
         </div>
       </div>
+      {{DatosUsuario}}
     </div>
   </MainLayout>
 </template>
@@ -652,7 +679,8 @@ export default defineComponent({
   },
   data() {
     return {
-      DatosTrabajador: [],
+      VerInputUgel: false,
+      DatosUsuario: [],
       userexists: true,
 
       form: this.$inertia.form({
@@ -668,6 +696,7 @@ export default defineComponent({
         rolId: "",
         Cargo: "",
         institucion: "",
+        institucionid: "",
       }),
     };
   },
@@ -768,28 +797,36 @@ export default defineComponent({
     };
   },
   methods: {
-    /*
+    MostrarUgel(event){
+      if(this.form.Cargo == "3"){
+        this.VerInputUgel = true;
+
+      }else{
+        this.VerInputUgel = false;
+      }
+    },
+    
     llenarnombre(id, nombre) {
       console.log(id + "-" + nombre);
-      this.form.name = nombre;
-      this.form.trabajadorid = id;
-      this.DatosTrabajador = [];
+      this.form.institucion = nombre;
+      this.form.institucionid = id;
+      this.DatosUsuario = [];
       
 
-    },*/
-    /*
-    async nombreusuario() {
+    },
+    
+    async nombreinstitucion() {
       
-      if (this.form.name != "") {
+      if (this.form.institucion != "") {
         await axios
 
-          .get("/buscarnom/" + this.form.name)
+          .get("/buscarinst/" + this.form.institucion)
           .then((response) => {
             if (response.data.length > 0) {
             this.userexists = true
-            this.DatosTrabajador = response.data;  
+            this.DatosUsuario = response.data;  
             }else{
-            this.DatosTrabajador =[]
+            this.DatosUsuario =[]
             this.userexists = false  
             }
             
@@ -801,9 +838,9 @@ export default defineComponent({
             console.log(err);
           });
       } else {
-        this.DatosTrabajador = [];
+        this.DatosUsuario = [];
       }
-    },*/
+    },
     SoloNumeros($event) {
       if (
         $event.charCode === 0 ||

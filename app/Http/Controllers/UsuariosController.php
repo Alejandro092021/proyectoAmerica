@@ -26,20 +26,7 @@ class UsuariosController extends Controller
 {
   public function index(Request $request)
   {
-    /*
-    $Institucion = Instituciones::join('users','users.idInstitucion','=','instituciones.id')
-    ->join('maestros','maestros.valor','=','users.Cargo')
-    ->where('maestros.nombreTabla', '=', 'Cargo')
-    ->select('*')->get();*/
-
-    /*$nombres = Persona::join('trabajadores as t','t.persona_id','=','personas.id')
-    //$consulta = Persona::join('trabajadores','personas.id','=','trabajadores.persona_id')
-    ->where('personas.apellido_paterno','=','huaripata')
-    ->first();dd($nombres);*/
-
-   /* $nombres = Persona::with('trabajadores')
-    ->where('personas.apellido_paterno','=','huaripata')
-    ->get();dd($nombres);*/
+    
     
     $this->authorize("VerUsuarios", User::class);
 
@@ -68,6 +55,13 @@ class UsuariosController extends Controller
    
   }
 
+  public function buscarNombres($ninstitucion){
+    $nombres = Instituciones::where('nombre','LIKE',"%".$ninstitucion."%")
+    //->select('*')
+    ->get();//dd($nombres);
+
+    return response()->json($nombres);
+  }
   
   public function create()
   {
@@ -116,7 +110,7 @@ class UsuariosController extends Controller
       "password_confirmation" => "required|min:8|max:50",
       "rolId" => "Required",
       "Cargo" => "Required",
-      "institucion" => "Required|unique:users,idInstitucion",
+      "institucionid" => "Required|unique:users,idInstitucion",
     ]);
 
 
@@ -139,7 +133,7 @@ class UsuariosController extends Controller
     $usuario->password = bcrypt($request->password);
     $usuario->cargo=$request->Cargo;
 
-    $usuario->idInstitucion=$request->institucion;
+    $usuario->idInstitucion=$request->institucionid;
     $usuario->idPersona= $persona->id;
     $usuario->roles()->detach();
     $usuario->assignRole($request->rolId);
@@ -152,7 +146,7 @@ class UsuariosController extends Controller
 
   public function edit(User $usuario)
   {
-    //dd($usuario);
+    dd($usuario);
     $this->authorize("EditarUsuarios", User::class);
 
 

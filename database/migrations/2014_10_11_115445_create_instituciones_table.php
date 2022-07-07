@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('distrito', 50);
             $table->string('direccion', 200);
             $table->string('tipoZona', 50);
-            $table->string('tipoModalidad', 50);
+            $table->string('Modalidad', 50);
             
             $table->timestamps();
            // $table->unsignedBigInteger('idUgel');

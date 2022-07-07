@@ -1,9 +1,9 @@
 <template>
   <MainLayout>
     <Head title="Roles Insertar" />
-    <div class="py-2">
+    <div class="py-2 overflow-y-auto h-full">
       <div class="max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2">
-        <div class="overflow-hidden px-2">
+        <div class=" px-2">
           <div class="flex justify-between">
             <h2
               class="
@@ -35,7 +35,7 @@
                     <div>
                       <JetLabel for="Nombre" value="Nombre:" />
                       <JetInput
-                        @keyup="nombreusuario"
+                        
                         @keypress="sololetras($event)"
                         class="mt-1 block w-full"
                         type="text"
@@ -122,8 +122,9 @@
 
                     </div>
                   </div>
+
                   <div class="block mx-1">
-                    <JetLabel for="nombre" value="Permisos:" />
+                    <JetLabel for="permisos" value="Permisos:" />
                     <div class="flex flex-wrap mt-1">
                       <div class="w-1/3" v-for="p in permissions" :key="p.id">
                         <label class="inline-flex items-center mt-2">

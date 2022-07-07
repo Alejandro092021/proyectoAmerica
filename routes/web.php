@@ -74,7 +74,7 @@ Route::post('usuarios/foto', [UsuariosController::class, 'eliminarFoto'])->name(
 
 Route::post('usuarios/password', [UsuariosController::class, 'actualizarPassword'])->name('usuarios.password');
 
-Route::get('/buscarnom/{nusuario}', [UsuariosController::class, 'buscarNombres'])->name('buscarnom');
+Route::get('/buscarinst/{ninstitucion}', [UsuariosController::class, 'buscarNombres'])->name('buscarinst');
 
 // Crear ruta para importar instituciones en usuarios
 
@@ -96,6 +96,7 @@ Route::resource('servicio', ServicioController::class)->names('servicios');
 
 //ruta Matriculados
 Route::resource('matriculados', MatriculadosController::class)->names('matriculados');
+Route::get('/exportMatriculados', [MatriculadosController::class,'export'])->name('Matriculados.excel');
 
 //ruta Asistencia
 Route::resource('asistencia', AsistenciaController::class)->names('asistencia');

@@ -1,6 +1,6 @@
 <template>
   <MainLayout>
-    <Head title="Usuario Insertar" />
+    <Head title="Aprobados Insertar" />
     <div class="py-2 overflow-y-auto h-full">
       <div class="max-w-7xl mx-auto xs:px-2 sm:px-2 lg:px-2 mb-2">
         <div class="overflow-hidden px-2">
@@ -10,7 +10,7 @@
                 my-3
                 text-2xl
                 font-semibold
-                text-gray-600
+                text-blue-900
                 dark:text-gray-200
               "
             >
@@ -33,79 +33,9 @@
 
                 <form id="formGuardar" @submit.prevent="GuardarUsuario">
                   
-                  <!-- Institucion Educativa -- Tipo Modalidad -- Tipo Modulo -->
+                  <!-- Tipo Modalidad -- Tipo Modulo -->
                   <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8">
-                    <!-- Institucion Educativa -->
-                    <div>
-                      <JetLabel
-                        for="Institucion"
-                        value="Institucion Educativa:"
-                      />
-
-                      <select
-                        class="
-                          border-gray-300
-                          focus:border-indigo-300
-                          focus:ring
-                          focus:ring-indigo-200
-                          focus:ring-opacity-50
-                          rounded-md
-                          shadow-sm
-                          w-full
-                          mt-1
-                          py-2.5
-                          px-4
-                          text-gray-700
-                          leading-tight
-                          focus:border-indigo-300
-                          rounded-lg
-                          dark:border-gray-200
-                          dark:border-none
-                          dark:bg-gray-600
-                          dark:text-white
-                          dark:focus:border-blue-500
-                          dark:focus:shadow-outline-blue
-                        "
-                        v-model="form.institucion"
-                        :class="{
-                          'border-red-300 focus:border-red-300 focus:ring focus:ring-red-200':
-                            v$.form.institucion.$error,
-                        }"
-                      >
-                        <option disabled selected value="">
-                          Seleccionar Institucion
-                        </option>
-                        <option
-                          v-for="(i, index) in instituciones"
-                          :key="index"
-                          :value="i.id"
-                        >
-                          {{ i.nombre }}
-                        </option>
-                      </select>
-                      <div
-                        v-if="errors.institucion"
-                        class="text-xs px-2 py-2 text-red-400 dark:text-red-400"
-                      >
-                        La institucion ya ha sido registrada
-                      </div>
-                      <div
-                        v-for="(error, index) of v$.form.institucion.$errors"
-                        :key="index"
-                      >
-                        <div
-                          class="
-                            text-xs
-                            px-2
-                            py-2
-                            text-red-400
-                            dark:text-red-400
-                          "
-                        >
-                          {{ error.$message }}
-                        </div>
-                      </div>
-                    </div>
+  
                     <!-- Tipo de Modalidad -->
                     <div>
                       <JetLabel
@@ -250,10 +180,6 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-
-                  <!-- Tipo de Estudio -- Nivel -- Grado -->
-                  <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8">
                     <!-- Tipo de Estudio -->
                     <div>
                       <JetLabel
@@ -325,6 +251,12 @@
                         </div>
                       </div>
                     </div>
+                   
+                  </div>
+
+                  <!-- Tipo de Estudio -- Nivel -- Grado -->
+                  <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8">
+                    
                     <!-- Nivel -->
                     <div>
                       <JetLabel
@@ -656,8 +588,6 @@ export default defineComponent({
       form: this.$inertia.form({
         _method: "POST",
        
-        
-        institucion: "",
         modalidad: "",
         modulo: "",
         tipoestudio: "",
@@ -677,13 +607,7 @@ export default defineComponent({
       form: {
         
         
-        institucion: {
-          required: helpers.withMessage(
-            "Este campo no puede estar vacío",
-            required
-          ),
-          $autoDirty: true,
-        },
+        
         modalidad: {
           required: helpers.withMessage(
             "Este campo no puede estar vacío",

@@ -87,7 +87,7 @@ class UserSeeder extends Seeder
         $InstitucionAdmin->distrito = "DistritoAdmin";
         $InstitucionAdmin->direccion = "DireccionAdmin";
         $InstitucionAdmin->tipoZona = "1";
-        $InstitucionAdmin->tipoModalidad = "1";
+        $InstitucionAdmin->Modalidad = "1";
         $InstitucionAdmin->save();
 
         //Institucion Invitado
@@ -99,7 +99,7 @@ class UserSeeder extends Seeder
         $InstitucionInvitado->distrito = "DistritoInvitado";
         $InstitucionInvitado->direccion = "DireccionInvitado";
         $InstitucionInvitado->tipoZona = "1";
-        $InstitucionInvitado->tipoModalidad = "1";
+        $InstitucionInvitado->Modalidad = "1";
         $InstitucionInvitado->save();
 
         //Creamos persona Admin

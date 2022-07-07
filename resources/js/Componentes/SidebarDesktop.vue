@@ -169,7 +169,7 @@
 
      <Link class="relative"  
   
-        :href="route('matriculados.create')">
+        :href="route('matriculados.index')">
         <span
           class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
            :class="{
@@ -204,7 +204,7 @@
 
      <Link class="relative"  
   
-        :href="route('asistencia.create')">
+        :href="route('asistencia.index')">
         <span
           class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
            :class="{
@@ -237,7 +237,7 @@
 
      <Link class="relative"  
   
-        :href="route('aprobados.create')">
+        :href="route('aprobados.index')">
         <span
           class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
            :class="{
@@ -272,7 +272,7 @@
 
      <Link class="relative"  
   
-        :href="route('docente.create')">
+        :href="route('docente.index')">
         <span
           class="absolute inset-y-0 left-0 w-1 dark:bg-gray-700 bg-white rounded-tr-lg rounded-br-lg"
            :class="{

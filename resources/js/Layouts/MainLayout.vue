@@ -10,11 +10,7 @@
         <main
           class="bg-white overflow-y-auto h-full rounded-2xl dark:bg-gray-700 shadow-lg " 
         >
-<<<<<<< HEAD
           <div class="flex items-center justify-center pt-6 bg-auto bg-no-repeat bg-center" id="app3" >
-=======
-          <div class="flex items-center justify-center pt-6 bg-auto bg-no-repeat bg-center" id="app3">
->>>>>>> 844902c3ddd9c859b5cbab6af9ac79803d176d6c
             
               <Link :href="route('inicio')" v-if="estadoMenu" >
               
@@ -37,7 +33,7 @@
           v-if="estadoMenuMobil"
         />
         <!-- <SidebarMobil v-if="estadoMenuMobil"/> -->
-        <main class="overflow-auto h-screen pb-24 pt-4 md:pt-0 md:pr-0 md:pl-0">
+        <main class=" h-screen pb-24 pt-4 md:pt-0 md:pr-0 md:pl-0">
         <Toastr/>
           <slot> 
       </slot>
@@ -90,11 +86,7 @@ export default defineComponent({
 #app3 {
   
   
-<<<<<<< HEAD
-  background: url("C:\xampp\htdocs\proyectoAmerica\storage\app\public\logo.png");
-=======
  background: url("C:\xampp\htdocs\proyectoAmerica\storage\app\public\logo.png");
->>>>>>> 844902c3ddd9c859b5cbab6af9ac79803d176d6c
   background-size: contain;
   background-size: 100% 120%;
   height: 130px;

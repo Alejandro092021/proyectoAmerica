@@ -10,7 +10,7 @@ class Instituciones extends Model
     use HasFactory;
     protected $fillable = [
         'nombre', 'codigoModular', 'codigoLocal','provincia','distrito',
-        'direccion', 'tipoZona', 'tipoModalidad',
+        'direccion', 'tipoZona', 'Modalidad',
     ];
     
     public function setNombreAttribute($value)

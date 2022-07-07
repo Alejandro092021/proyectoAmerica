@@ -47,9 +47,9 @@ class MaestroSeeder extends Seeder
                 array("nombreTabla"=>"Nivel","campo"=>"Avanzado","valor"=>"5"),
 
                 //Grado Academico
-                array("nombreTabla"=>"Grado","campo"=>"3años","valor"=>"1"),
-                array("nombreTabla"=>"Grado","campo"=>"4años","valor"=>"2"),
-                array("nombreTabla"=>"Grado","campo"=>"5años","valor"=>"3"),
+                array("nombreTabla"=>"Grado","campo"=>"3 años","valor"=>"1"),
+                array("nombreTabla"=>"Grado","campo"=>"4 años","valor"=>"2"),
+                array("nombreTabla"=>"Grado","campo"=>"5 años","valor"=>"3"),
                 array("nombreTabla"=>"Grado","campo"=>"Primer Grado","valor"=>"4"),
                 array("nombreTabla"=>"Grado","campo"=>"Segundo Grado","valor"=>"5"),
                 array("nombreTabla"=>"Grado","campo"=>"Tercer Grado","valor"=>"6"),

@@ -19,6 +19,22 @@ class AprobadosController extends Controller
     public function index()
     {
         //
+       // $this->authorize("VerMatriculado", User::class);
+
+        $aprobado = DetalleAdministrativo::join('users', 'detalle_administrativos.idUsuario','=', 'users.id' )
+        ->join('instituciones','users.idInstitucion', '=',  'instituciones.id')
+        ->where('modulo', '=', '3')
+        ->where("users.name", 'LIKE', "%" . request("buscar") . "%")
+        ->select('detalle_administrativos.id','users.name','detalle_administrativos.modulo','detalle_administrativos.modalidad','detalle_administrativos.educacion',
+        'detalle_administrativos.nivel', 'detalle_administrativos.grado','detalle_administrativos.bimestre','detalle_administrativos.cantidad')
+        //->select('*')
+        ->paginate()
+        ->withQueryString();
+        //dd($matriculado);
+        
+            return Inertia::render("Aprobados/AprobadosListar", [
+                "matriculados" => $aprobado,
+              ]);
     }
 
     /**
@@ -64,7 +80,7 @@ class AprobadosController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            "institucion"=>"required",
+            
             "modalidad"=>"required",
             "modulo"=>"required",
             "tipoestudio"=>"required",
@@ -87,10 +103,9 @@ class AprobadosController extends Controller
                 $matriculados->bimestre = $request->bimestre;
             }
 
-            $matriculados->institucion = $request->institucion;
-            $matriculados->tipoModalidad = $request->modalidad;
-            $matriculados->tipoModulo = $request->modulo;
-            $matriculados->tipoEducacion = $request->tipoestudio;
+            $matriculados->modalidad = $request->modalidad;
+            $matriculados->modulo = $request->modulo;
+            $matriculados->educacion = $request->tipoestudio;
             $matriculados->nivel = $request->nivel;
             $matriculados->grado = $request->grado;
             $matriculados->cantidad = $request->cantidad;
@@ -117,7 +132,7 @@ class AprobadosController extends Controller
         
         
 
-        return redirect()->route('aprobados.create')->with('success','Registro creado satisfactoriamente');
+        return redirect()->route('aprobados.index')->with('success','Registro creado satisfactoriamente');
     }
 
     /**
@@ -137,9 +152,39 @@ class AprobadosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(DetalleAdministrativo $aprobado)
     {
         //
+    
+        //$this->authorize("EditarMatriculado", User::class);
+
+        //dd($matriculado);
+        $administrativo = DetalleAdministrativo::where("id",$aprobado->id)->with("users")->first();
+        //dd($administrativo);
+        
+        $tipomodalidad = Maestro::where('nombreTabla','=','TipoModalidad')->select('nombreTabla', 'campo','valor')->get();
+        $modulo = Maestro::where('nombreTabla','=','Modulo')
+        ->where('valor','=','3')
+        ->select('nombreTabla', 'campo','valor')->get();
+        $tipoestudio = Maestro::where('nombreTabla','=','TipoEstudio')->select('nombreTabla', 'campo','valor')->get();
+        $nivel = Maestro::where('nombreTabla','=','Nivel')->select('nombreTabla', 'campo','valor')->get();//dd($nivel);
+        
+        $grado = Maestro::where('nombreTabla','=','Grado')
+        ->select('nombreTabla', 'campo','valor')->get();
+        $especialidad = Maestro::where('nombreTabla','=','Especialidad')->select('nombreTabla', 'campo','valor')->get();
+        $bimestre = Maestro::where('nombreTabla','=','Bimestre')->select('nombreTabla', 'campo','valor')->get();
+        
+
+        return Inertia::render("Aprobados/AprobadosEditar", [
+            "matriculado" => $administrativo,
+            "tipomodalidad" => $tipomodalidad,
+            "modulo" => $modulo,
+            "tipoestudio" => $tipoestudio,
+            "nivel" => $nivel,
+            "grado" => $grado,
+            "especialidad" => $especialidad,
+            "bimestre" => $bimestre,
+        ]);
     }
 
     /**
@@ -149,9 +194,63 @@ class AprobadosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, DetalleAdministrativo $aprobado)
     {
+        //dd($request);
+        $request->validate([
+            
+            "modalidad"=>"required",
+            "modulo"=>"required",
+            "tipoestudio"=>"required",
+            "nivel"=>"required",
+            "grado"=>"required",
+
+        ]);
+        try {
+            //code...
+            DB::beginTransaction();
+            $aprobados = DetalleAdministrativo::where('id',$aprobado->id)->first();
+
+            if ($request->especialidad == "" && $request->bimestre == "") {
+                # code...
+                $aprobados->especialidad = null;
+                $aprobados->bimestre = null;
+            }else {
+                # code...
+                $aprobados->especialidad = null;
+                $aprobados->bimestre = $request->bimestre;
+            }
+
+            $aprobados->modalidad = $request->modalidad;
+            $aprobados->modulo = $request->modulo;
+            $aprobados->educacion = $request->tipoestudio;
+            $aprobados->nivel = $request->nivel;
+            $aprobados->grado = $request->grado;
+            $aprobados->cantidad = $request->cantidad;//dd($aprobado->cantidad);
+            $aprobados->usuarioCreador = null;
+            $aprobados->usuarioEditor = $request->usuarioeditor;
+            $aprobados->idUsuario = $request->idusuario;
+            $aprobados->update();
+
+            DB::commit();
+
+        } catch (\Exception $e) {
+            //throw $th;
+            DB::rollback();
+            return response()->json(['error' => $e]);
+        }
+
+
+
+
+
         //
+        //dd($request);
+        
+        
+        
+
+        return redirect()->route('aprobados.index')->with('success','Registro creado satisfactoriamente');
     }
 
     /**

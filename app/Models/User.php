@@ -115,13 +115,14 @@ class User extends Authenticatable
     
 
 
-    //Relacion inversa de uno a muchos
+    //Relacion inversa de uno a muchos con la tabla personas
     public function personas()
     {
         return $this->belongsTo('App\Models\Persona', 'idPersona');
     }
-    //Relacion de uno a muchos
-public function users(){
+    
+    //Relacion de uno a muchos con la Tabla DetalleAdministrativo
+public function detalle_administrativos(){
     return $this->hasMany('App\Models\DetalleAdministrativo');
 }
 
